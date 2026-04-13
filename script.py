@@ -1,1 +1,28 @@
+name: Update Veille
+on:
+  schedule:
+    - cron: '0 8 * * *' # Tous les matins à 8h
+  workflow_dispatch: # Pour pouvoir le lancer manuellement
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install feedparser google-generativeai
+      - name: Run Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python script.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add index.html
+          git commit -m "Mise à jour automatique de la veille" || exit 0
+          git push
