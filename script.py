@@ -12,8 +12,14 @@ FEEDS = {
     "RGPD & Data": ["https://www.cnil.fr/fr/rss.xml", "https://edpb.europa.eu/news/feed_en"],
     "Propriété Intellectuelle": ["https://www.inpi.fr/fr/rss.xml", "https://euipo.europa.eu/ohimportal/fr/news-rss"],
     "Contrats IT & Cyber": ["https://www.cert.ssi.gouv.fr/feed/"],
-    "Évolutions Législatives": ["https://www.legifrance.gouv.fr/rss/jorf.xml"],
-    "Jurisprudence & Doctrine": ["https://www.dalloz-actualite.fr/rss.xml"]
+    "Évolutions Législatives": [
+        "https://www.vie-publique.fr/rss.xml",
+        "https://www.senat.fr/rss/actualites.rss"
+    ],
+    "Jurisprudence & Doctrine": [
+        "https://www.courdecassation.fr/rss/communiques.rss",
+        "https://www.conseil-etat.fr/actualites/rss"
+    ]
 }
 
 def summarize(text):
