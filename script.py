@@ -13,12 +13,13 @@ FEEDS = {
     "Propriété Intellectuelle": ["https://www.inpi.fr/fr/rss.xml", "https://euipo.europa.eu/ohimportal/fr/news-rss"],
     "Contrats IT & Cyber": ["https://www.cert.ssi.gouv.fr/feed/"],
     "Évolutions Législatives": [
-        "https://www.vie-publique.fr/rss.xml",
-        "https://www.senat.fr/rss/actualites.rss"
-    ],
-    "Jurisprudence & Doctrine": [
-        "https://www.courdecassation.fr/rss/communiques.rss",
-        "https://www.conseil-etat.fr/actualites/rss"
+    "https://legifrss.org/latest",
+    "https://www.vie-publique.fr/rss.xml"
+],
+"Jurisprudence & Doctrine": [
+    "https://www.legalis.net/feed",
+    "https://www.actu-juridique.fr/feed/"
+]
     ]
 }
 
