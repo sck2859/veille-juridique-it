@@ -9,16 +9,23 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Sources mises à jour (Légifrance et Dalloz sont souvent capricieux)
 FEEDS = {
-    "RGPD & Data": ["https://www.cnil.fr/fr/rss.xml", "https://edpb.europa.eu/news/feed_en"],
-    "Propriété Intellectuelle": ["https://www.inpi.fr/fr/rss.xml", "https://euipo.europa.eu/ohimportal/fr/news-rss"],
-    "Contrats IT & Cyber": ["https://www.cert.ssi.gouv.fr/feed/"],
-    "Évolutions Législatives": [
-    "https://legifrss.org/latest",
-    "https://www.vie-publique.fr/rss.xml"
-],
-"Jurisprudence & Doctrine": [
-    "https://www.legalis.net/feed",
-    "https://www.actu-juridique.fr/feed/"
+   FEEDS = {
+    "⚖️ Jurisprudence (Cour de Cassation)": [
+        "https://www.courdecassation.fr/rss/all"
+    ],
+    "🏛️ Projets de Loi & Parlement": [
+        "https://www.senat.fr/rss/projets_de_loi.xml",
+        "https://www.assemblee-nationale.fr/rss/projets-de-loi.xml"
+    ],
+    "🇪🇺 Actualité Européenne (IA Act & Data)": [
+        "https://edpb.europa.eu/news/feed_en",
+        "https://curia.europa.eu/jcms/jcms/Jo2_7055/fr/?rss=true"
+    ],
+    "💻 Droit du Numérique (CNIL & Doctrine)": [
+        "https://www.cnil.fr/fr/rss.xml",
+        "https://www.dalloz-actualite.fr/rss.xml"
+    ]
+}
 ]
     ]
 }
