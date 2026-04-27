@@ -7,16 +7,25 @@ genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 FEEDS = {
-    "RGPD & Data": ["https://www.cnil.fr/fr/rss.xml", "https://edpb.europa.eu/news/feed_en"],
-    "Propriété Intellectuelle": ["https://www.inpi.fr/fr/rss.xml", "https://euipo.europa.eu/ohimportal/fr/news-rss"],
-    "Contrats IT & Cyber": ["https://www.cert.ssi.gouv.fr/feed/"],
+    "RGPD & Data": [
+        "https://www.cnil.fr/fr/rss.xml",
+        "https://edpb.europa.eu/news/feed_en"
+    ],
+    "Propriété Intellectuelle": [
+        "https://euipo.europa.eu/ohimportal/fr/news-rss",
+        "https://www.legalis.net/feed"
+    ],
+    "Contrats IT & Cyber": [
+        "https://www.cert.ssi.gouv.fr/feed/"
+    ],
     "Évolutions Législatives": [
         "https://www.vie-publique.fr/rss.xml",
         "https://www.senat.fr/rss/actualites.rss"
     ],
     "Jurisprudence & Doctrine": [
         "https://www.legalis.net/feed",
-        "https://www.actu-juridique.fr/feed/"
+        "https://www.village-justice.com/articles/rss.php?domaine=2",
+        "https://www.fiscalonline.com/feed"
     ]
 }
 
@@ -39,7 +48,6 @@ for category, urls in FEEDS.items():
             found_articles = True
             summary = summarize(entry.title)
             html_content += f"<details style='margin-bottom:10px;'><summary><b>{entry.title}</b></summary><p>{summary}</p><a href='{entry.link}' target='_blank'>Lire l'article</a></details>"
-    
     if not found_articles:
         html_content += "<p><i>Aucune actualité récente cette semaine.</i></p>"
 
