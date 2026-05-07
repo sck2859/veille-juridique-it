@@ -16,16 +16,27 @@ FEEDS = {
         "https://www.legalis.net/feed"
     ],
     "Contrats IT & Cyber": [
-        "https://www.cert.ssi.gouv.fr/feed/"
+        "https://www.cert.ssi.gouv.fr/feed/",
+        "https://www.legalis.net/feed"
     ],
-    "Évolutions Législatives": [
+    "Droit des affaires & JP": [
+        "https://www.actu-juridique.fr/feed/",
+        "https://www.village-justice.com/articles/rss.php?domaine=3",
+        "https://nouvelles.droit.org/feed/"
+    ],
+    "Réglementations européennes": [
+        "https://eur-lex.europa.eu/rss/rss.xml?t=L",
+        "https://www.europarl.europa.eu/rss/doc/top-stories/fr.rss",
+        "https://digital-strategy.ec.europa.eu/fr/rss.xml"
+    ],
+    "Évolutions législatives françaises": [
         "https://www.vie-publique.fr/rss.xml",
         "https://www.senat.fr/rss/actualites.rss"
     ],
     "Jurisprudence & Doctrine": [
         "https://www.legalis.net/feed",
         "https://www.village-justice.com/articles/rss.php?domaine=2",
-        "https://www.fiscalonline.com/feed"
+        "https://www.actu-juridique.fr/feed/"
     ]
 }
 
