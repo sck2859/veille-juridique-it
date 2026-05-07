@@ -1,3 +1,4 @@
+
 import feedparser
 import google.generativeai as genai
 import os
@@ -14,6 +15,11 @@ FEEDS = {
     "Propriété Intellectuelle": [
         "https://euipo.europa.eu/ohimportal/fr/news-rss",
         "https://www.legalis.net/feed"
+    ],
+    # AJOUT : Village Justice et veille Editeurs via Google News
+    "Doctrine & Editeurs (Dalloz, Lexis, Village)": [
+        "https://www.village-justice.com/articles/rss.php",
+        "https://news.google.com/rss/search?q=site:dalloz-actualite.fr+OR+site:lexisnexis.fr&hl=fr&gl=FR"
     ],
     "Contrats IT & Cyber": [
         "https://www.cert.ssi.gouv.fr/feed/",
@@ -42,7 +48,8 @@ FEEDS = {
 
 def summarize(text):
     try:
-        response = model.generate_content(f"Résume en 2 phrases simples pour un juriste : {text}")
+        # Amélioration du prompt pour tes besoins chez Nexans
+        response = model.generate_content(f"Résume en 2 phrases simples pour un juriste IT chez Nexans : {text}")
         return response.text
     except:
         return "Pas de résumé disponible."
@@ -57,6 +64,7 @@ for category, urls in FEEDS.items():
         feed = feedparser.parse(url)
         for entry in feed.entries[:3]:
             found_articles = True
+            # On passe le titre à Gemini pour le résumé
             summary = summarize(entry.title)
             html_content += f"<details style='margin-bottom:10px;'><summary><b>{entry.title}</b></summary><p>{summary}</p><a href='{entry.link}' target='_blank'>Lire l'article</a></details>"
     if not found_articles:
