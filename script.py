@@ -1,12 +1,12 @@
 import os
-from google import genai
+import google.generativeai as genai
 
-# 1. Connexion sécurisée à l'IA avec ta clé secrète
+# 1. Connexion sécurisée à l'IA avec la clé secrète
 api_key = os.environ.get("GEMINI_API_KEY")
 if not api_key:
     raise ValueError("Erreur : La clé GEMINI_API_KEY n'est pas configurée dans les Secrets GitHub.")
 
-client = genai.Client(api_key=api_key)
+genai.configure(api_key=api_key)
 
 # 2. La matière brute universitaire pour alimenter le mémoire
 base_donnees_fiscales = """
@@ -58,14 +58,12 @@ Règles impératives :
 print("Génération du Toolkit complet par l'IA Gemini...")
 
 try:
-    response = client.models.generate_content(
-        model='gemini-2.5-flash',
-        contents=consigne_ia
-    )
+    model = genai.GenerativeModel("gemini-1.5-flash")
+    response = model.generate_content(consigne_ia)
     
     html_content = response.text.strip()
     
-    # Nettoyage automatique au cas où l'IA inclut des balises de code Markdown
+    # Nettoyage des balises markdown si l'IA en ajoute
     if html_content.startswith("```html"):
         html_content = html_content[7:]
     elif html_content.startswith("```"):
@@ -73,12 +71,12 @@ try:
     if html_content.endswith("```"):
         html_content = html_content[:-3]
     html_content = html_content.strip()
-    
-    # On écrase index.html avec le site complet et finalisé
+
+    # Écriture dans index.html
     with open("index.html", "w", encoding="utf-8") as file:
         file.write(html_content)
         
-    print("Succès ! Le Toolkit complet avec les fiches de l'IA a été généré dans index.html.")
+    print("Succès ! Le Toolkit a été généré dans index.html.")
 
 except Exception as e:
     print(f"Une erreur est survenue : {e}")
