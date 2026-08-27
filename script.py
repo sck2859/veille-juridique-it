@@ -63,9 +63,20 @@ try:
         contents=consigne_ia
     )
     
+    html_content = response.text.strip()
+    
+    # Nettoyage automatique au cas où l'IA inclut des balises de code Markdown
+    if html_content.startswith("```html"):
+        html_content = html_content[7:]
+    elif html_content.startswith("```"):
+        html_content = html_content[3:]
+    if html_content.endswith("```"):
+        html_content = html_content[:-3]
+    html_content = html_content.strip()
+    
     # On écrase index.html avec le site complet et finalisé
     with open("index.html", "w", encoding="utf-8") as file:
-        file.write(response.text)
+        file.write(html_content)
         
     print("Succès ! Le Toolkit complet avec les fiches de l'IA a été généré dans index.html.")
 
