@@ -1,5 +1,4 @@
-"""
-Veille Juridique IT — script d'automatisation.
+"""Veille Juridique IT — script d'automatisation.
 
 Architecture :
 1. On va chercher les derniers articles sur des flux RSS juridiques, classés par catégorie.
