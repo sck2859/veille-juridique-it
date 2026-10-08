@@ -1,4 +1,4 @@
-"""Veille Juridique IT — script d'automatisation.
+Veille Juridique IT — script d'automatisation.
 
 Architecture :
 1. On va chercher les derniers articles sur des flux RSS juridiques, classés par catégorie.
@@ -32,8 +32,8 @@ from google.genai import types
 ARTICLES_FILE = "articles.json"
 OUTPUT_FILE = "index.html"
 MAX_ARTICLES_STORED = 200       # taille max de l'historique conservé
-MAX_NEW_PER_RUN = 12            # limite d'appels IA par exécution (coût/temps)
-MAX_ENTRIES_PER_FEED = 5        # nb d'entrées récentes regardées par flux
+MAX_NEW_PER_CATEGORY = 3        # max de nouvelles fiches PAR catégorie et par exécution
+MAX_ENTRIES_PER_FEED = 8        # nb d'entrées récentes regardées par flux
 
 CATEGORIES = {
     "Droit de l'IT & Numérique": [
@@ -81,8 +81,19 @@ pas de balises markdown) :
              fournisseur, risque contractuel à anticiper)"
 }}
 
-Si l'article n'a aucun rapport exploitable avec le droit des affaires/IT/IA/PI/fiscal,
-réponds exactement : {{"skip": true}}
+RÈGLES IMPÉRATIVES :
+- Ne cite que des textes, juridictions et dates présents dans le contenu fourni ou
+  que tu connais avec certitude. N'invente aucune juridiction, aucun numéro d'article.
+- Le Règlement (UE) 2024/1689 (AI Act) est DÉJÀ en vigueur : ne l'écris jamais "à venir".
+- Reste fidèle au contenu : ne présente pas comme juridique un article qui ne l'est pas.
+
+Réponds exactement {{"skip": true}} si l'article correspond à l'un de ces cas :
+- simple actualité produit/gadget/high-tech sans enjeu juridique ou contractuel réel ;
+- fait divers, affaire pénale ou sujet sans lien avec les contrats IT, la cybersécurité,
+  le droit des affaires/sociétés, la fiscalité/facturation électronique, le droit
+  européen (RGPD, AI Act, NIS2, Data Act) ou la propriété intellectuelle ;
+- article dont tu ne peux tirer aucun point de vigilance contractuel concret.
+Mieux vaut ignorer un article que forcer un lien avec les contrats IT.
 """
 
 # --------------------------------------------------------------------------
@@ -105,32 +116,55 @@ def save_articles(articles):
 # ÉTAPE 2 — Collecter les nouveaux articles depuis les flux RSS
 # --------------------------------------------------------------------------
 
+def entry_date(entry):
+    """Date de publication réelle de l'article (sinon date du jour)."""
+    parsed = entry.get("published_parsed") or entry.get("updated_parsed")
+    if parsed:
+        return datetime(*parsed[:6]).strftime("%Y-%m-%d")
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
 def collect_new_entries(known_links):
-    """Parcourt tous les flux et retourne les entrées pas encore connues."""
-    new_entries = []
+    """Parcourt tous les flux et retourne les entrées pas encore connues.
+
+    Les entrées sont regroupées par catégorie, avec un plafond PAR catégorie,
+    pour qu'aucune catégorie n'épuise le quota des autres.
+    """
+    by_category = {}
     for categorie, urls in CATEGORIES.items():
+        found = []
         for url in urls:
             try:
                 feed = feedparser.parse(url)
                 if feed.bozo and not feed.entries:
                     print(f"⚠️  Flux inaccessible ou invalide, ignoré : {url}")
                     continue
+                print(f"✅ Flux OK ({len(feed.entries)} entrées) : {url}")
                 for entry in feed.entries[:MAX_ENTRIES_PER_FEED]:
                     link = entry.get("link", "")
                     if not link or link in known_links:
                         continue
                     contenu = entry.get("summary", "") or entry.get("description", "")
-                    new_entries.append({
+                    found.append({
                         "categorie": categorie,
                         "titre": entry.get("title", "Sans titre"),
                         "source": feed.feed.get("title", url),
                         "link": link,
+                        "date": entry_date(entry),
                         "contenu": contenu[:1500],  # on tronque, pas besoin de plus
                     })
             except Exception as e:
                 print(f"⚠️  Erreur sur le flux {url} : {e}")
                 continue
-    return new_entries
+        # les plus récents d'abord, puis plafond par catégorie
+        found.sort(key=lambda e: e["date"], reverse=True)
+        by_category[categorie] = found
+
+    new_entries = []
+    for categorie, found in by_category.items():
+        print(f"   {categorie} : {len(found)} nouvelle(s) entrée(s) détectée(s)")
+        new_entries.extend(found)
+    return new_entries, by_category
 
 
 # --------------------------------------------------------------------------
@@ -162,7 +196,7 @@ def generate_fiche(client, entry):
             "titre": data["titre"],
             "analyse": data["analyse"],
             "impact": data["impact"],
-            "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "date": entry["date"],
         }
     except Exception as e:
         print(f"⚠️  Erreur de génération pour '{entry['titre']}' : {e}")
@@ -185,6 +219,7 @@ CARD_TEMPLATE = """
         <h4 style="margin: 0 0 0.5rem 0; color: #c5a059; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">💼 Impact opérationnel & Pratique Contractuelle</h4>
         <p style="margin: 0; font-size: 0.9rem; color: #4a5568;">{impact}</p>
     </div>
+    <p style="margin: 0.8rem 0 0 0; font-size: 0.75rem; color: #a0aec0;">Fiche rédigée par IA à partir du résumé de l'article : à vérifier avec la source avant tout usage.</p>
     <a href="{link}" target="_blank" style="font-size: 0.8rem; color: #c5a059;">Source originale →</a>
 </div>
 """
@@ -273,18 +308,21 @@ def main():
     known_links = {a["link"] for a in articles}
 
     print("Recherche de nouveaux articles sur les flux RSS...")
-    new_entries = collect_new_entries(known_links)
-    print(f"{len(new_entries)} nouvel(le)s entrée(s) détectée(s).")
-
-    new_entries = new_entries[:MAX_NEW_PER_RUN]
+    _, by_category = collect_new_entries(known_links)
 
     added = 0
-    for entry in new_entries:
-        fiche = generate_fiche(client, entry)
-        if fiche:
-            articles.append(fiche)
-            added += 1
-        time.sleep(1)  # éviter de spammer l'API
+    for categorie, entries in by_category.items():
+        kept = 0
+        for entry in entries:
+            if kept >= MAX_NEW_PER_CATEGORY:
+                break
+            fiche = generate_fiche(client, entry)
+            if fiche:
+                articles.append(fiche)
+                added += 1
+                kept += 1
+            time.sleep(1)  # éviter de spammer l'API
+        print(f"   {categorie} : {kept} fiche(s) retenue(s)")
 
     print(f"{added} fiche(s) générée(s) et ajoutée(s).")
 
