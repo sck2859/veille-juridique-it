@@ -1,3 +1,4 @@
+"""
 Veille Juridique IT — script d'automatisation.
 
 Architecture :
