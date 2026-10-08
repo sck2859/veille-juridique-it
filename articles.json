@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/260528/sony-transfere-ses-brevets-vr-a-meta-le-psvr2-en-phase-terminale/",
+    "titre": "Transfert de brevets VR Sony vers Meta : implications IP pour les contrats IT",
+    "analyse": "Le transfert de dizaines de brevets de réalité virtuelle, augmentée et mixte de Sony à Meta constitue une cession de droits de propriété industrielle. Cette opération relève des dispositions du Code de la propriété intellectuelle français (articles L.613-8 et suivants) concernant la transmission des brevets, stipulant les formalités requises pour l'opposabilité aux tiers. Elle matérialise un désengagement stratégique de Sony du marché de la VR, la propriété des innovations techniques étant désormais entre les mains de Meta. Pour Meta, cela renforce significativement son portefeuille de propriété intellectuelle dans un domaine technologique clé et concurrentiel.",
+    "impact": "Pour les gestionnaires de contrats IT, cet exemple souligne l'importance cruciale des clauses de propriété intellectuelle dans tous les contrats (SaaS, Cloud, développement spécifique). Il est essentiel de vérifier la propriété et le périmètre des licences des technologies sous-jacentes à vos services et produits, notamment en cas de cession de brevets par le fournisseur. Anticipez les risques liés à la modification des portefeuilles IP des fournisseurs en assurant une clause de garantie d'éviction robuste et la pérennité de vos droits d'usage même après un éventuel transfert de propriété intellectuelle.",
+    "date": "2026-10-08"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/260659/chez-anthropic-haiku-5-5-prend-la-releve-des-petits-modeles-rapides/",
+    "titre": "Nouveau modèle Haiku 5.5 d'Anthropic : Implications contractuelles pour les services d'IA",
+    "analyse": "L'introduction du modèle d'IA Haiku 5.5 par Anthropic, présenté comme rapide et économique, soulève des enjeux juridiques essentiels pour les entreprises utilisatrices. En tant que système d'intelligence artificielle, il est soumis aux dispositions du Règlement (UE) 2024/1689 (AI Act), imposant des obligations en matière de transparence, de gestion des risques et de gouvernance des données. Des considérations relatives à la protection des données personnelles (RGPD) pour les données traitées et à la propriété intellectuelle des contenus générés par l'IA sont également primordiales.",
+    "impact": "Pour un gestionnaire de contrats IT, l'intégration de services basés sur Haiku 5.5 ou tout autre modèle d'IA doit être encadrée par des clauses contractuelles rigoureuses. Il est crucial d'exiger des garanties de conformité au Règlement (UE) 2024/1689 (AI Act) et au RGPD de la part du fournisseur, ainsi que des précisions sur l'attribution des droits de propriété intellectuelle sur les outputs de l'IA. Une vigilance s'impose également sur les clauses de responsabilité en cas de biais, d'erreur du modèle, et sur la clarté des modèles de tarification liés à l'usage de l'IA.",
+    "date": "2026-10-08"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/260489/cyberattaques-et-fuites-de-donnees-on-na-pas-vu-le-pire-affirme-vincent-strubel/",
+    "titre": "Renforcement de la cybersécurité : les impératifs de transparence et double authentification",
+    "analyse": "Les appels à renforcer la cybersécurité, la transparence et le retour d'expérience rejoignent les obligations légales existantes. L'Article 32 du Règlement Général sur la Protection des Données (RGPD - Règlement (UE) 2016/679) impose des mesures techniques et organisationnelles appropriées pour la sécurité des traitements. L'accent mis sur la double authentification obligatoire est une illustration concrète de ces exigences, visant à prévenir les violations de données et alignée sur les principes de la Directive NIS2.",
+    "impact": "Pour les gestionnaires de contrats IT, il est impératif d'intégrer des clauses robustes sur la cybersécurité dans les contrats SaaS, Cloud et TMA. Il convient d'exiger des fournisseurs la mise en œuvre de mesures de sécurité avancées, comme la double authentification obligatoire, et de définir des obligations claires en matière de transparence et de partage d'expérience en cas d'incident. Une vigilance particulière doit être portée aux clauses d'audit et de responsabilité en cas de faille de sécurité ou de non-respect de ces exigences.",
+    "date": "2026-10-08"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2024-ALE-007/",
+    "titre": "Vulnérabilités Cisco critiques : implications pour les contrats IT et gestion des risques sécurité",
+    "analyse": "La publication par Cisco, le 24 avril 2024, d'avis de sécurité concernant des vulnérabilités activement exploitées (CVE-2024-20353, CVE-2024-20359) dans ses équipements ASA et FTD souligne l'importance des obligations de sécurité. Ces failles constituent un risque majeur de compromission des systèmes d'information, pouvant entraîner des incidents de sécurité au sens du Règlement (UE) 2016/679 (RGPD) en cas d'atteinte aux données personnelles. Pour les entités concernées, la Directive (UE) 2022/2555 (NIS2) impose des mesures de gestion des risques de cybersécurité et des obligations de notification en cas d'incident significatif. Ces textes renforcent les devoirs de diligence et de protection des systèmes pour tout fournisseur ou prestataire de services IT utilisant ces équipements.",
+    "impact": "Vérifier la solidité des clauses de sécurité des contrats IT existants (SaaS, Cloud, TMA) concernant l'application des correctifs, la gestion des vulnérabilités et la mise à jour des équipements critiques utilisés par nos fournisseurs. Lors des négociations, exiger des engagements précis sur les délais de déploiement des correctifs de sécurité et des processus clairs de gestion des incidents, incluant les obligations de notification. Veiller à ce que les responsabilités soient clairement définies en cas de manquement du prestataire face à de telles vulnérabilités, et prévoir des clauses de pénalités ou de résiliation pour non-respect des niveaux de service de sécurité.",
+    "date": "2024-04-25"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2024-ALE-006/",
+    "titre": "Vulnérabilité Palo Alto Networks : Ransomware, compromission et obligations contractuelles.",
+    "analyse": "Le CERT-FR rapporte une compromission par rançongiciel en France, exploitant une vulnérabilité pour une intrusion latérale dans un système d'information. Cet incident souligne l'importance des obligations de sécurité des traitements, notamment au regard de l'article 32 du Règlement Général sur la Protection des Données (RGPD). Une telle attaque pourrait entraîner une violation de données personnelles, imposant des notifications à la CNIL (article 33 RGPD) et potentiellement aux personnes concernées (article 34 RGPD). De plus, pour les entités concernées par la Directive NIS 2, des obligations de notification des incidents de sécurité s'appliquent également.",
+    "impact": "Les gestionnaires de contrats IT doivent s'assurer que les fournisseurs de solutions et services (SaaS, Cloud, TMA) intègrent des clauses robustes de cybersécurité, incluant des engagements sur la gestion des vulnérabilités, les audits de sécurité réguliers et la conformité aux normes sectorielles. Il est crucial d'exiger des garanties de responsabilité en cas de compromission et des clauses claires sur les obligations de notification en cas d'incident, en ligne avec le RGPD et la Directive NIS 2. Une vigilance particulière est requise pour les services impliquant des équipements comme ceux de Palo Alto Networks.",
+    "date": "2024-04-12"
+  }
+]
