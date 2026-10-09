@@ -2,6 +2,42 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/260784/comment-les-agents-ia-bouleversent-la-cybersecurite-defensive-et-offensive/",
+    "titre": "L'impact des agents IA sur la cybersécurité : implications pour les contrats IT",
+    "analyse": "L'intégration croissante d'agents IA dans les stratégies de cybersécurité, qu'elles soient offensives ou défensives, soulève des questions juridiques cruciales. L'utilisation de ces technologies doit être conforme au Règlement (UE) 2024/1689 (AI Act), particulièrement si ces systèmes sont considérés à haut risque. Par ailleurs, la Directive (UE) 2022/2555 (NIS2) impose aux entités concernées de maîtriser les risques liés à la sécurité des systèmes d'information, ce qui inclut l'évaluation et l'encadrement des solutions IA. La protection des données traitées par ces agents IA doit également respecter les principes du Règlement (UE) 2016/679 (RGPD).",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer des clauses spécifiques concernant l'usage d'IA par les fournisseurs de services de cybersécurité. Il est essentiel d'exiger des garanties de conformité avec l'AI Act, NIS2 et le RGPD pour l'ensemble des systèmes d'IA utilisés, y compris les agents d'attaque et de défense. Une vigilance particulière s'impose sur les clauses de responsabilité en cas d'incident de sécurité impliquant une IA, et sur les droits d'audit des systèmes pour s'assurer de leur bonne configuration et du respect des obligations légales et contractuelles.",
+    "date": "2026-10-09"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/260921/michelangelus-la-police-qui-sinspirait-de-lecriture-manuscrite-de-michel-ange/",
+    "titre": "Création de polices de caractères : enjeux de propriété intellectuelle et contrats de développement",
+    "analyse": "L'article traite de la création sur commande d'une police de caractères, un actif numérique relevant de la propriété intellectuelle. En France, une police de caractères peut bénéficier de la protection par le droit d'auteur en tant qu'œuvre graphique, à condition de présenter un caractère original reflétant la personnalité de son auteur (Article L. 112-1 du Code de la Propriété Intellectuelle). Le contrat de commande doit donc impérativement prévoir les modalités de cession ou de concession des droits d'auteur sur cette création, conformément aux Articles L. 131-1 et suivants du CPI, en détaillant précisément l'étendue des droits transférés et l'exploitation autorisée.",
+    "impact": "Lors de la commande de développements spécifiques (logiciels, interfaces, actifs graphiques), assurez-vous que les clauses de propriété intellectuelle du contrat de service prévoient une cession explicite et exhaustive de tous les droits d'auteur sur les livrables, y compris les éléments graphiques et les polices. Soyez vigilant sur l'étendue des droits cédés : assurez-vous qu'ils couvrent toutes les exploitations envisagées par notre groupe (interne, intégration dans nos produits, commercialisation). L'absence ou l'imprécision de ces clauses représente un risque majeur d'exploitation illicite et de litiges futurs avec le prestataire.",
+    "date": "2026-10-09"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/260763/anthropic-interdit-de-torturer-claude/",
+    "titre": "Cadre contractuel des services d'IA : Anthropic précise l'interdiction des usages malveillants",
+    "analyse": "Anthropic mettra en œuvre de nouvelles Conditions Générales d'Utilisation (CGU) le 12 novembre, interdisant explicitement la « torture » ou les usages abusifs de son modèle d'IA, Claude. Cette initiative souligne la prérogative des fournisseurs de services d'intelligence artificielle de définir contractuellement les limites et les usages acceptables de leurs technologies. Bien que le statut juridique des IA n'implique ni droits ni sentiments, ces CGU visent à promouvoir une utilisation éthique et responsable, complétant les cadres réglementaires existants tels que le Règlement (UE) 2024/1689 (AI Act).",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement revoir les Conditions Générales d'Utilisation des fournisseurs de services d'IA (SaaS, Cloud) afin d'identifier les clauses relatives aux usages prohibés ou aux politiques d'utilisation acceptable (AUP). Il est crucial de s'assurer que les pratiques internes d'utilisation des outils d'IA sont en parfaite conformité avec ces stipulations pour éviter toute rupture de service ou pénalité contractuelle. Lors des négociations, veillez à clarifier les définitions des usages abusifs et les conséquences d'un non-respect.",
+    "date": "2026-10-09"
+  },
+  {
+    "categorie": "Droit Européen & Compliance (RGPD / AI Act)",
+    "source": "RSS - Actualités CNIL",
+    "link": "https://www.cnil.fr/fr/ril-2026",
+    "titre": "CNIL 2026 : Protection des Données et Technologies Émergentes, Impacts Contractuels IT",
+    "analyse": "Les \"Rencontres Informatique & Libertés\" du 29 septembre 2026, organisées par la CNIL, ont mis en lumière l'importance de la protection des données face aux nouvelles technologies, notamment les lunettes connectées, ainsi que le rôle dissuasif des sanctions. Ces discussions rappellent les obligations découlant du Règlement Général sur la Protection des Données (RGPD) en matière de conception des systèmes et de gestion des risques liés aux traitements de données personnelles. L'essor de ces technologies implique une vigilance particulière quant à l'application des principes de \"privacy by design\" et de \"privacy by default\" exigés par le RGPD.",
+    "impact": "Pour les gestionnaires de contrats IT, il est impératif d'intégrer des clauses solides sur la conformité au RGPD et, le cas échéant, au Règlement (UE) 2024/1689 (AI Act) pour les solutions impliquant des technologies émergentes ou des traitements de données sensibles. Lors des négociations avec les fournisseurs de SaaS, Cloud ou de services de consulting, une attention particulière doit être portée à leurs engagements en matière de protection des données, de sécurité et de gestion des risques pour prévenir toute exposition à des sanctions de la CNIL. Cela inclut la diligence raisonnable sur la capacité du fournisseur à respecter les obligations de \"privacy by design\" pour tout nouveau déploiement technologique.",
+    "date": "2026-10-09"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/260528/sony-transfere-ses-brevets-vr-a-meta-le-psvr2-en-phase-terminale/",
     "titre": "Transfert de brevets VR Sony vers Meta : implications IP pour les contrats IT",
     "analyse": "Le transfert de dizaines de brevets de réalité virtuelle, augmentée et mixte de Sony à Meta constitue une cession de droits de propriété industrielle. Cette opération relève des dispositions du Code de la propriété intellectuelle français (articles L.613-8 et suivants) concernant la transmission des brevets, stipulant les formalités requises pour l'opposabilité aux tiers. Elle matérialise un désengagement stratégique de Sony du marché de la VR, la propriété des innovations techniques étant désormais entre les mains de Meta. Pour Meta, cela renforce significativement son portefeuille de propriété intellectuelle dans un domaine technologique clé et concurrentiel.",
@@ -25,6 +61,42 @@
     "analyse": "Les appels à renforcer la cybersécurité, la transparence et le retour d'expérience rejoignent les obligations légales existantes. L'Article 32 du Règlement Général sur la Protection des Données (RGPD - Règlement (UE) 2016/679) impose des mesures techniques et organisationnelles appropriées pour la sécurité des traitements. L'accent mis sur la double authentification obligatoire est une illustration concrète de ces exigences, visant à prévenir les violations de données et alignée sur les principes de la Directive NIS2.",
     "impact": "Pour les gestionnaires de contrats IT, il est impératif d'intégrer des clauses robustes sur la cybersécurité dans les contrats SaaS, Cloud et TMA. Il convient d'exiger des fournisseurs la mise en œuvre de mesures de sécurité avancées, comme la double authentification obligatoire, et de définir des obligations claires en matière de transparence et de partage d'expérience en cas d'incident. Une vigilance particulière doit être portée aux clauses d'audit et de responsabilité en cas de faille de sécurité ou de non-respect de ces exigences.",
     "date": "2026-10-08"
+  },
+  {
+    "categorie": "Droit Européen & Compliance (RGPD / AI Act)",
+    "source": "RSS - Actualités CNIL",
+    "link": "https://www.cnil.fr/fr/cloture-injonction-france-travail",
+    "titre": "France Travail : Clôture d'une injonction CNIL suite à mise en conformité RGPD",
+    "analyse": "La CNIL, autorité de contrôle des données personnelles, a clôturé par délibération du 23 septembre 2026 une injonction prononcée le 22 janvier 2026 à l'encontre de France Travail. Cette décision intervient suite à la mise en conformité de l'organisme, démontrant son respect des obligations du Règlement Général sur la Protection des Données (RGPD). La non-liquidation de l'astreinte initialement prévue souligne l'importance d'une réaction rapide et efficace pour éviter des sanctions pécuniaires en cas de manquement.",
+    "impact": "Cet événement rappelle l'impératif pour notre groupe d'assurer une conformité continue au RGPD et de répondre proactivement à toute sollicitation ou injonction des autorités de contrôle comme la CNIL. Pour les contrats IT, il est essentiel d'intégrer des clauses claires sur la protection des données et la gestion des incidents, notamment avec les fournisseurs SaaS et Cloud. Nous devons également veiller à ce que nos partenaires contractuels s'engagent à nous accompagner dans le respect de nos obligations en tant que responsable de traitement.",
+    "date": "2026-10-08"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1258/",
+    "titre": "Vulnérabilité critique dans Microsoft Exchange Server : Risques d'élévation de privilèges et vigilance contractuelle",
+    "analyse": "Le CERT-FR a identifié une vulnérabilité critique dans Microsoft Exchange Server, permettant une élévation de privilèges. Cette faille technique est de nature à compromettre gravement la sécurité des systèmes d'information hébergeant des données sensibles. D'un point de vue juridique, elle actualise les obligations des entités en matière de cybersécurité et de protection des données, notamment celles découlant de la Directive NIS 2 (Directive (UE) 2022/2555), dont l'article 21 impose des mesures de gestion des risques de cybersécurité, et du RGPD (Règlement (UE) 2016/679), en particulier son article 32 relatif à la sécurité du traitement.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement s'assurer que les contrats SaaS, Cloud ou de TMA incluent des clauses strictes sur la gestion des vulnérabilités, les délais de correction et les patchs de sécurité. Vérifiez la capacité du fournisseur à réagir rapidement aux alertes CERT-FR et exigez des garanties contractuelles concernant la mise à jour et la maintenance sécurisée des systèmes. Négociez des pénalités claires en cas de non-respect des obligations de sécurité, et une répartition des responsabilités en cas d'incident résultant d'une négligence du fournisseur à corriger de telles failles.",
+    "date": "2026-10-05"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1259/",
+    "titre": "Alertes CERT-FR : Vulnérabilités critiques dans Google Chrome et gestion des risques IT",
+    "analyse": "Cette alerte du CERT-FR signale des vulnérabilités non spécifiées dans Google Chrome, permettant à un attaquant de compromettre la sécurité des systèmes utilisateurs. Bien que l'article ne détaille pas les impacts spécifiques, de telles failles peuvent potentiellement entraîner des incidents de sécurité majeurs. Les entités traitant des données personnelles doivent évaluer le risque de violation de données au regard du Règlement (UE) 2016/679 (RGPD).",
+    "impact": "Les gestionnaires de contrats IT doivent s'assurer que leurs fournisseurs intègrent des clauses robustes concernant la gestion des vulnérabilités et la mise à jour des logiciels utilisés dans les services. Il est crucial de vérifier la fréquence et les modalités de déploiement des correctifs de sécurité par les éditeurs et prestataires. Une vigilance accrue est requise sur les clauses de responsabilité en cas d'incident de sécurité lié à une faille non corrigée, notamment pour les services SaaS et Cloud.",
+    "date": "2026-10-05"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1252/",
+    "titre": "Cyber-risques : vulnérabilités critiques du noyau Linux Ubuntu, menaçant la sécurité des systèmes IT",
+    "analyse": "La découverte de multiples vulnérabilités critiques dans le noyau Linux d'Ubuntu, permettant exécution de code arbitraire et élévation de privilèges, souligne un risque majeur pour l'intégrité et la confidentialité des systèmes IT utilisant cette distribution. Ces failles peuvent compromettre gravement la sécurité des données et des opérations, y compris le traitement de données personnelles. Un tel incident requiert une analyse approfondie au regard du Règlement (UE) 2016/679 (RGPD) concernant les violations de données et de la Directive (UE) 2022/2555 (NIS 2) pour les entités essentielles ou importantes, ainsi que potentiellement du Règlement (UE) 2024/1689 (AI Act) si des systèmes d'IA sont concernés.",
+    "impact": "Pour les gestionnaires de contrats IT, il est impératif de vérifier les engagements de leurs fournisseurs (SaaS, Cloud, TMA) concernant la gestion des mises à jour de sécurité et des correctifs pour les systèmes basés sur Ubuntu Linux. Les clauses relatives aux niveaux de service (SLA) doivent inclure des délais stricts pour l'application des patchs critiques et prévoir des pénalités en cas de non-respect. Il est crucial d'anticiper les risques de rupture de service et de violation de données en renforçant les clauses de responsabilité et d'indemnisation, ainsi que d'exiger des plans de remédiation clairs et vérifiables.",
+    "date": "2026-10-02"
   },
   {
     "categorie": "Cybersécurité",
