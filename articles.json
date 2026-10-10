@@ -38,6 +38,24 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/microsoft-livre-une-ebauche-de-litebox-un-systeme-dexploitation-bibliotheque/",
+    "titre": "Microsoft LiteBox : Nouvel OS open source pour renforcer la cybersécurité des systèmes IT",
+    "analyse": "L'initiative Microsoft LiteBox propose un système d'exploitation bibliothèque open source visant à réduire la surface d'attaque des systèmes, en concentrant les appels d'applications. Bien que la solution soit technique, elle s'inscrit dans le contexte des enjeux de cybersécurité, cruciaux pour les systèmes d'information des groupes industriels. Cette approche est en lien avec les exigences de robustesse des systèmes et de réduction des risques, notamment celles prévues par la Directive (UE) 2022/2555 (NIS 2) concernant les mesures pour un niveau élevé commun de cybersécurité, applicables à nos entités et à nos sous-traitants critiques.",
+    "impact": "Ce type d'innovation, axé sur la réduction de la surface d'attaque, doit inciter les gestionnaires de contrats IT à renforcer les clauses de sécurité logicielle et de résilience dans les contrats SaaS, Cloud et de TMA. Il est crucial d'interroger les fournisseurs sur leur stratégie d'intégration des nouvelles architectures de sécurité et leur capacité à limiter les vecteurs d'attaque de leurs solutions. Anticiper ces évolutions techniques permettra de négocier des engagements plus robustes en matière de cybersécurité et de gestion des risques contractuels liés aux incidents de sécurité.",
+    "date": "2026-10-09"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/attaque-par-deni-de-service-sur-la-plateforme-de-vote-pour-la-primaire-de-la-gauche/",
+    "titre": "Cyberattaque DDoS : Disponibilité et obligations de sécurité des prestataires IT",
+    "analyse": "L'article rapporte une cyberattaque par déni de service (DDoS) ciblant une plateforme IT opérée par un prestataire. Bien que l'attaque ralentisse le service sans le compromettre à ce stade, de tels événements soulignent l'importance cruciale des clauses de sécurité et de disponibilité dans les contrats IT. En droit européen, des cadres comme la directive NIS2 (Directive (UE) 2022/2555), en vigueur depuis janvier 2023, imposent des obligations de cybersécurité et de notification d'incidents aux entités fournissant des services essentiels ou importants. Ces principes de résilience et de gestion des incidents sont des standards attendus pour les prestataires de services numériques, et les contrats de service (SaaS, Cloud, TMA) doivent refléter ces exigences.",
+    "impact": "Pour un gestionnaire de contrats IT, cet incident met en lumière la nécessité de clauses robustes en matière de cybersécurité, de résilience et de gestion des incidents dans les contrats avec les fournisseurs (SaaS, Cloud, TMA). Il est crucial d'auditer les clauses de Service Level Agreement (SLA) pour s'assurer qu'elles définissent clairement les niveaux de disponibilité attendus, les mesures correctives en cas d'attaque (ex: plan de reprise d'activité, mesures de mitigation DDoS), ainsi que les pénalités applicables en cas de non-respect. Une vigilance particulière doit être portée aux clauses d'audit de sécurité et de reporting d'incidents, exigeant du fournisseur une notification rapide et détaillée de toute cyberattaque ou menace impactant le service.",
+    "date": "2026-10-09"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/260528/sony-transfere-ses-brevets-vr-a-meta-le-psvr2-en-phase-terminale/",
     "titre": "Transfert de brevets VR Sony vers Meta : implications IP pour les contrats IT",
     "analyse": "Le transfert de dizaines de brevets de réalité virtuelle, augmentée et mixte de Sony à Meta constitue une cession de droits de propriété industrielle. Cette opération relève des dispositions du Code de la propriété intellectuelle français (articles L.613-8 et suivants) concernant la transmission des brevets, stipulant les formalités requises pour l'opposabilité aux tiers. Elle matérialise un désengagement stratégique de Sony du marché de la VR, la propriété des innovations techniques étant désormais entre les mains de Meta. Pour Meta, cela renforce significativement son portefeuille de propriété intellectuelle dans un domaine technologique clé et concurrentiel.",
@@ -97,6 +115,15 @@
     "analyse": "La découverte de multiples vulnérabilités critiques dans le noyau Linux d'Ubuntu, permettant exécution de code arbitraire et élévation de privilèges, souligne un risque majeur pour l'intégrité et la confidentialité des systèmes IT utilisant cette distribution. Ces failles peuvent compromettre gravement la sécurité des données et des opérations, y compris le traitement de données personnelles. Un tel incident requiert une analyse approfondie au regard du Règlement (UE) 2016/679 (RGPD) concernant les violations de données et de la Directive (UE) 2022/2555 (NIS 2) pour les entités essentielles ou importantes, ainsi que potentiellement du Règlement (UE) 2024/1689 (AI Act) si des systèmes d'IA sont concernés.",
     "impact": "Pour les gestionnaires de contrats IT, il est impératif de vérifier les engagements de leurs fournisseurs (SaaS, Cloud, TMA) concernant la gestion des mises à jour de sécurité et des correctifs pour les systèmes basés sur Ubuntu Linux. Les clauses relatives aux niveaux de service (SLA) doivent inclure des délais stricts pour l'application des patchs critiques et prévoir des pénalités en cas de non-respect. Il est crucial d'anticiper les risques de rupture de service et de violation de données en renforçant les clauses de responsabilité et d'indemnisation, ainsi que d'exiger des plans de remédiation clairs et vérifiables.",
     "date": "2026-10-02"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Legalis | L’actualité du droit des nouvelles technologies",
+    "link": "https://www.legalis.net/actualite/condamnee-par-avoir-fait-indument-bloquer-des-videos/",
+    "titre": "Abus de droits de modération : sanction pour blocage indu de vidéos sur YouTube",
+    "analyse": "Le Tribunal judiciaire de Paris a condamné une société productrice de vidéos à verser 22 000 € de dommages et intérêts pour avoir fait bloquer indûment 22 vidéos sur la plateforme YouTube. Ce jugement du 19 juin 2026 rappelle la responsabilité des utilisateurs quant à l'exercice des droits de modération et de signalement. L'affaire souligne l'importance d'une justification légitime et non abusive lors de demandes de retrait de contenu auprès des hébergeurs ou des fournisseurs de services.",
+    "impact": "Les gestionnaires de contrats IT doivent être vigilants aux clauses régissant la modération et le retrait de contenu dans les contrats SaaS ou Cloud. Il est essentiel de s'assurer que les processus internes de l'entreprise respectent scrupuleusement les conditions d'utilisation des plateformes et la législation applicable lors de toute demande de blocage. Cela inclut la vérification de la légitimité des motifs pour éviter des actions abusives engageant la responsabilité de l'entreprise et des pénalités financières.",
+    "date": "2026-07-16"
   },
   {
     "categorie": "Cybersécurité",
