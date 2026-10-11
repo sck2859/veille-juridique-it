@@ -1,5 +1,14 @@
 [
   {
+    "categorie": "Droit des Affaires & Sociétés (SA)",
+    "source": "Village de la Justice",
+    "link": "https://www.village-justice.com/articles/conference-reseaux-sociaux-trois-leviers-pour-une-protection-efficace-jeunesse,59467.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "titre": "Réseaux sociaux : les enjeux de responsabilité des plateformes pour la protection de la jeunesse",
+    "analyse": "Cette conférence du 17 novembre 2026 met en lumière les trois piliers de la protection de la jeunesse sur les réseaux sociaux : interdiction, prévention et, surtout, la responsabilité des plateformes. L'actualité souligne que le législateur français étudie des mesures restrictives d'accès, indiquant une intervention réglementaire croissante. La responsabilité des plateformes est un enjeu majeur, impliquant des obligations renforcées en matière de modération de contenu et de protection des données pour les utilisateurs mineurs, s'inscrivant dans le cadre du Règlement Général sur la Protection des Données (RGPD).",
+    "impact": "Pour les gestionnaires de contrats IT, la notion de responsabilité des plateformes implique une vigilance accrue lors de la contractualisation avec des fournisseurs de services numériques (SaaS, Cloud) qui gèrent du contenu utilisateur ou des interactions sociales. Il est crucial d'intégrer des clauses précises sur la modération de contenu, les mécanismes de vérification de l'âge, la protection des données des mineurs et la conformité aux réglementations applicables. Une attention particulière doit être portée aux garanties contractuelles concernant la responsabilité du fournisseur face à l'évolution législative en matière de protection de la jeunesse en ligne et aux conséquences d'un manquement.",
+    "date": "2026-10-11"
+  },
+  {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
     "link": "https://next.ink/260784/comment-les-agents-ia-bouleversent-la-cybersecurite-defensive-et-offensive/",
@@ -117,6 +126,15 @@
     "date": "2026-10-02"
   },
   {
+    "categorie": "Droit Européen & Compliance (RGPD / AI Act)",
+    "source": "RSS - Actualités CNIL",
+    "link": "https://www.cnil.fr/fr/violations-de-donnees-personnelles-cas-indemnite",
+    "titre": "Fuites de données personnelles : conditions d'indemnisation et rôle du juge",
+    "analyse": "Les personnes concernées par une violation de données personnelles (fuite ou vol) peuvent obtenir une indemnisation si l'incident résulte d'un manquement avéré au Règlement Général sur la Protection des Données (RGPD). Conformément à l'Article 82 du RGPD, cette indemnisation couvre les préjudices matériels ou immatériels subis. Il est précisé que seul un juge est compétent pour accorder cette réparation, la CNIL ayant un rôle de contrôle et de sanction mais non d'indemnisation directe.",
+    "impact": "Pour un gestionnaire de contrats IT, ce point renforce l'importance de clauses contractuelles solides encadrant la sécurité des données et la responsabilité en cas de violation. Il est crucial d'anticiper les risques d'indemnisation des personnes concernées en s'assurant que les fournisseurs (SaaS, Cloud, TMA) respectent strictement les exigences du RGPD et prévoient une couverture adéquate via les assurances ou des clauses de garantie. Lors des négociations, veiller à l'alignement des obligations de sécurité et de notification des incidents avec les Articles 32 et 33 du RGPD afin de limiter l'exposition au risque de manquement.",
+    "date": "2026-10-02"
+  },
+  {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Legalis | L’actualité du droit des nouvelles technologies",
     "link": "https://www.legalis.net/actualite/condamnee-par-avoir-fait-indument-bloquer-des-videos/",
@@ -124,6 +142,24 @@
     "analyse": "Le Tribunal judiciaire de Paris a condamné une société productrice de vidéos à verser 22 000 € de dommages et intérêts pour avoir fait bloquer indûment 22 vidéos sur la plateforme YouTube. Ce jugement du 19 juin 2026 rappelle la responsabilité des utilisateurs quant à l'exercice des droits de modération et de signalement. L'affaire souligne l'importance d'une justification légitime et non abusive lors de demandes de retrait de contenu auprès des hébergeurs ou des fournisseurs de services.",
     "impact": "Les gestionnaires de contrats IT doivent être vigilants aux clauses régissant la modération et le retrait de contenu dans les contrats SaaS ou Cloud. Il est essentiel de s'assurer que les processus internes de l'entreprise respectent scrupuleusement les conditions d'utilisation des plateformes et la législation applicable lors de toute demande de blocage. Cela inclut la vérification de la légitimité des motifs pour éviter des actions abusives engageant la responsabilité de l'entreprise et des pénalités financières.",
     "date": "2026-07-16"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Legalis | L’actualité du droit des nouvelles technologies",
+    "link": "https://www.legalis.net/actualite/charge-de-la-preuve-qualifier-dabord-la-signature-electronique/",
+    "titre": "Contestation de signature électronique : la qualification, clé de la charge de la preuve",
+    "analyse": "La Cour de cassation a précisé les règles de charge de la preuve en cas de contestation d'une signature électronique. Elle établit qu'on ne peut imposer au signataire contestataire de prouver la non-conformité sans avoir préalablement vérifié si la signature était qualifiée. Si la signature n'est pas qualifiée, la partie qui se prévaut de l'acte doit elle-même prouver la fiabilité et l'intégrité du procédé utilisé.",
+    "impact": "Pour les gestionnaires de contrats IT, il est impératif de privilégier les solutions de signature électronique qualifiée pour les engagements critiques (contrats, avenants). Lors des négociations avec les fournisseurs, exigez contractuellement l'utilisation de signatures qualifiées pour la validité et l'opposabilité des actes. L'absence de qualification augmente notre risque juridique en cas de contestation, nous imposant la charge de prouver la fiabilité de la signature.",
+    "date": "2026-07-02"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Legalis | L’actualité du droit des nouvelles technologies",
+    "link": "https://www.legalis.net/actualite/condamnation-pour-atteinte-au-droit-a-limage-dun-influenceur/",
+    "titre": "Droit à l'image : Une société condamnée pour la rediffusion de vidéos d'influenceur.",
+    "analyse": "Un jugement du 6 mai a condamné une société pour atteinte au droit à l’image d’un influenceur. La société avait rediffusé, sans autorisation, des vidéos de micro-trottoir où l'influenceur apparaissait. Cette décision souligne la nécessité d'obtenir le consentement des personnes pour l'utilisation et la diffusion de leur image, principe fondamental rappelé par l'article 9 du Code civil.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer une vigilance accrue quant aux clauses de droit à l'image et d'utilisation de contenu. Il est impératif de s'assurer que tout accord avec des prestataires (agences marketing, plateformes, influenceurs) inclut des autorisations claires et explicites pour la diffusion d'images de personnes physiques, y compris pour des finalités de communication. Des clauses de garantie et d'indemnisation solides sont essentielles pour protéger notre groupe contre les risques de litiges liés à la diffusion non autorisée de contenus.",
+    "date": "2026-06-11"
   },
   {
     "categorie": "Cybersécurité",
