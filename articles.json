@@ -1,5 +1,50 @@
 [
   {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/261236/des-frigos-pirates-dans-des-supermarches-a-cause-dequipements-obsoletes-ou-non-mis-a-jour/",
+    "titre": "Cyberattaque massive sur systèmes de froid : Obsolescence et mises à jour logicielles, des risques majeurs",
+    "analyse": "Une récente cyberattaque ayant compromis des systèmes de régulation du froid révèle l'importance capitale de la cybersécurité des équipements et logiciels. Le fabricant pointe des matériels obsolètes ou non mis à jour comme cause. Cette situation souligne l'obligation contractuelle et réglementaire des fournisseurs de solutions IT de garantir la sécurité des systèmes par des mises à jour régulières et la maintenance. Elle est particulièrement pertinente au regard des exigences de cybersécurité renforcées par la Directive NIS 2 (Directive (UE) 2022/2555), applicable aux entités essentielles et importantes, qui insiste sur la gestion des risques liés à la chaîne d'approvisionnement et la mise à jour des systèmes.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement renforcer les clauses relatives aux mises à jour et à la gestion de l'obsolescence dans les contrats SaaS, Cloud, TMA et d'intégration d'équipements. Il est crucial d'exiger des plans clairs de maintenance, de correctifs de sécurité et de garanties sur la durée de support des versions logicielles et matérielles. Anticipez la responsabilité du fournisseur en cas de faille de sécurité liée à des défauts de maintenance ou à une gestion insuffisante de l'obsolescence, en incluant des obligations de notification rapide et des pénalités claires.",
+    "date": "2026-10-12"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/xandr-amende-de-86-millions-deuros-en-norvege-pour-avoir-utilise-des-donnees-de-grindr/",
+    "titre": "Protection des données : Xandr sanctionné en Norvège pour traitement et partage illicite de données personnelles.",
+    "analyse": "La Datatilsynet, autorité norvégienne de protection des données, a infligé une amende de 8,6 millions d'euros à Xandr pour le traitement et le partage illicite de données personnelles issues de comptes Grindr. Cette sanction, suite à une amende similaire pour Grindr, souligne la rigueur de l'application du Règlement Général sur la Protection des Données (RGPD) en Norvège. Elle rappelle l'importance de la conformité aux principes de licéité et des bases légales des traitements de données personnelles, conformément au RGPD (Règlement (UE) 2016/679).",
+    "impact": "Les gestionnaires de contrats IT doivent redoubler de vigilance sur les clauses relatives au traitement et au partage de données personnelles, particulièrement avec des sous-traitants ou partenaires. Il est crucial d'exiger des garanties solides sur la licéité des traitements et les bases légales utilisées par vos fournisseurs, y compris leurs propres sous-traitants. Une attention particulière doit être portée aux clauses d'audit et de responsabilité en cas de non-conformité au RGPD (Règlement (UE) 2016/679) afin d'atténuer les risques d'amende et de réputation pour notre groupe.",
+    "date": "2026-10-12"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/260923/portages-pirates-mash-ups-baroques-lia-met-le-souk-dans-le-jeu-video/",
+    "titre": "IA générative : enjeux de propriété intellectuelle et risques contractuels pour les contenus",
+    "analyse": "L'IA générative facilite la création rapide de contenus tels que les jeux vidéo, mais soulève des défis majeurs en matière de propriété intellectuelle concernant les \"portages pirates\" et \"mash-ups\". Ces pratiques interrogent sur l'originalité des œuvres générées par l'IA et le respect des droits des œuvres préexistantes. Le Règlement (UE) 2024/1689 (AI Act), en vigueur, impose des obligations de transparence aux fournisseurs de systèmes d'IA, y compris génératifs, notamment sur les données d'entraînement et l'identification des contenus produits. Cela est crucial pour évaluer la licéité et l'attribution des créations assistées par IA.",
+    "impact": "Lors de l'acquisition ou de la licence de solutions d'IA générative (SaaS, Cloud), le gestionnaire de contrats doit impérativement exiger des clauses précises sur la propriété intellectuelle des outputs générés et la non-contrefaçon. Il est essentiel d'obtenir des garanties des fournisseurs concernant la licéité des données d'entraînement et la conformité de leurs systèmes au Règlement (UE) 2024/1689 (AI Act). Les clauses d'indemnisation doivent être renforcées pour couvrir les risques liés aux réclamations pour contrefaçon découlant de l'utilisation des outils ou contenus issus de l'IA.",
+    "date": "2026-10-12"
+  },
+  {
+    "categorie": "Droit des Affaires & Sociétés (SA)",
+    "source": "Village de la Justice",
+    "link": "https://www.village-justice.com/articles/fraude-president-cour-cassation-rappelle-les-limites-negligence-grave,59490.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "titre": "Opérations frauduleuses : la négligence du client face à la défaillance du prestataire",
+    "analyse": "La Cour de cassation, dans son arrêt du 8 octobre 2026 (Cass. com., n° 25-17.510), a rappelé les limites de l'opposabilité de la négligence grave d'un client. Elle estime qu'un prestataire de services de paiement ne peut refuser le remboursement d'un virement frauduleux en invoquant la négligence grave de son client s'il a lui-même exécuté l'opération selon une procédure non contractuelle. Cette décision souligne que l'obligation de remboursement du prestataire en cas d'opération non autorisée ne peut être écartée si le prestataire n'a pas respecté ses propres obligations. Elle insiste sur la nécessité pour les prestataires de se conformer aux procédures convenues avant d'imputer la faute à leur client.",
+    "impact": "Les gestionnaires de contrats IT doivent veiller à l'équilibre des clauses de responsabilité, notamment dans les contrats de services SaaS ou Cloud incluant des flux financiers ou des données sensibles. Un prestataire IT ne devrait pas pouvoir invoquer la négligence grave du client pour s'exonérer si sa propre défaillance (ex: non-respect des protocoles de sécurité ou d'exécution) a contribué à la fraude ou au préjudice. Il est crucial de négocier des clauses précisant l'obligation du fournisseur à suivre scrupuleusement les procédures contractuelles et d'anticiper les conséquences de leur non-respect en cas d'incident de sécurité ou d'opération frauduleuse.",
+    "date": "2026-10-12"
+  },
+  {
+    "categorie": "Droit des Affaires & Sociétés (SA)",
+    "source": "Village de la Justice",
+    "link": "https://www.village-justice.com/articles/procedures-collectives-plan-sauvegarde-redressement-judiciaire,59392.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "titre": "Procédures collectives : Impact des plans de sauvegarde et redressement sur vos contrats IT",
+    "analyse": "Cet article présente les procédures collectives de sauvegarde et de redressement judiciaire, destinées à permettre la poursuite de l'activité d'une entreprise en difficulté. Ces mécanismes visent à sa réorganisation et au rétablissement de sa capacité bénéficiaire, souvent après une période d'observation de six à douze mois. À l'issue de cette période, l'entreprise propose un plan de sauvegarde ou de redressement pour sortir de la procédure. Ces dispositifs, relevant du droit des entreprises en difficulté, cherchent à prévenir la liquidation.",
+    "impact": "L'entrée d'un fournisseur stratégique en procédure de sauvegarde ou de redressement judiciaire représente un risque significatif pour la continuité des services IT (SaaS, Cloud, TMA, consulting). Il est essentiel d'inclure dans vos contrats des clauses de résiliation spécifiques permettant de rompre le contrat en cas d'ouverture de telles procédures. De plus, surveiller proactivement la santé financière de vos fournisseurs clés permet d'anticiper ces situations et de préparer des plans de contingence.",
+    "date": "2026-10-12"
+  },
+  {
     "categorie": "Droit des Affaires & Sociétés (SA)",
     "source": "Village de la Justice",
     "link": "https://www.village-justice.com/articles/conference-reseaux-sociaux-trois-leviers-pour-une-protection-efficace-jeunesse,59467.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
@@ -119,6 +164,33 @@
   {
     "categorie": "Cybersécurité",
     "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1260/",
+    "titre": "Vulnérabilités OpenOffice : Risque d'exécution de code à distance et obligations contractuelles",
+    "analyse": "La découverte de vulnérabilités critiques dans un logiciel tel qu'OpenOffice soulève des questions juridiques majeures en matière de cybersécurité. Une exécution de code arbitraire à distance représente une violation potentielle des obligations de sécurité des systèmes d'information. Conformément au Règlement Général sur la Protection des Données (RGPD), notamment son Article 32, les entités doivent mettre en œuvre des mesures techniques et organisationnelles appropriées pour garantir un niveau de sécurité adapté au risque. De plus, la Directive NIS 2 (UE 2022/2555), applicable dès octobre 2024, renforce ces exigences pour les entités essentielles et importantes, imposant une gestion proactive des risques de sécurité des réseaux et des systèmes d'information.",
+    "impact": "Pour les gestionnaires de contrats IT, il est impératif de revoir les clauses de sécurité des contrats existants (SaaS, Cloud, TMA, consulting). Vérifiez si les fournisseurs s'engagent à maintenir les logiciels à jour, à déployer rapidement les correctifs de sécurité et à notifier proactivement les vulnérabilités. Lors des négociations, intégrez des exigences claires concernant le patching régulier, les délais de correction des vulnérabilités critiques et les responsabilités en cas d'incident de sécurité résultant d'une faille logicielle non corrigée.",
+    "date": "2026-10-05"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1261/",
+    "titre": "Cybersécurité Zabbix : Vulnérabilités critiques menaçant données et continuité de service",
+    "analyse": "Le CERT-FR alerte sur des vulnérabilités critiques affectant Zabbix, permettant des dénis de service et des atteintes à la confidentialité et à l'intégrité des données. Une telle situation pose un risque significatif de compromission des systèmes et des informations traitées. Ces vulnérabilités peuvent entraîner une violation des obligations de sécurité des traitements, notamment au regard de l'article 32 du Règlement Général sur la Protection des Données (RGPD - Règlement (UE) 2016/679), et potentiellement déclencher des exigences de notification d'incident de sécurité en vertu du RGPD et de la Directive NIS2 (Directive (UE) 2022/2555).",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier les engagements de sécurité de leurs fournisseurs utilisant Zabbix, en particulier sur les délais de correction des vulnérabilités et la gestion des incidents. Il est crucial d'anticiper les risques contractuels liés à la non-conformité (RGPD, NIS2) et de s'assurer que les clauses de responsabilité et de remédiation sont adaptées. Lors des prochaines négociations, renforcer les exigences en matière de sécurité, de plan de réponse aux incidents, d'audit et de clauses de dédommagement en cas de défaillance est essentiel.",
+    "date": "2026-10-05"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1262/",
+    "titre": "Vulnérabilité critique GitLab : Implications pour la sécurité des systèmes d'information",
+    "analyse": "La découverte d'une vulnérabilité critique permettant une exécution de code arbitraire à distance dans GitLab impose une vigilance renforcée. Cette situation engage la responsabilité des entités utilisatrices et de leurs fournisseurs de services IT au regard des obligations de cybersécurité. En vertu de la Directive (UE) 2022/2555 (dite NIS2), les entités concernées sont tenues de mettre en œuvre des mesures techniques et organisationnelles appropriées pour gérer les risques pour la sécurité des réseaux et des systèmes d'information, et de notifier les incidents majeurs. Si des données personnelles sont traitées, le Règlement (UE) 2016/679 (RGPD) impose également des mesures de sécurité et des obligations de notification en cas de violation de données.",
+    "impact": "Les gestionnaires de contrats IT doivent s'assurer que leurs fournisseurs utilisant ou intégrant GitLab dans leurs services (SaaS, Cloud, TMA) respectent leurs obligations de sécurité et de correctifs. Il est crucial d'intégrer des clauses exigeantes sur la gestion des vulnérabilités, les délais de correction (SLA) et la notification des incidents de sécurité, en ligne avec la NIS2. Une attention particulière doit être portée aux clauses de responsabilité en cas de manquement lié à la sécurité des systèmes et données, notamment si des données personnelles sont traitées.",
+    "date": "2026-10-05"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1252/",
     "titre": "Cyber-risques : vulnérabilités critiques du noyau Linux Ubuntu, menaçant la sécurité des systèmes IT",
     "analyse": "La découverte de multiples vulnérabilités critiques dans le noyau Linux d'Ubuntu, permettant exécution de code arbitraire et élévation de privilèges, souligne un risque majeur pour l'intégrité et la confidentialité des systèmes IT utilisant cette distribution. Ces failles peuvent compromettre gravement la sécurité des données et des opérations, y compris le traitement de données personnelles. Un tel incident requiert une analyse approfondie au regard du Règlement (UE) 2016/679 (RGPD) concernant les violations de données et de la Directive (UE) 2022/2555 (NIS 2) pour les entités essentielles ou importantes, ainsi que potentiellement du Règlement (UE) 2024/1689 (AI Act) si des systèmes d'IA sont concernés.",
@@ -160,6 +232,33 @@
     "analyse": "Un jugement du 6 mai a condamné une société pour atteinte au droit à l’image d’un influenceur. La société avait rediffusé, sans autorisation, des vidéos de micro-trottoir où l'influenceur apparaissait. Cette décision souligne la nécessité d'obtenir le consentement des personnes pour l'utilisation et la diffusion de leur image, principe fondamental rappelé par l'article 9 du Code civil.",
     "impact": "Les gestionnaires de contrats IT doivent intégrer une vigilance accrue quant aux clauses de droit à l'image et d'utilisation de contenu. Il est impératif de s'assurer que tout accord avec des prestataires (agences marketing, plateformes, influenceurs) inclut des autorisations claires et explicites pour la diffusion d'images de personnes physiques, y compris pour des finalités de communication. Des clauses de garantie et d'indemnisation solides sont essentielles pour protéger notre groupe contre les risques de litiges liés à la diffusion non autorisée de contenus.",
     "date": "2026-06-11"
+  },
+  {
+    "categorie": "Propriété Intellectuelle (industrielle & intellectuelle)",
+    "source": "INPI - Bienvenue dans la maison des innovateurs",
+    "link": "https://www.inpi.fr/node/6764",
+    "titre": "BOPI Brevets 2620 du 15 mai 2026 : Panorama des nouvelles demandes et délivrances",
+    "analyse": "Le Bulletin Officiel de la Propriété Industrielle (BOPI) Brevets est la publication officielle de l'INPI informant sur les brevets en France. Il répertorie les dépôts, les délivrances, les rejets et autres modifications relatives aux titres de propriété industrielle, conformément aux dispositions du Code de la Propriété Intellectuelle. Cette édition du 15 mai 2026 fournit une mise à jour essentielle sur l'état des droits de propriété intellectuelle. Sa consultation est cruciale pour le suivi de l'activité brevets et la protection des innovations.",
+    "impact": "Les gestionnaires de contrats IT doivent rester vigilants quant à la propriété intellectuelle des technologies utilisées ou développées dans le cadre de nos projets. La consultation régulière du BOPI permet de vérifier l'existence de brevets potentiellement pertinents pour nos fournisseurs ou nos propres développements. Ceci est essentiel pour s'assurer que les clauses de garantie et d'indemnisation en matière de propriété intellectuelle dans nos contrats (SaaS, Cloud, TMA) couvrent adéquatement les risques d'atteinte aux droits des tiers.",
+    "date": "2026-05-15"
+  },
+  {
+    "categorie": "Propriété Intellectuelle (industrielle & intellectuelle)",
+    "source": "INPI - Bienvenue dans la maison des innovateurs",
+    "link": "https://www.inpi.fr/node/6762",
+    "titre": "Publication du BOPI Brevets : information clé pour les droits de propriété industrielle",
+    "analyse": "Le Bulletin Officiel de la Propriété Industrielle (BOPI) Brevets, publié par l'INPI, est la publication officielle regroupant les informations relatives aux brevets d'invention en France. Sa parution, telle que celle du 8 mai 2026 (n°2619), rend publique l'ensemble des dépôts, délivrances et modifications de brevets, conformément aux articles L612-1 et suivants du Code de la propriété intellectuelle. Cette transparence est fondamentale pour la sécurité juridique des titres de propriété industrielle.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer la consultation du BOPI dans leur processus de due diligence. Cela s'applique particulièrement lors de l'acquisition de licences logicielles, de services SaaS intégrant des technologies brevetées, ou de toute collaboration impliquant le développement ou l'exploitation d'innovations. Vérifier la validité et l'étendue des brevets revendiqués par des tiers permet de prévenir les risques de contrefaçon et d'assurer la solidité des clauses contractuelles relatives à la propriété intellectuelle.",
+    "date": "2026-05-08"
+  },
+  {
+    "categorie": "Propriété Intellectuelle (industrielle & intellectuelle)",
+    "source": "INPI - Bienvenue dans la maison des innovateurs",
+    "link": "https://www.inpi.fr/node/6756",
+    "titre": "Publication BOPI Brevets n°2618 (1er mai 2026) : Veille essentielle en Propriété Industrielle",
+    "analyse": "L'INPI annonce la publication du BOPI Brevets n°2618, daté du 1er mai 2026, détaillant les demandes et délivrances de brevets. Le Bulletin Officiel de la Propriété Industrielle, encadré notamment par l'article L. 612-21 du Code de la propriété intellectuelle, est la référence officielle pour la publicité des titres industriels. Il fournit des informations critiques sur les innovations et leurs titulaires, constituant une source de droit public indispensable.",
+    "impact": "Cette publication est un outil de veille IP/IT fondamental pour les gestionnaires de contrats. Elle impose de vérifier l'absence de contrefaçon pour les technologies intégrées ou développées (SaaS, Cloud, TMA). Il est crucial d'adapter les clauses de garantie d'éviction ou de non-contrefaçon avec nos fournisseurs et de surveiller les droits des tiers.",
+    "date": "2026-05-01"
   },
   {
     "categorie": "Cybersécurité",
