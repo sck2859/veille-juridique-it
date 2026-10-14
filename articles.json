@@ -2,6 +2,33 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/261560/les-banques-sommees-par-les-regulateurs-de-se-preparer-aux-cyberattaques-ia/",
+    "titre": "Cyberattaques par IA : Nouvelles exigences réglementaires et impact sur les contrats IT",
+    "analyse": "Les régulateurs financiers expriment une inquiétude croissante face à l'utilisation de l'IA dans les cyberattaques, menaçant la stabilité des services critiques. Bien que centré sur le secteur bancaire, cet enjeu reflète une tendance générale à la nécessité de renforcer la résilience cybernétique des entreprises. Cela s'inscrit dans la lignée de la Directive NIS2 (Directive (UE) 2022/2555) qui impose des mesures de gestion des risques de cybersécurité aux entités critiques, et du Règlement (UE) 2024/1689 (AI Act) qui encadre l'utilisation de l'IA, notamment pour les systèmes à haut risque.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer des clauses spécifiques pour la prévention et la gestion des cyberattaques assistées par IA dans les contrats de services (SaaS, Cloud, TMA). Il est impératif de demander aux fournisseurs des garanties claires sur les mesures de sécurité IA mises en œuvre et leur conformité avec des cadres réglementaires comme la NIS2 et l'AI Act, surtout si l'IA est intégrée aux services critiques. Anticipez des exigences accrues en matière d'audits de sécurité, de plans de réponse aux incidents et de responsabilité contractuelle liée aux défaillances de l'IA.",
+    "date": "2026-10-14"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/261605/patch-tuesday-microsoft-bat-un-nouveau-record-avec-1-411-failles-corrigees/",
+    "titre": "Gestion des Vulnérabilités Microsoft : Analyse des Correctifs de Sécurité (Patch Tuesday)",
+    "analyse": "L'article met en lumière le nombre record de vulnérabilités, dont des 0-day, corrigées par Microsoft en octobre. Cette actualité souligne la permanence des risques cyber et l'impératif de maintenance des systèmes. En droit, la gestion de ces failles relève des obligations de sécurité des systèmes d'information, notamment imposées par la Directive (UE) 2022/2555 (NIS2) pour les entités essentielles et importantes. Elle impacte également la protection des données personnelles, en vertu du Règlement (UE) 2016/679 (RGPD), qui exige des mesures techniques et organisationnelles appropriées contre les violations de données.",
+    "impact": "Pour les gestionnaires de contrats IT, ce contexte exige une vigilance accrue sur les clauses relatives aux mises à jour de sécurité et à la gestion des vulnérabilités (SLA de déploiement, reporting). Il est crucial de s'assurer que les contrats SaaS, Cloud ou de TMA intègrent des engagements clairs du fournisseur quant à la détection, la correction rapide et la communication transparente des failles de sécurité, incluant les 0-day. Ceci minimise le risque de défaillance du service et la responsabilité du groupe en cas d'incident de sécurité impactant les données ou les opérations.",
+    "date": "2026-10-14"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/261574/leurope-veut-rendre-les-lunettes-connectees-beaucoup-moins-discretes/",
+    "titre": "Lunettes connectées : le CEPD renforce l'encadrement des usages et la transparence des données",
+    "analyse": "Le Comité européen de la protection des données (CEPD) a adopté une déclaration visant à encadrer fermement l'usage des lunettes connectées. Cette initiative impose une transparence accrue pour ces appareils discrets collectant des données personnelles. Le régulateur rappelle également la responsabilité des porteurs, en ligne avec les principes du Règlement Général sur la Protection des Données (RGPD), pour assurer le respect des droits fondamentaux.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer ces exigences réglementaires lors de l'acquisition de solutions IoT ou de services intégrant des wearables. Il est essentiel de s'assurer que les clauses contractuelles avec les fournisseurs garantissent la conformité des dispositifs et des traitements de données au RGPD et aux directives du CEPD. Une vigilance accrue est requise sur les garanties de transparence, les mécanismes de consentement et la répartition des responsabilités en cas d'incident ou de violation des données.",
+    "date": "2026-10-14"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/261513/apple-laisse-son-nouvel-ecran-connecte-homeview-a-la-porte-de-lue/",
     "titre": "Non-commercialisation d'un écran connecté Apple en UE : vigilance sur la conformité réglementaire",
     "analyse": "L'article indique qu'Apple ne commercialisera pas son nouvel écran connecté HomeView dans l'Union Européenne. Cette décision, dont les motifs précis ne sont pas détaillés, souligne l'importance et la complexité des exigences réglementaires européennes applicables aux objets connectés et aux systèmes de maison intelligente. Ces exigences incluent notamment les normes de sécurité des produits, la protection des données personnelles (Règlement (UE) 2016/679 dit RGPD) et, selon les fonctionnalités, les dispositions du Règlement (UE) 2024/1689 sur l'intelligence artificielle (AI Act) ou de la Directive (UE) 2022/2555 sur la cybersécurité (NIS 2).",
@@ -322,6 +349,33 @@
     "analyse": "L'INPI annonce la publication du BOPI Brevets n°2618, daté du 1er mai 2026, détaillant les demandes et délivrances de brevets. Le Bulletin Officiel de la Propriété Industrielle, encadré notamment par l'article L. 612-21 du Code de la propriété intellectuelle, est la référence officielle pour la publicité des titres industriels. Il fournit des informations critiques sur les innovations et leurs titulaires, constituant une source de droit public indispensable.",
     "impact": "Cette publication est un outil de veille IP/IT fondamental pour les gestionnaires de contrats. Elle impose de vérifier l'absence de contrefaçon pour les technologies intégrées ou développées (SaaS, Cloud, TMA). Il est crucial d'adapter les clauses de garantie d'éviction ou de non-contrefaçon avec nos fournisseurs et de surveiller les droits des tiers.",
     "date": "2026-05-01"
+  },
+  {
+    "categorie": "Propriété Intellectuelle (industrielle & intellectuelle)",
+    "source": "INPI - Bienvenue dans la maison des innovateurs",
+    "link": "https://www.inpi.fr/agenda/webinaire-propriete-intellectuelle-et-international-comment-proteger-performer-et-se",
+    "titre": "Protection de la PI à l'international : Stratégies et enjeux pour les contrats IT",
+    "analyse": "Ce webinaire de l'INPI aborde les fondamentaux de la propriété intellectuelle (PI) dans un contexte international, incluant l'identification des droits et la définition de stratégies de protection. Il souligne l'importance d'anticiper les risques de contrefaçon, de copie et de transfert non maîtrisé de PI, cruciaux pour une gestion contractuelle sécurisée. La protection internationale de la PI s'appuie sur diverses conventions multilatérales et législations nationales, visant à sécuriser les actifs immatériels des entreprises à l'étranger.",
+    "impact": "Pour les gestionnaires de contrats IT, ce sujet est primordial lors de la négociation de services SaaS, Cloud ou de TMA impliquant la création ou l'utilisation d'actifs PI. Il est impératif d'intégrer des clauses claires sur la titularité des droits de PI, les licences d'utilisation, et les garanties contre la contrefaçon, surtout avec des fournisseurs internationaux. Une vigilance accrue est nécessaire sur les clauses de réversibilité et de transfert de technologie pour maîtriser la PI à l'issue du contrat.",
+    "date": "2026-04-30"
+  },
+  {
+    "categorie": "Propriété Intellectuelle (industrielle & intellectuelle)",
+    "source": "INPI - Bienvenue dans la maison des innovateurs",
+    "link": "https://www.inpi.fr/agenda/journees-connexion-de-la-team-france-export",
+    "titre": "Protection de la Propriété Intellectuelle à l'International : Risques et Sécurisation",
+    "analyse": "Cet article annonce un webinaire organisé par l'INPI et In Concreto, prévu le 3 juin, dédié aux atteintes à la propriété intellectuelle (PI) sur Internet pour les entreprises exportatrices. Le programme vise à identifier les types d'infractions en ligne et à présenter des stratégies pour sécuriser les activités internationales. Bien que l'article ne cite pas de textes législatifs spécifiques, le sujet relève des dispositions du Code de la propriété intellectuelle et des conventions internationales régissant les marques, brevets et droits d'auteur, essentiels pour protéger les actifs immatériels du groupe à l'étranger.",
+    "impact": "Pour les gestionnaires de contrats IT, la vigilance est de mise, notamment lors de la rédaction ou de la négociation de contrats SaaS, Cloud ou de services de développement. Il est essentiel d'inclure des clauses robustes de garantie d'absence d'atteinte aux droits des tiers et d'indemnisation en cas d'infraction à la PI par le fournisseur, surtout dans un contexte de déploiement international. Une attention particulière doit être portée à la titularité de la PI sur les livrables, aux licences d'utilisation des solutions et à la conformité aux législations locales de PI afin de minimiser les risques contractuels et opérationnels à l'export.",
+    "date": "2026-04-30"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2024-ALE-009/",
+    "titre": "Vulnérabilité critique OpenSSH : Risque d'exécution de code à distance et implications contractuelles",
+    "analyse": "La vulnérabilité critique CVE-2024-6387 dans OpenSSH, identifiée le 1er juillet 2024 par le CERT-FR, permet une exécution de code arbitraire à distance avec des privilèges root par un attaquant non authentifié. Cet événement constitue un risque majeur pour la sécurité des systèmes d'information, engageant la responsabilité des entités exploitant ou proposant des services basés sur les versions affectées (8.5p1 à 9.7p1). Dans ce contexte, les obligations de sécurité et de résilience des systèmes d'information, notamment celles découlant de la Directive NIS 2 (UE 2022/2555) et du RGPD (UE 2016/679) pour la protection des données personnelles, sont directement activées. Une mise à jour rapide des systèmes et une communication transparente avec les parties prenantes, y compris les autorités compétentes en cas d'incident, sont impératives.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier que leurs fournisseurs (SaaS, Cloud, TMA, consulting) ont bien mis à jour leurs infrastructures et services utilisant OpenSSH aux versions non vulnérables. Il est crucial de renforcer les clauses de sécurité des contrats, en exigeant des engagements clairs sur la gestion proactive des vulnérabilités, les délais de correction (SLA) et les obligations d'information en cas de défaillance de sécurité impactant le service. Une attention particulière doit être portée aux droits d'audit et aux pénalités contractuelles applicables en cas de non-respect de ces obligations de sécurité, afin d'atténuer les risques pour le groupe.",
+    "date": "2024-07-01"
   },
   {
     "categorie": "Cybersécurité",
