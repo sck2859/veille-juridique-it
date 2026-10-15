@@ -2,6 +2,33 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/youtube-music-etiquete-a-son-tour-les-chansons-generees-par-ia/",
+    "titre": "Contenus musicaux IA : la labellisation obligatoire et son impact contractuel",
+    "analyse": "Les plateformes de streaming musical, comme YouTube Music, Spotify et Deezer, généralisent l'étiquetage des contenus générés par intelligence artificielle. Cette initiative s'inscrit dans le cadre des obligations de transparence des systèmes d'IA. Elle est conforme aux exigences du Règlement (UE) 2024/1689 (AI Act), notamment ses articles relatifs à la transparence des modèles d'IA générative et des contenus synthétiques. L'objectif est d'assurer une meilleure information des utilisateurs sur l'origine des œuvres diffusées.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer cette exigence de labellisation dans leurs accords avec les fournisseurs de solutions d'IA générative ou de plateformes. Il convient de vérifier l'existence de clauses obligeant le fournisseur à identifier et étiqueter les contenus produits par IA, conformément à l'AI Act. Une vigilance s'impose sur les garanties concernant l'origine des contenus et la conformité aux régulations en matière d'IA, afin d'éviter tout risque juridique ou réputationnel pour le groupe.",
+    "date": "2026-10-15"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/261507/agenouille-toi-comment-notre-robot-jouet-ia-a-ete-pirate-sous-nos-yeux/",
+    "titre": "Vulnérabilités IA : impact du piratage d'un robot compagnon sur la sécurité des données",
+    "analyse": "Le piratage de ce robot IA expose des failles de sécurité majeures, compromettant des données personnelles sensibles (conversations, profils utilisateurs). Ceci soulève des enjeux clairs en matière de protection des données, conformément au Règlement Général sur la Protection des Données (RGPD - Règlement (UE) 2016/679) qui impose une sécurité adéquate des traitements (Article 32). De plus, en tant que produit intégrant de l'IA générative, il est concerné par le Règlement (UE) 2024/1689 (AI Act) qui établit un cadre harmonisé pour la commercialisation des systèmes d'IA, avec des exigences en matière de cybersécurité pour les fournisseurs. Un tel incident peut également engager la responsabilité du fabricant en cas de manquement aux obligations de sécurité des produits connectés.",
+    "impact": "Les gestionnaires de contrats IT doivent redoubler de vigilance lors de la contractualisation de solutions intégrant de l'IA, y compris les APIs ou composants. Il est essentiel d'inclure des clauses robustes sur la cybersécurité des systèmes d'IA, l'engagement de conformité au Règlement (UE) 2024/1689 (AI Act), et la responsabilité en cas de faille de sécurité et d'exposition de données personnelles. Une diligence raisonnable approfondie des pratiques de sécurité du fournisseur et de son respect du RGPD est également indispensable avant toute négociation.",
+    "date": "2026-10-15"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/261945/google-veut-surfer-sur-la-vague-du-vibe-coding-personnel-pour-android/",
+    "titre": "Développement d'applications Android par IA : Opportunités et risques pour la sécurité logicielle",
+    "analyse": "L'initiative de Google, permettant de développer des applications Android via des requêtes en langage naturel, s'appuie sur des outils d'intelligence artificielle (IA). Cette approche soulève des questions juridiques, notamment concernant la titularité des droits de propriété intellectuelle sur le code généré. De plus, la mention explicite de la sécurité met en lumière la nécessité d'évaluer la robustesse des applications ainsi créées, conformément aux exigences générales de cybersécurité et potentiellement du Règlement (UE) 2024/1689 (AI Act) selon la classification du système.",
+    "impact": "Pour les gestionnaires de contrats IT, l'utilisation d'outils de développement basés sur l'IA implique des clauses contractuelles spécifiques. Il est impératif d'intégrer des garanties claires sur la propriété intellectuelle du code source généré et des clauses de responsabilité en cas de défauts ou de failles de sécurité. Une vigilance accrue est également requise quant aux obligations de cybersécurité du fournisseur utilisant de tels outils, pour s'assurer que les applications développées respectent nos standards internes et la réglementation applicable.",
+    "date": "2026-10-15"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/261560/les-banques-sommees-par-les-regulateurs-de-se-preparer-aux-cyberattaques-ia/",
     "titre": "Cyberattaques par IA : Nouvelles exigences réglementaires et impact sur les contrats IT",
     "analyse": "Les régulateurs financiers expriment une inquiétude croissante face à l'utilisation de l'IA dans les cyberattaques, menaçant la stabilité des services critiques. Bien que centré sur le secteur bancaire, cet enjeu reflète une tendance générale à la nécessité de renforcer la résilience cybernétique des entreprises. Cela s'inscrit dans la lignée de la Directive NIS2 (Directive (UE) 2022/2555) qui impose des mesures de gestion des risques de cybersécurité aux entités critiques, et du Règlement (UE) 2024/1689 (AI Act) qui encadre l'utilisation de l'IA, notamment pour les systèmes à haut risque.",
@@ -171,6 +198,24 @@
     "date": "2026-10-09"
   },
   {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1283/",
+    "titre": "Alertes Cybersécurité : Vulnérabilités critiques affectant les solutions Nextcloud – Implications pour nos contrats IT.",
+    "analyse": "La découverte par le CERT-FR de multiples vulnérabilités critiques dans les produits Nextcloud, incluant des risques d'élévation de privilèges, de déni de service à distance et d'atteinte à la confidentialité des données, met en lumière des failles potentielles dans la sécurité des traitements. Ces incidents sont directement pertinents au regard des exigences de l'Article 32 du Règlement Général sur la Protection des Données (RGPD) relatif à la sécurité du traitement des données personnelles. Pour les entités concernées, ces vulnérabilités imposent également une vigilance quant au respect des mesures de gestion des risques de cybersécurité prévues par l'Article 21 de la Directive NIS 2 (UE 2022/2555).",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier les clauses de sécurité et de responsabilité des contrats impliquant des solutions Nextcloud ou des services basés sur celles-ci. Une attention particulière doit être portée aux engagements du fournisseur en matière de gestion des vulnérabilités, de déploiement des correctifs (patch management) et de gestion des incidents de sécurité (SLA pour le rétablissement du service et la notification des incidents). Il est crucial d'anticiper les risques contractuels liés à la non-conformité (RGPD, NIS 2) et d'assurer une couverture adéquate en cas de défaillance entraînant des interruptions de service ou des fuites de données.",
+    "date": "2026-10-09"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1284/",
+    "titre": "Alerte cybersécurité : Vulnérabilité critique Tenable et implications pour les contrats IT.",
+    "analyse": "La découverte d'une vulnérabilité critique permettant une exécution de code arbitraire à distance dans les produits Tenable soulève des questions sur les obligations de cybersécurité des fournisseurs de logiciels et de services. Dans le cadre de la Directive (UE) 2022/2555 (NIS2), les entités concernées doivent garantir un niveau élevé de gestion des risques de cybersécurité, ce qui inclut la sécurisation de la chaîne d'approvisionnement. L'exigence de réinstallation d'un composant après la mise à jour, signalée le 09 octobre 2026, souligne la criticité de la vulnérabilité et la nécessité d'une intervention proactive de la part des utilisateurs et, par extension, des prestataires de services managés.",
+    "impact": "Il est crucial de vérifier la présence de clauses claires concernant la gestion des vulnérabilités, les délais de correction (SLA) et les modalités d'application des correctifs par le fournisseur dans les contrats SaaS, Cloud ou de TMA. Les gestionnaires de contrats doivent anticiper les discussions sur la responsabilité du fournisseur en cas de non-respect de ces obligations et s'assurer que les procédures de déploiement des mises à jour, incluant les réinstallations spécifiques, sont bien définies et couvertes par les accords de service.",
+    "date": "2026-10-09"
+  },
+  {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
     "link": "https://next.ink/260528/sony-transfere-ses-brevets-vr-a-meta-le-psvr2-en-phase-terminale/",
@@ -204,6 +249,15 @@
     "titre": "France Travail : Clôture d'une injonction CNIL suite à mise en conformité RGPD",
     "analyse": "La CNIL, autorité de contrôle des données personnelles, a clôturé par délibération du 23 septembre 2026 une injonction prononcée le 22 janvier 2026 à l'encontre de France Travail. Cette décision intervient suite à la mise en conformité de l'organisme, démontrant son respect des obligations du Règlement Général sur la Protection des Données (RGPD). La non-liquidation de l'astreinte initialement prévue souligne l'importance d'une réaction rapide et efficace pour éviter des sanctions pécuniaires en cas de manquement.",
     "impact": "Cet événement rappelle l'impératif pour notre groupe d'assurer une conformité continue au RGPD et de répondre proactivement à toute sollicitation ou injonction des autorités de contrôle comme la CNIL. Pour les contrats IT, il est essentiel d'intégrer des clauses claires sur la protection des données et la gestion des incidents, notamment avec les fournisseurs SaaS et Cloud. Nous devons également veiller à ce que nos partenaires contractuels s'engagent à nous accompagner dans le respect de nos obligations en tant que responsable de traitement.",
+    "date": "2026-10-08"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1280/",
+    "titre": "Vulnérabilité critique dans Ceph : Risques d'exécution de code à distance et élévation de privilèges",
+    "analyse": "Cette vulnérabilité dans Ceph, permettant l'exécution de code arbitraire à distance et l'élévation de privilèges, constitue un risque majeur pour la sécurité des systèmes d'information. Elle impose une vigilance accrue quant à l'intégrité et la confidentialité des données traitées par les systèmes utilisant Ceph. Conformément à la Directive NIS2 (Directive (UE) 2022/2555), les entités concernées doivent mettre en œuvre des mesures techniques et organisationnelles appropriées pour gérer ces risques.",
+    "impact": "Pour les gestionnaires de contrats IT, cette vulnérabilité souligne la nécessité de vérifier si vos fournisseurs (SaaS, Cloud, TMA) utilisent Ceph et, le cas échéant, quelles sont leurs politiques de mise à jour et de gestion des vulnérabilités. Il est crucial d'inclure ou de renforcer dans les contrats des clauses relatives aux niveaux de service pour la correction des failles de sécurité et aux obligations d'information en cas d'incident. Une vigilance particulière s'impose lors des négociations pour garantir une responsabilité claire du fournisseur en cas de manquement entraînant une compromission.",
     "date": "2026-10-08"
   },
   {
