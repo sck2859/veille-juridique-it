@@ -108,6 +108,42 @@
     "date": "2026-10-14"
   },
   {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1301/",
+    "titre": "Alertes de vulnérabilités critiques Adobe : Impact contractuel cybersécurité et vigilance fournisseur",
+    "analyse": "La découverte de multiples vulnérabilités critiques dans les produits Adobe, permettant des exécutions de code arbitraire et des élévations de privilèges, souligne un risque important pour la sécurité des systèmes d'information de notre groupe. Ces défaillances peuvent engager la responsabilité des entités utilisatrices, notamment au regard de la Directive NIS 2 (UE 2022/2555) qui impose des mesures de cybersécurité robustes aux entités essentielles et importantes. En outre, si des données personnelles sont traitées, le Règlement Général sur la Protection des Données (RGPD, UE 2016/679) exige la mise en place de mesures techniques et organisationnelles appropriées pour garantir un niveau de sécurité adapté au risque (Art. 32).",
+    "impact": "Les gestionnaires de contrats IT doivent s'assurer que les contrats SaaS, Cloud, TMA ou de consulting impliquant des produits Adobe incluent des clauses claires sur la gestion des vulnérabilités, les délais de correction (SLA) et les responsabilités du fournisseur. Il est crucial de vérifier la conformité des fournisseurs aux exigences de sécurité, et d'exiger des preuves de la mise en œuvre de correctifs rapides pour atténuer les risques opérationnels et de conformité réglementaire.",
+    "date": "2026-10-14"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1302/",
+    "titre": "Alertes CERT-FR : Vulnérabilités critiques Xen, risques d'exécution de code et atteinte à la confidentialité",
+    "analyse": "La découverte de multiples vulnérabilités critiques dans Xen par le CERT-FR, permettant exécution de code arbitraire et élévation de privilèges, expose à des risques majeurs pour la sécurité des systèmes d'information. Une atteinte à la confidentialité des données, comme mentionné, pourrait engager la responsabilité du responsable de traitement ou du sous-traitant au titre du Règlement Général sur la Protection des Données (RGPD, Règlement (UE) 2016/679), notamment son article 32 sur la sécurité du traitement. Ces vulnérabilités constituent également un incident de cybersécurité qui, selon sa gravité et son impact, pourrait relever des obligations de notification prévues par la directive NIS 2 (Directive (UE) 2022/2555), transposée en droit national.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier les clauses de sécurité et de responsabilité de leurs contrats avec les fournisseurs de services (SaaS, Cloud, TMA) utilisant Xen ou d'autres hyperviseurs, exigeant des preuves de mise à jour et de correction des vulnérabilités. Il est crucial d'inclure ou de renforcer les clauses d'audit de sécurité, les obligations de notification rapide en cas d'incident et les pénalités contractuelles associées aux manquements de sécurité. Anticipez également la gestion des risques de non-conformité au RGPD et à NIS 2 en cas de défaillance du fournisseur.",
+    "date": "2026-10-14"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1303/",
+    "titre": "Vulnérabilité Symantec EDR : Risque d'injection de code et impact contractuel IT",
+    "analyse": "La découverte d'une vulnérabilité de type XSS dans Symantec Endpoint Detection and Response, signalée par le CERT-FR, représente un risque sérieux pour la sécurité des systèmes d'information. Une injection de code à distance peut compromettre l'intégrité et la confidentialité des données traitées par ce système. Cette situation met en exergue les obligations de sécurité des traitements, notamment au regard de l'article 32 du Règlement Général sur la Protection des Données (RGPD), qui impose la mise en œuvre de mesures techniques et organisationnelles appropriées. Pour les entités critiques comme notre groupe, cela relève également des exigences de gestion des risques de l'article 21 de la directive NIS2, renforçant la nécessité pour les fournisseurs de garantir la sécurité de leurs solutions.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier les engagements du fournisseur Symantec concernant la remédiation de cette vulnérabilité, via les clauses de sécurité et de niveaux de service (SLA). Il est crucial d'anticiper la mise en œuvre des correctifs et d'évaluer l'impact sur la conformité de nos systèmes. Dans les futurs contrats ou renouvellements, renforcer les clauses sur la gestion des vulnérabilités, l'obligation d'information et les pénalités en cas de défaillance est essentiel pour protéger notre groupe des risques opérationnels et de responsabilité.",
+    "date": "2026-10-14"
+  },
+  {
+    "categorie": "Droit Européen & Compliance (RGPD / AI Act)",
+    "source": "RSS - Actualités CNIL",
+    "link": "https://www.cnil.fr/fr/cloture-injonction-google",
+    "titre": "CNIL : Fin de l'injonction contre Google sur la conformité RGPD",
+    "analyse": "La CNIL, via sa formation restreinte, a officialisé la clôture de l'injonction initialement prononcée le 1er septembre 2025 à l'encontre de Google LLC et Google Ireland Limited. Cette décision, datée du 23 septembre 2026, intervient après une période de mise en conformité de la part des sociétés Google. L'injonction visait probablement des manquements aux obligations du Règlement Général sur la Protection des Données (RGPD). Sa clôture indique que les mesures correctives requises par la CNIL ont été jugées satisfaisantes.",
+    "impact": "Pour les gestionnaires de contrats IT utilisant les services de Google (ex: Cloud, SaaS), la clôture de cette injonction est un indicateur positif quant à la conformité du fournisseur. Néanmoins, elle souligne l'importance de vérifier régulièrement l'intégration des exigences du RGPD dans les Data Processing Addendums (DPA) de vos contrats. Une vigilance accrue reste de mise sur la capacité de tout fournisseur à maintenir sa conformité, et ce type d'événement rappelle la nécessité d'inclure des clauses d'audit ou de droit de regard.",
+    "date": "2026-10-14"
+  },
+  {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
     "link": "https://next.ink/261513/apple-laisse-son-nouvel-ecran-connecte-homeview-a-la-porte-de-lue/",
@@ -141,6 +177,15 @@
     "titre": "Responsabilité RGPD et usage non autorisé d'IA par les salariés : risques pour l'employeur",
     "analyse": "L'article souligne la responsabilité de l'employeur au titre du RGPD (Règlement (UE) 2016/679) pour les traitements de données personnelles, même ceux initiés à son insu par un salarié utilisant des outils d'IA générative. Cette situation rend complexe la démonstration de la conformité de l'entreprise et la gestion des droits des personnes concernées. L'employeur est ainsi exposé à des risques juridiques et réputationnels pour des traitements non encadrés par une politique interne.",
     "impact": "Les gestionnaires de contrats IT doivent intégrer des clauses strictes dans les contrats SaaS/Cloud pour les outils d'IA, exigeant des fournisseurs la conformité au RGPD et au Règlement (UE) 2024/1689 (AI Act) pour les usages potentiels. Une vigilance accrue est nécessaire lors des négociations pour s'assurer que les garanties de traitement des données personnelles et d'auditabilité sont suffisantes. Il est crucial d'anticiper les risques contractuels liés à l'usage non maîtrisé de l'IA par les utilisateurs finaux, en prévoyant des obligations de formation et de respect des politiques internes chez le client ou le fournisseur.",
+    "date": "2026-10-13"
+  },
+  {
+    "categorie": "Droit Européen & Compliance (RGPD / AI Act)",
+    "source": "RSS - Actualités CNIL",
+    "link": "https://www.cnil.fr/fr/cepd-declaration-lunettes-connectees",
+    "titre": "Lunettes connectées : le CEPD alerte sur les enjeux de protection des données",
+    "analyse": "Le Comité Européen de la Protection des Données (CEPD) a publié une déclaration sur les enjeux de protection des données liés aux lunettes connectées, accompagnée d'un rapport intitulé « Le regard connecté ». Cette publication met en évidence les défis spécifiques que ces dispositifs posent pour la protection des données personnelles. L'initiative s'inscrit dans le cadre de l'application du Règlement Général sur la Protection des Données (RGPD), renforçant la vigilance sur les traitements de données par ces technologies innovantes.",
+    "impact": "Pour les gestionnaires de contrats IT, cette déclaration impose une vigilance accrue lors de la contractualisation de solutions impliquant des dispositifs connectés ou des services associés. Il est impératif d'intégrer des clauses solides relatives à la protection des données personnelles, notamment des DPA détaillés, spécifiant les obligations du fournisseur en matière de conformité au RGPD. Une attention particulière doit être portée aux aspects de \"Privacy by Design\" et de minimisation des données lors des négociations avec les fournisseurs de ces technologies.",
     "date": "2026-10-13"
   },
   {
@@ -459,6 +504,15 @@
     "date": "2026-06-11"
   },
   {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Legalis | L’actualité du droit des nouvelles technologies",
+    "link": "https://www.legalis.net/actualite/constat-ce-quun-huissier-ne-doit-pas-faire/",
+    "titre": "Constats d'huissier : les limites procédurales confirmées en contentieux IT",
+    "analyse": "La Cour d'appel de Paris, par un arrêt du 10 avril 2026, a confirmé un jugement du Tribunal de commerce de Nanterre du 31 janvier 2023. Cette décision concerne les limites des actions d'un huissier dans la réalisation d'un constat, un acte essentiel pour la collecte de preuves. Bien que les détails des demandes de la société Wuha contre Lefebvre Sarrut ne soient pas précisés, l'arrêt souligne l'importance du respect strict des règles de procédure lors de l'établissement de ces constats. Ce jugement renforce la jurisprudence sur la validité et l'encadrement de l'obtention de preuves.",
+    "impact": "Cette décision rappelle aux gestionnaires de contrats IT que la recevabilité des preuves, notamment issues de constats d'huissier, est primordiale en cas de litige. Un constat non conforme aux règles procédurales pourrait être écarté, affaiblissant la position de votre entreprise lors d'un contentieux (rupture de contrat, violation de licence IP, etc.). Il est donc crucial d'être vigilant sur la légalité des méthodes de collecte de preuves envisagées ou subies et de s'assurer, en amont, que les clauses de résolution des litiges prévoient des mécanismes probatoires robustes et valides.",
+    "date": "2026-05-18"
+  },
+  {
     "categorie": "Propriété Intellectuelle (industrielle & intellectuelle)",
     "source": "INPI - Bienvenue dans la maison des innovateurs",
     "link": "https://www.inpi.fr/node/6764",
@@ -502,6 +556,33 @@
     "analyse": "Cet article annonce un webinaire organisé par l'INPI et In Concreto, prévu le 3 juin, dédié aux atteintes à la propriété intellectuelle (PI) sur Internet pour les entreprises exportatrices. Le programme vise à identifier les types d'infractions en ligne et à présenter des stratégies pour sécuriser les activités internationales. Bien que l'article ne cite pas de textes législatifs spécifiques, le sujet relève des dispositions du Code de la propriété intellectuelle et des conventions internationales régissant les marques, brevets et droits d'auteur, essentiels pour protéger les actifs immatériels du groupe à l'étranger.",
     "impact": "Pour les gestionnaires de contrats IT, la vigilance est de mise, notamment lors de la rédaction ou de la négociation de contrats SaaS, Cloud ou de services de développement. Il est essentiel d'inclure des clauses robustes de garantie d'absence d'atteinte aux droits des tiers et d'indemnisation en cas d'infraction à la PI par le fournisseur, surtout dans un contexte de déploiement international. Une attention particulière doit être portée à la titularité de la PI sur les livrables, aux licences d'utilisation des solutions et à la conformité aux législations locales de PI afin de minimiser les risques contractuels et opérationnels à l'export.",
     "date": "2026-04-30"
+  },
+  {
+    "categorie": "Propriété Intellectuelle (industrielle & intellectuelle)",
+    "source": "INPI - Bienvenue dans la maison des innovateurs",
+    "link": "https://www.inpi.fr/actualites/dossiers-thematiques/processus-dinnovation-et-reponses-pi",
+    "titre": "Protection de l'Innovation IT : Clés pour anticiper et sécuriser les actifs de PI",
+    "analyse": "L'article de l'INPI met en lumière l'importance d'intégrer la Propriété Industrielle (PI) dès les premières étapes du processus d'innovation pour sécuriser les créations. Le Code de la propriété intellectuelle (CPI) fournit le cadre légal pour protéger ces innovations par divers titres (brevets, marques, dessins et modèles). Une gestion stratégique de la PI est essentielle pour valoriser les investissements en R&D et maintenir un avantage concurrentiel. L'INPI encourage la sensibilisation continue sur ces sujets.",
+    "impact": "Les gestionnaires de contrats IT doivent veiller à la clarté des clauses de propriété intellectuelle dans les contrats de services (développement logiciel, conseil, TMA) pour s'assurer de la titularité ou des licences d'exploitation des livrables. Il est crucial d'anticiper la protection des innovations co-développées avec des prestataires et de négocier des garanties solides contre d'éventuels risques de contrefaçon. Une due diligence PI est recommandée avant chaque engagement significatif lié à l'innovation.",
+    "date": "2026-04-30"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Legalis | L’actualité du droit des nouvelles technologies",
+    "link": "https://www.legalis.net/actualite/meta-contraint-de-prevenir-la-diffusion-de-publicites-de-jeux-en-ligne/",
+    "titre": "Plateformes et propriété intellectuelle : Meta contraint de bloquer des publicités illicites.",
+    "analyse": "La Cour d'appel de Paris, par un arrêt du 28 janvier 2026, a confirmé une injonction dynamique prononcée contre Meta. Cette décision contraint la plateforme à bloquer la diffusion de publicités pour des jeux en ligne contrefaisant les marques des casinos du groupe Lucien Barrière. Cet arrêt réaffirme la responsabilité des intermédiaires techniques quant à la diffusion de contenus illicites et l'obligation d'agir préventivement.",
+    "impact": "Les gestionnaires de contrats IT doivent s'assurer que les accords avec les fournisseurs de plateformes ou de services (SaaS, Cloud) incluent des clauses robustes sur la modération du contenu et la lutte contre la contrefaçon. Il est crucial de vérifier les mécanismes de signalement et de retrait rapide des contenus illicites, en particulier pour les publicités ou contenus hébergés impliquant des marques. Anticipez la nécessité d'une collaboration contractuelle pour se conformer à d'éventuelles injonctions dynamiques visant à bloquer la diffusion de contenus contrefaisants.",
+    "date": "2026-02-02"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Legalis | L’actualité du droit des nouvelles technologies",
+    "link": "https://www.legalis.net/actualite/lediteur-europeen-de-playboy-condamne-pour-denigrement/",
+    "titre": "Dénigrement fautif et contrefaçon : Risques des dénonciations publiques de manquements contractuels",
+    "analyse": "La Cour d'appel de Paris, par un arrêt du 4 décembre 2025, a qualifié de dénigrement fautif la dénonciation publique d’actes de contrefaçon par un éditeur licencié à l'encontre de son producteur. Cette démarche a été jugée constitutive d'un trouble manifestement illicite. La décision met en lumière le risque juridique lié à la communication publique de litiges avec un partenaire, même en présence d'allégations sérieuses de contrefaçon. Elle souligne la nécessité de privilégier des voies de résolution moins dommageables pour la réputation d'autrui.",
+    "impact": "Pour les gestionnaires de contrats IT, cette affaire est un rappel à la prudence face à toute dénonciation publique de manquements d'un fournisseur (SaaS, Cloud, TMA). Privilégiez des clauses de non-dénigrement mutuel et de confidentialité dans les contrats, surtout concernant la propriété intellectuelle. En cas de litige, privilégiez les procédures contractuelles de résolution amiable ou les recours judiciaires formels plutôt que des communications publiques qui pourraient entraîner une condamnation pour dénigrement.",
+    "date": "2025-12-22"
   },
   {
     "categorie": "Cybersécurité",
