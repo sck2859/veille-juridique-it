@@ -2,6 +2,15 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/262471/flock-givres/",
+    "titre": "Cyberattaques hebdomadaires et vulnérabilités IoT : l'ANSSI alerte sur les risques pour les systèmes connectés",
+    "analyse": "L'article rapporte une série d'incidents de cybersécurité affectant divers systèmes, des portefeuilles numériques aux dispositifs IoT. Ces alertes de l'ANSSI soulignent la persistance des vulnérabilités et l'impératif de renforcer la sécurité des systèmes d'information. Elles rappellent les obligations légales de protection des données et de signalement des incidents, notamment en vertu du Règlement Général sur la Protection des Données (RGPD, Règlement (UE) 2016/679) et des exigences renforcées par la Directive NIS 2 (Directive (UE) 2022/2555).",
+    "impact": "Les gestionnaires de contrats IT doivent redoubler de vigilance sur les clauses de sécurité et de gestion des incidents, en particulier pour les services SaaS, Cloud et les solutions IoT. Il est essentiel d'auditer la résilience des prestataires et d'exiger des plans clairs de réponse aux incidents, y compris les délais de notification et les mesures correctives. La responsabilité en cas de faille et les modalités d'indemnisation doivent être précisément définies pour anticiper les risques contractuels liés aux cyberattaques.",
+    "date": "2026-10-17"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/262269/french-tech-71-des-80-start-ups-deeptech-confient-leurs-emails-a-des-americains/",
     "titre": "Souveraineté des données et contrats IT : La prépondérance des solutions e-mail américaines",
     "analyse": "L'article met en lumière la forte dépendance des startups françaises aux fournisseurs d'e-mails américains, soulevant des préoccupations majeures en matière de souveraineté numérique et d'accès aux données. Cette situation rappelle les implications de l'arrêt Schrems II de la Cour de Justice de l'Union Européenne (CJUE), soulignant les risques liés aux transferts de données personnelles vers les États-Unis. Les prestataires américains sont soumis à des législations telles que le Cloud Act, qui peut potentiellement autoriser l'accès des autorités américaines aux données hébergées. Malgré la mise en place du Data Privacy Framework, la conformité au Règlement Général sur la Protection des Données (RGPD) exige une vigilance constante concernant la sécurité des données sensibles.",
@@ -51,6 +60,24 @@
     "titre": "Reconstitution d'e-mails professionnels : la CNIL rappelle les exigences RGPD pour nos contrats IT.",
     "analyse": "La reconstitution d'adresses électroniques professionnelles à partir de données accessibles publiquement, notamment pour la prospection, constitue un traitement de données personnelles soumis au Règlement Général sur la Protection des Données (RGPD). La CNIL souligne l'importance d'obtenir une base légale valide pour un tel traitement et de respecter scrupuleusement les droits des personnes concernées. Cela implique une information transparente et le respect des principes fondamentaux du RGPD.",
     "impact": "Lors de la négociation ou du suivi de contrats IT (SaaS, consulting) impliquant l'accès à des données professionnelles ou la génération de listes de contacts, vérifiez que le prestataire garantit la conformité RGPD. Assurez-vous que les clauses relatives à la protection des données précisent les finalités de traitement et interdisent la reconstitution non-conforme d'adresses e-mail de vos collaborateurs. Un risque contractuel est une violation du RGPD par le fournisseur, engageant la responsabilité du groupe.",
+    "date": "2026-10-16"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/261460/google-discover-a-recommande-26-000-articles-dun-serial-spammeur-avant-de-le-blacklister/",
+    "titre": "Contenus IA et spam : les algorithmes de recommandation face aux défis de conformité.",
+    "analyse": "Cet incident met en lumière les défis posés par la prolifération de contenus générés par IA et le spam sur les plateformes numériques. Le Règlement (UE) 2022/2065 (Digital Services Act – DSA) impose aux grandes plateformes des obligations renforcées de modération de contenu et de transparence des algorithmes de recommandation. Parallèlement, le Règlement (UE) 2024/1689 (AI Act) vise à encadrer l'utilisation de l'intelligence artificielle, notamment en matière de transparence pour les contenus générés par IA et de gestion des risques liés à la désinformation. Ces législations soulignent la responsabilité croissante des plateformes dans la lutte contre les contenus illicites ou trompeurs.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer des clauses de conformité solides dans les contrats avec les fournisseurs de services SaaS, Cloud ou d'IA. Il est essentiel d'exiger des garanties sur la mise en œuvre de mesures techniques et organisationnelles robustes pour prévenir le spam et la diffusion de contenus trompeurs générés par IA. Une vigilance particulière s'impose sur les clauses de responsabilité et d'indemnisation en cas de non-respect de ces obligations, afin de protéger la réputation et la sécurité juridique de l'entreprise.",
+    "date": "2026-10-16"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/261864/un-vps-epyc-pour-moins-de-1-euro-par-mois-on-a-teste-stardust-de-scaleway/",
+    "titre": "Services Cloud à bas coût : l'absence de SLA et ses implications contractuelles",
+    "analyse": "L'article présente une offre de VPS à bas coût de Scaleway, le \"Stardust1-S\", dont la caractéristique majeure est l'absence de garantie contractuelle de disponibilité (SLA). En l'absence de SLA formalisé, le fournisseur ne s'engage pas sur des indicateurs de performance précis tels que le taux de disponibilité ou les temps de réponse. Cette absence limite significativement la responsabilité contractuelle du fournisseur en cas d'interruption ou de dégradation du service. De ce fait, le client ne pourrait pas invoquer de manquement à des engagements d'indisponibilité pour réclamer des pénalités ou une indemnisation.",
+    "impact": "Pour un gestionnaire de contrats IT, la prudence est de mise pour les usages professionnels critiques : il convient d'écarter toute solution sans SLA explicite pour des applications vitales au groupe. Lors de la négociation, l'absence de SLA doit impérativement être identifiée comme un risque majeur pour la continuité d'activité et justifier la recherche de garanties alternatives, même informelles, ou la mise en place d'une architecture de reprise d'activité. Il est essentiel de sensibiliser les équipes internes sur l'absence de recours contractuel en cas d'indisponibilité pour des services souscrits sans SLA.",
     "date": "2026-10-16"
   },
   {
@@ -144,6 +171,15 @@
     "date": "2026-10-14"
   },
   {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1304/",
+    "titre": "Alerte Cybersécurité : Vulnérabilités Critiques dans MongoDB Server et leurs Enjeux Contractuels",
+    "analyse": "L'alerte du CERT-FR signale des vulnérabilités critiques dans MongoDB Server, permettant des exécutions de code à distance et des dénis de service. Sur le plan juridique, ces failles exigent une attention particulière au regard des obligations de sécurité du traitement, notamment celles prévues par l'article 32 du Règlement (UE) 2016/679 (RGPD) en matière de protection des données. Pour les entités concernées par la Directive (UE) 2022/2555 (NIS2), elles imposent également d'évaluer et de renforcer les mesures de cybersécurité comme stipulé à l'article 21, afin de gérer proactivement les risques de sécurité des systèmes d'information. La correction rapide de ces vulnérabilités est donc impérative pour maintenir la conformité et la sécurité des services.",
+    "impact": "Pour les gestionnaires de contrats IT, cette alerte impose de vérifier que les contrats SaaS, Cloud ou de TMA impliquant MongoDB Server prévoient des clauses robustes sur la sécurité, les correctifs (patch management) et la gestion des vulnérabilités. Il est crucial d'anticiper les risques contractuels liés à une éventuelle exécution de code arbitraire ou un déni de service, en s'assurant que les responsabilités du fournisseur en cas de faille de sécurité sont clairement définies. Lors des négociations, veillez à inclure des exigences précises en matière de mise à jour de sécurité et des pénalités en cas de non-respect de ces obligations, impactant ainsi les SLA d'indisponibilité ou de perte de données.",
+    "date": "2026-10-14"
+  },
+  {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
     "link": "https://next.ink/261513/apple-laisse-son-nouvel-ecran-connecte-homeview-a-la-porte-de-lue/",
@@ -186,6 +222,24 @@
     "titre": "Lunettes connectées : le CEPD alerte sur les enjeux de protection des données",
     "analyse": "Le Comité Européen de la Protection des Données (CEPD) a publié une déclaration sur les enjeux de protection des données liés aux lunettes connectées, accompagnée d'un rapport intitulé « Le regard connecté ». Cette publication met en évidence les défis spécifiques que ces dispositifs posent pour la protection des données personnelles. L'initiative s'inscrit dans le cadre de l'application du Règlement Général sur la Protection des Données (RGPD), renforçant la vigilance sur les traitements de données par ces technologies innovantes.",
     "impact": "Pour les gestionnaires de contrats IT, cette déclaration impose une vigilance accrue lors de la contractualisation de solutions impliquant des dispositifs connectés ou des services associés. Il est impératif d'intégrer des clauses solides relatives à la protection des données personnelles, notamment des DPA détaillés, spécifiant les obligations du fournisseur en matière de conformité au RGPD. Une attention particulière doit être portée aux aspects de \"Privacy by Design\" et de minimisation des données lors des négociations avec les fournisseurs de ces technologies.",
+    "date": "2026-10-13"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1297/",
+    "titre": "Vulnérabilités critiques Mozilla Firefox : Implications pour la sécurité contractuelle IT",
+    "analyse": "Des vulnérabilités majeures ont été découvertes dans Mozilla Firefox, permettant des attaques par injection de code indirecte (XSS) et un contournement des politiques de sécurité. Ces failles exposent les systèmes d'information à des risques sérieux d'atteinte à l'intégrité des données et de compromission des infrastructures. Sur le plan juridique, la gestion de ces risques relève des obligations de sécurité et de conformité imposées aux prestataires de services IT, notamment au titre de l'article 32 du Règlement Général sur la Protection des Données (RGPD, Règlement (UE) 2016/679) concernant la sécurité du traitement. Un défaut de diligence dans la remédiation à ces failles pourrait être interprété comme un manquement contractuel ou réglementaire.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier que les fournisseurs utilisant Firefox dans leurs solutions (SaaS, Cloud, TMA) appliquent les correctifs de sécurité sans délai, comme stipulé dans les engagements contractuels. Il est crucial d'intégrer ou de renforcer des clauses exigeant une remédiation rapide des vulnérabilités connues, avec des délais spécifiques et des mécanismes de pénalité en cas de non-respect. Ce point de vigilance s'étend aux garanties de sécurité des composants tiers utilisés par nos prestataires, et doit être un axe majeur lors des négociations ou des revues de contrats en cours.",
+    "date": "2026-10-13"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1298/",
+    "titre": "Vulnérabilités critiques Siemens : enjeux cybersécurité et contractuels pour nos services IT",
+    "analyse": "La découverte de multiples vulnérabilités critiques dans les produits Siemens, permettant exécution de code arbitraire et déni de service à distance, représente un risque majeur pour la sécurité des systèmes industriels. Cette situation alerte sur nos obligations en matière de gestion des risques cyber et de résilience opérationnelle, notamment au regard de la Directive NIS 2 (Directive (UE) 2022/2555). Cette directive impose aux entités essentielles et importantes des mesures strictes de cybersécurité et de notification des incidents, couvrant potentiellement les composants de notre chaîne d'approvisionnement IT et OT.",
+    "impact": "Pour les gestionnaires de contrats IT, il est crucial d'identifier si et comment nos fournisseurs (SaaS, Cloud, TMA) utilisent des produits Siemens et d'évaluer leur stratégie de correction des vulnérabilités. Exigez la démonstration d'une gestion proactive des patchs et la mise à jour des clauses contractuelles sur la cybersécurité, incluant la responsabilité en cas de défaillance due à des vulnérabilités connues. Cela permet de renforcer notre conformité à NIS 2 et de limiter les risques opérationnels liés à l'intégration de logiciels tiers.",
     "date": "2026-10-13"
   },
   {
@@ -529,6 +583,15 @@
     "analyse": "Le Bulletin Officiel de la Propriété Industrielle (BOPI) Brevets, publié par l'INPI, est la publication officielle regroupant les informations relatives aux brevets d'invention en France. Sa parution, telle que celle du 8 mai 2026 (n°2619), rend publique l'ensemble des dépôts, délivrances et modifications de brevets, conformément aux articles L612-1 et suivants du Code de la propriété intellectuelle. Cette transparence est fondamentale pour la sécurité juridique des titres de propriété industrielle.",
     "impact": "Les gestionnaires de contrats IT doivent intégrer la consultation du BOPI dans leur processus de due diligence. Cela s'applique particulièrement lors de l'acquisition de licences logicielles, de services SaaS intégrant des technologies brevetées, ou de toute collaboration impliquant le développement ou l'exploitation d'innovations. Vérifier la validité et l'étendue des brevets revendiqués par des tiers permet de prévenir les risques de contrefaçon et d'assurer la solidité des clauses contractuelles relatives à la propriété intellectuelle.",
     "date": "2026-05-08"
+  },
+  {
+    "categorie": "Propriété Intellectuelle (industrielle & intellectuelle)",
+    "source": "INPI - Bienvenue dans la maison des innovateurs",
+    "link": "https://www.inpi.fr/a-la-une/france-design-impact-award-2026",
+    "titre": "INPI France Design Impact Award 2026 : Enjeux IP pour les Services de Design IT",
+    "analyse": "L'INPI, en présentant les projets du France Design Impact Award 2026, met en lumière la diversité du design (produit, UI, service) et son rôle stratégique. En droit français, les créations de design sont protégeables soit par le droit des dessins et modèles, après dépôt auprès de l'INPI (articles L.511-1 et suivants du Code de la Propriété Intellectuelle), soit par le droit d'auteur (articles L.111-1 et suivants du CPI) si elles sont originales et matérialisées. Cette reconnaissance souligne l'importance de la protection formelle des droits de propriété intellectuelle sur les designs innovants.",
+    "impact": "Pour les gestionnaires de contrats IT, ce type de distinction rappelle la valeur économique du design dans les projets numériques (ex: UI/UX, conception de services). Lors de la conclusion de contrats de développement ou de prestation de services incluant du design, il est impératif d'insérer des clauses précises sur la propriété intellectuelle. Celles-ci doivent clairement définir la titularité des droits sur les créations (cession ou licence), le périmètre d'utilisation, ainsi que les garanties d'originalité et d'absence de contrefaçon de la part du prestataire. Une vigilance accrue est nécessaire concernant les droits préexistants et les clauses d'indemnisation.",
+    "date": "2026-05-07"
   },
   {
     "categorie": "Propriété Intellectuelle (industrielle & intellectuelle)",
