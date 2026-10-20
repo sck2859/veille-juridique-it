@@ -2,6 +2,33 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/262851/direct-to-cell-la-guerre-des-frequences-bat-son-plein-dans-les-communications-par-satellite/",
+    "titre": "Direct-to-cell : la compétition réglementaire des fréquences satellite impacte les services IT",
+    "analyse": "La compétition mondiale pour l'attribution des fréquences satellitaires \"Direct-to-cell\" met en lumière les enjeux de régulation du spectre radioélectrique, encadrés par les autorités nationales de régulation des télécommunications. L'acquisition et la compatibilité de ces fréquences, notamment par des acteurs comme SpaceX en concurrence avec des opérateurs européens, sont déterminantes pour le déploiement de services de communication innovants. Ces dynamiques influencent directement la capacité des fournisseurs à opérer et à garantir la pérennité de leurs offres de connectivité par satellite, nécessitant une veille réglementaire constante.",
+    "impact": "Pour un gestionnaire de contrats IT, l'environnement réglementaire des fréquences satellitaires est un point de vigilance crucial lors de la négociation ou du suivi de services de connectivité (IoT, M2M, résilience) s'appuyant sur ces technologies. Il est impératif d'évaluer la robustesse des garanties de service et la conformité réglementaire de la chaîne d'approvisionnement des fournisseurs pour l'accès aux fréquences. Une clause de revoyure sur les conditions d'accès au spectre pourrait être utile, assurant la pérennité du service face à l'évolution réglementaire.",
+    "date": "2026-10-20"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/262894/un-homme-accuse-a-tort-de-crime-sexuel-par-lia-de-google-lentreprise-jugee-responsable/",
+    "titre": "Responsabilité de l'IA générative : Google jugé responsable pour fausse information",
+    "analyse": "Cet arrêt, concernant Google et l'IA générant des informations diffamatoires, met en lumière la responsabilité des fournisseurs de systèmes d'intelligence artificielle pour les contenus erronés produits. La décision, bien que non détaillée sur les fondements juridiques précis, indique une tendance des tribunaux à imputer la responsabilité aux opérateurs d'IA pour les dommages causés par leurs outputs. Ce cas illustre la portée du Règlement (UE) 2024/1689 (AI Act) qui encadre les exigences de qualité et de gestion des risques pour les systèmes d'IA, y compris les dispositions relatives à la transparence et la robustesse. Il souligne la nécessité pour les fournisseurs d'IA d'assurer la fiabilité et l'exactitude des informations traitées et générées.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer des clauses robustes sur la responsabilité des fournisseurs pour les contenus générés par leurs solutions d'IA, notamment en cas de diffamation ou d'informations erronées. Il est essentiel d'inclure des garanties claires sur la qualité, la fiabilité et la traçabilité des données traitées et des outputs de l'IA, ainsi que des indemnités en cas de non-conformité ou de préjudice. Une vigilance particulière doit être portée aux clauses d'audit et de conformité au Règlement (UE) 2024/1689 (AI Act) lors de la négociation de services impliquant des systèmes d'IA générative.",
+    "date": "2026-10-20"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/fonction-publique-letat-veut-une-ia-qui-libere-du-temps/",
+    "titre": "Adoption de l'IA dans le secteur public : implication pour les contrats IT",
+    "analyse": "L'article rapporte la volonté de la Direction générale de l’administration et de la fonction publique (DGAFP) d'intégrer l'intelligence artificielle et la transformation numérique comme axes stratégiques majeurs à l'horizon 2035-2050. Cette orientation souligne une accélération de l'adoption de l'IA dans l'écosystème institutionnel français, impactant potentiellement le marché des solutions IT. Bien que le contenu ne cite pas de textes juridiques spécifiques, le déploiement de ces technologies s'inscrit dans le cadre légal du Règlement (UE) 2024/1689, dit AI Act, déjà en vigueur. Ce texte européen établit des exigences strictes et des obligations pour les fournisseurs et utilisateurs de systèmes d'IA, notamment concernant la classification des risques.",
+    "impact": "Pour un gestionnaire de contrats IT, cette tendance signifie un besoin accru de scrutiniser les dispositions relatives à l'IA dans les contrats SaaS, Cloud, TMA ou de consulting. Il est crucial d'anticiper les clauses de conformité à l'AI Act, en particulier pour les systèmes d'IA à haut risque, et de vérifier la gestion de la propriété intellectuelle des données et des outputs générés. Une attention particulière doit être portée aux garanties de sécurité, de transparence et de non-discrimination des algorithmes proposés par les fournisseurs afin de mitiger les risques contractuels et réputationnels.",
+    "date": "2026-10-20"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/brief-article/une-faille-dans-le-noyau-linux-permet-a-une-machine-virtuelle-de-lire-la-memoire-de-lhote/",
     "titre": "Cyberattaque : faille critique Linux PwnEscape (CVE-2026-99999), risque de lecture mémoire hôte",
     "analyse": "La vulnérabilité CVE-2026-99999, ou \"PwnEscape\", dans certaines versions du noyau Linux (dont 7.2), permet à une machine virtuelle invitée d'accéder à la mémoire de l'hôte. Cette faille soulève des enjeux majeurs en matière de cybersécurité et de protection des données, notamment pour les infrastructures Cloud et les services hébergés. Elle peut constituer une violation de données personnelles au sens de l'article 4(12) du Règlement (UE) 2016/679 (RGPD), impliquant des obligations de sécurité (Art. 32 RGPD) et, le cas échéant, de notification (Art. 33 et 34 RGPD). De surcroît, elle peut avoir des répercussions sur les entités soumises à la Directive NIS2 (Directive (UE) 2022/2555) en matière de gestion des risques et de reporting d'incidents.",
@@ -240,6 +267,24 @@
     "titre": "Vulnérabilités critiques dans Curl : Impacts juridiques et contractuels pour les services IT",
     "analyse": "Le CERT-FR alerte sur des vulnérabilités critiques dans Curl, potentiellement exploitables pour l'exécution de code arbitraire à distance, un déni de service, et des atteintes à la confidentialité des données. Ces failles techniques exposent les systèmes utilisant Curl à des risques majeurs de sécurité. Sur le plan juridique, de telles vulnérabilités engagent la responsabilité des prestataires IT pour non-respect de leurs obligations de sécurité, notamment celles issues du Règlement (UE) 2016/679 (RGPD) en cas de fuite de données personnelles. Elles peuvent également relever des exigences de la Directive (UE) 2022/2555 (NIS 2) concernant la gestion des risques de cybersécurité pour les entités essentielles et importantes.",
     "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier la prise en compte de ces vulnérabilités par leurs fournisseurs de services (SaaS, Cloud, TMA) utilisant Curl et s'assurer des correctifs appliqués. Il est crucial de renforcer les clauses contractuelles relatives à la sécurité, exigeant une obligation de résultat pour la protection des données et des systèmes, ainsi qu'une notification immédiate et détaillée des incidents de sécurité. Une attention particulière doit être portée aux clauses de garantie, de responsabilité et aux niveaux de service (SLA) concernant la disponibilité et l'intégrité des systèmes, afin d'anticiper les risques de déni de service ou d'atteinte à la confidentialité.",
+    "date": "2026-10-14"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1308/",
+    "titre": "Vulnérabilités Chrome : Obligations de Cybersécurité et Clauses Contractuelles IT",
+    "analyse": "La notification par le CERT-FR, le 14 octobre 2026, de multiples vulnérabilités dans Google Chrome, indique un risque non spécifié mais réel pour la sécurité des systèmes d'information. Cette alerte s'inscrit dans le cadre des obligations légales de cybersécurité. Les entreprises, en particulier celles considérées comme entités essentielles ou importantes, doivent se conformer à la Directive (UE) 2022/2555 (NIS 2), qui impose des mesures de gestion des risques de sécurité. Par ailleurs, l'article 32 du Règlement (UE) 2016/679 (RGPD) exige des mesures techniques et organisationnelles pour garantir un niveau de sécurité adapté au risque pour les traitements de données personnelles.",
+    "impact": "Pour un gestionnaire de contrats IT, il est impératif de vérifier que les fournisseurs (SaaS, Cloud, TMA) s'engagent contractuellement à une gestion proactive des vulnérabilités, incluant des délais de patchs courts pour les logiciels critiques. Les SLA doivent spécifier la gestion des mises à jour de sécurité et la remédiation rapide des failles. Il convient d'anticiper les risques contractuels liés à la responsabilité en cas de défaillance du fournisseur à maintenir un niveau de sécurité adéquat, conformément aux exigences réglementaires applicables.",
+    "date": "2026-10-14"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1309/",
+    "titre": "Vulnérabilité Zabbix : Risque d'atteinte à la confidentialité des données IT",
+    "analyse": "La découverte d'une vulnérabilité dans Zabbix, permettant une atteinte à la confidentialité des données, soulève des enjeux majeurs en matière de conformité au Règlement Général sur la Protection des Données (RGPD). En effet, l'Article 32 du RGPD impose aux responsables de traitement et sous-traitants la mise en œuvre de mesures techniques et organisationnelles appropriées pour garantir un niveau de sécurité adapté au risque, y compris la confidentialité des données traitées. Une compromission de la confidentialité via cette vulnérabilité pourrait constituer une violation de données personnelles (Art. 4(12) RGPD), entraînant des obligations de notification aux autorités de contrôle (Art. 33) et, si le risque est élevé, aux personnes concernées (Art. 34).",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier si Zabbix est utilisé par leurs fournisseurs (SaaS, Cloud, TMA) ou en interne, et exiger la preuve de l'application rapide des correctifs pour prévenir toute violation. Il est crucial de renforcer les clauses contractuelles relatives à la sécurité des systèmes et des données (faisant référence à l'Art. 32 RGPD), à la gestion proactive des vulnérabilités et aux obligations de notification des incidents de sécurité. Lors des négociations, une vigilance accrue est requise sur les garanties fournies par les prestataires concernant leurs pratiques de cybersécurité et leur diligence en matière de maintenance des outils critiques.",
     "date": "2026-10-14"
   },
   {
@@ -718,6 +763,15 @@
     "analyse": "La vulnérabilité critique CVE-2024-6387 dans OpenSSH, identifiée le 1er juillet 2024 par le CERT-FR, permet une exécution de code arbitraire à distance avec des privilèges root par un attaquant non authentifié. Cet événement constitue un risque majeur pour la sécurité des systèmes d'information, engageant la responsabilité des entités exploitant ou proposant des services basés sur les versions affectées (8.5p1 à 9.7p1). Dans ce contexte, les obligations de sécurité et de résilience des systèmes d'information, notamment celles découlant de la Directive NIS 2 (UE 2022/2555) et du RGPD (UE 2016/679) pour la protection des données personnelles, sont directement activées. Une mise à jour rapide des systèmes et une communication transparente avec les parties prenantes, y compris les autorités compétentes en cas d'incident, sont impératives.",
     "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier que leurs fournisseurs (SaaS, Cloud, TMA, consulting) ont bien mis à jour leurs infrastructures et services utilisant OpenSSH aux versions non vulnérables. Il est crucial de renforcer les clauses de sécurité des contrats, en exigeant des engagements clairs sur la gestion proactive des vulnérabilités, les délais de correction (SLA) et les obligations d'information en cas de défaillance de sécurité impactant le service. Une attention particulière doit être portée aux droits d'audit et aux pénalités contractuelles applicables en cas de non-respect de ces obligations de sécurité, afin d'atténuer les risques pour le groupe.",
     "date": "2024-07-01"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2024-ALE-008/",
+    "titre": "Vulnérabilité critique Check Point : Implications pour les contrats IT et la gestion des risques cyber",
+    "analyse": "La divulgation publique de preuves de concept pour la vulnérabilité Check Point et les tentatives de compromission avérées depuis le 7 avril 2024 accentuent l'urgence de la remédiation. Cet événement souligne les obligations de sécurité des systèmes d'information, notamment au regard du Règlement Général sur la Protection des Données (RGPD), qui impose des mesures techniques et organisationnelles appropriées (article 32). Il s'inscrit également dans le cadre de la Directive NIS2 qui renforce les exigences en matière de gestion des risques de cybersécurité et de notification d'incidents majeurs, applicables aux entités essentielles et importantes.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier les clauses de sécurité et de maintenance des contrats impliquant des produits Check Point. Il convient d'exiger de la part des fournisseurs (intégrateurs, hébergeurs, fournisseurs de services managés) des preuves de mise à jour et de correction des vulnérabilités, ainsi que des plans de remédiation rapides. Lors de nouvelles négociations, renforcer les obligations contractuelles de sécurité, les délais de correction des failles critiques et les modalités de notification en cas d'incident de cybersécurité est essentiel pour limiter les risques juridiques et opérationnels.",
+    "date": "2024-05-30"
   },
   {
     "categorie": "Cybersécurité",
