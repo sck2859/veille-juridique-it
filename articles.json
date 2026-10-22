@@ -2,6 +2,33 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/liphone-dagnes-pannier-runacher-vise-par-un-logiciel-espion/",
+    "titre": "Cybersécurité : Incident d'espionnage sur iPhone et vigilance contractuelle accrue",
+    "analyse": "L'attaque par logiciel espion sur le terminal mobile d'une personnalité publique souligne la vulnérabilité aux cybermenaces avancées. Cet incident, assimilable à une violation de données personnelles, rappelle les obligations de sécurité des traitements imposées par le Règlement Général sur la Protection des Données (RGPD - Règlement (UE) 2016/679), notamment son article 32 sur la sécurité du traitement. Il met également en lumière l'importance des mécanismes de détection et de notification des incidents, conformément aux articles 33 et 34 du RGPD, même pour des terminaux personnels.",
+    "impact": "Les gestionnaires de contrats IT doivent renforcer les clauses de sécurité avec les fournisseurs, exigeant des mesures de protection contre les logiciels espions et les cyberattaques avancées, notamment pour les services impliquant des terminaux mobiles. Il est crucial d'auditer les capacités des prestataires à détecter et notifier rapidement les incidents de sécurité (référence aux art. 33 et 34 du RGPD) et d'intégrer des pénalités en cas de non-respect des délais de notification. Une attention particulière doit être portée à la répartition des responsabilités et aux mécanismes d'indemnisation en cas de violation de données.",
+    "date": "2026-10-22"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/263107/openai-sattaque-a-la-migration-des-projets-en-cobol/",
+    "titre": "OpenAI et la migration COBOL : enjeux contractuels de l'IA pour les systèmes hérités",
+    "analyse": "OpenAI propose l'utilisation de l'IA pour la migration de langages anciens comme le COBOL, soulevant des questions juridiques cruciales. L'application de systèmes d'intelligence artificielle à la transformation de code engage des réflexions sur la propriété intellectuelle des nouveaux développements et la responsabilité en cas de défauts ou d'erreurs. Les services basés sur l'IA doivent également être conformes au Règlement (UE) 2024/1689 (AI Act) pour le fournisseur et l'utilisateur, notamment en matière de classification et d'exigences de transparence.",
+    "impact": "Les gestionnaires de contrats IT devront préciser la titularité des droits de propriété intellectuelle sur le code migré ou généré par l'IA, ainsi que l'origine des données d'entraînement. Il est crucial d'inclure des clauses détaillées sur la responsabilité du prestataire en cas de défaillance du code, avec des niveaux de service robustes et des critères d'acceptation clairs. Une vigilance s'impose quant à la conformité du fournisseur et de l'IA utilisée avec le Règlement (UE) 2024/1689 (AI Act), ainsi qu'aux conditions de traitement des données source si celles-ci contiennent des informations sensibles.",
+    "date": "2026-10-22"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/263123/21-octobre-2026-retour-en-detail-sur-cette-journee-noire-pour-la-cybersecurite/",
+    "titre": "Failles critiques en cybersécurité : impacts contractuels et gestion des risques IT",
+    "analyse": "Le 21 octobre 2026 a été marqué par la divulgation de failles critiques (PHP, Node.js, GitLab, clés de certification) permettant l'exécution de code à distance et la falsification de certificats. Ces vulnérabilités techniques majeures soulignent l'impératif de robustesse des systèmes d'information, en ligne avec les exigences de sécurité posées notamment par le Règlement Général sur la Protection des Données (RGPD, Règlement (UE) 2016/679) pour les données personnelles. Elles s'inscrivent également dans le champ d'application de la Directive NIS2 (Directive (UE) 2022/2555), qui impose des mesures de gestion des risques et de notification des incidents de cybersécurité aux entités concernées. La détection de telles failles peut entraîner des obligations légales de remédiation et de notification pour les fournisseurs de services IT.",
+    "impact": "Les gestionnaires de contrats IT doivent s'assurer que les clauses de sécurité (SaaS, Cloud, TMA) intègrent des engagements clairs sur la gestion proactive des vulnérabilités, l'application rapide des correctifs (patch management) et la mise en œuvre de plans de reprise d'activité robustes. Une vigilance particulière est requise lors des négociations avec les fournisseurs pour les engagements de niveau de service (SLA) concernant la réactivité aux incidents de sécurité et la remédiation effective des failles découvertes. Il est essentiel d'anticiper les risques contractuels liés à la non-conformité du fournisseur avec les exigences légales de sécurité et d'inclure des clauses de responsabilité adéquates en cas de faille avérée.",
+    "date": "2026-10-22"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/262851/direct-to-cell-la-guerre-des-frequences-bat-son-plein-dans-les-communications-par-satellite/",
     "titre": "Direct-to-cell : la compétition réglementaire des fréquences satellite impacte les services IT",
     "analyse": "La compétition mondiale pour l'attribution des fréquences satellitaires \"Direct-to-cell\" met en lumière les enjeux de régulation du spectre radioélectrique, encadrés par les autorités nationales de régulation des télécommunications. L'acquisition et la compatibilité de ces fréquences, notamment par des acteurs comme SpaceX en concurrence avec des opérateurs européens, sont déterminantes pour le déploiement de services de communication innovants. Ces dynamiques influencent directement la capacité des fournisseurs à opérer et à garantir la pérennité de leurs offres de connectivité par satellite, nécessitant une veille réglementaire constante.",
@@ -168,6 +195,33 @@
     "titre": "Développement d'applications Android par IA : Opportunités et risques pour la sécurité logicielle",
     "analyse": "L'initiative de Google, permettant de développer des applications Android via des requêtes en langage naturel, s'appuie sur des outils d'intelligence artificielle (IA). Cette approche soulève des questions juridiques, notamment concernant la titularité des droits de propriété intellectuelle sur le code généré. De plus, la mention explicite de la sécurité met en lumière la nécessité d'évaluer la robustesse des applications ainsi créées, conformément aux exigences générales de cybersécurité et potentiellement du Règlement (UE) 2024/1689 (AI Act) selon la classification du système.",
     "impact": "Pour les gestionnaires de contrats IT, l'utilisation d'outils de développement basés sur l'IA implique des clauses contractuelles spécifiques. Il est impératif d'intégrer des garanties claires sur la propriété intellectuelle du code source généré et des clauses de responsabilité en cas de défauts ou de failles de sécurité. Une vigilance accrue est également requise quant aux obligations de cybersécurité du fournisseur utilisant de tels outils, pour s'assurer que les applications développées respectent nos standards internes et la réglementation applicable.",
+    "date": "2026-10-15"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1317/",
+    "titre": "Alerte Cybersécurité : Vulnérabilités critiques F5, risques sur données et systèmes.",
+    "analyse": "Cette alerte du CERT-FR (15 octobre 2026) signale des vulnérabilités critiques dans les produits F5. Celles-ci peuvent mener à des exécutions de code arbitraire à distance, des atteintes à la confidentialité et à l'intégrité des données. Sur le plan juridique, ces risques exposent l'entreprise à des violations potentielles du Règlement Général sur la Protection des Données (RGPD, Règlement (UE) 2016/679), notamment en cas de compromission de données personnelles. De plus, elles soulignent l'importance des obligations de sécurité et de gestion des risques imposées par la Directive (UE) 2022/2555 (NIS2) pour les entités concernées.",
+    "impact": "Les gestionnaires de contrats IT doivent vérifier si des produits F5 sont utilisés par nos fournisseurs (SaaS, Cloud, TMA) et s'assurer de la conformité de leurs engagements en matière de cybersécurité. Il est impératif d'intégrer ou de renforcer les clauses relatives à la gestion des vulnérabilités, aux correctifs de sécurité (patch management) et à la responsabilité du prestataire en cas d'incident causé par ces failles. Un point de vigilance particulier doit être porté sur les délais de correction, les obligations de notification d'incidents et les garanties de confidentialité et d'intégrité des données dans les prochains avenants ou négociations.",
+    "date": "2026-10-15"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1318/",
+    "titre": "Vulnérabilités critiques Moodle : Risques d'injection XSS et contournement sécurité",
+    "analyse": "La découverte de multiples vulnérabilités dans Moodle, rapportée par le CERT-FR le 15 octobre 2026, met en lumière des risques significatifs d'injection de code à distance (XSS) et de contournement de politique de sécurité. Ces failles peuvent compromettre l'intégrité, la confidentialité et la disponibilité des données et services. Pour les entités concernées par la Directive (UE) 2022/2555 (dite NIS2), cela implique une obligation de mettre en œuvre des mesures techniques et organisationnelles robustes pour gérer ces risques. De surcroît, en cas de violation de données personnelles consécutive à ces vulnérabilités, le Règlement (UE) 2016/679 (RGPD) impose des obligations strictes en matière de notification et de gestion des incidents.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement s'assurer que les fournisseurs utilisant Moodle ou des plateformes similaires intègrent des clauses contractuelles solides en matière de cybersécurité. Cela inclut des engagements clairs sur la gestion proactive des vulnérabilités (délais de correctifs, mesures de sécurité techniques et organisationnelles), des SLA adaptés, et des procédures de notification rapide et complète des incidents, conformément aux exigences du Règlement (UE) 2016/679 et de la Directive (UE) 2022/2555. Il est crucial d'anticiper les risques de responsabilité contractuelle en cas de non-respect de ces obligations entraînant une violation de données ou une interruption de service.",
+    "date": "2026-10-15"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1319/",
+    "titre": "Alerte CERT-FR : Vulnérabilité PostgreSQL psqlODBC (Octobre 2026) et continuité de service",
+    "analyse": "Le CERT-FR a émis une alerte concernant une vulnérabilité anticipée dans PostgreSQL psqlODBC, prévue pour le 15 octobre 2026, pouvant mener à un déni de service à distance. Cette menace future compromet la disponibilité des systèmes, un pilier essentiel de la sécurité des traitements exigée par le Règlement Général sur la Protection des Données (RGPD) à l'article 32. Elle soulève également des enjeux de gestion des risques et de résilience des systèmes d'information, principes fondamentaux de la Directive NIS 2 (Directive (UE) 2022/2555). Les fournisseurs de services IT devront démontrer leur capacité à adresser proactivement cette faille.",
+    "impact": "Les gestionnaires de contrats IT doivent anticiper cette vulnérabilité en vérifiant que les contrats de services (SaaS, Cloud, TMA) intégrant PostgreSQL psqlODBC contiennent des clauses robustes sur les mises à jour et le patching proactif. Il est crucial d'exiger des fournisseurs des engagements précis sur la gestion des vulnérabilités connues et futures, ainsi que des niveaux de service (SLA) fermes concernant la disponibilité. L'absence de garanties contractuelles adéquates pourrait exposer l'entreprise à des risques de non-conformité réglementaire et d'interruption opérationnelle majeure.",
     "date": "2026-10-15"
   },
   {
