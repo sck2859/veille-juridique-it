@@ -29,6 +29,33 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/fuite-chez-capcom-des-millions-de-donnees-de-joueurs-dans-la-nature/",
+    "titre": "Vol de données chez Capcom : Implications pour la gestion des bases de données et la cybersécurité",
+    "analyse": "Le vol de données détecté par Capcom, suite à un accès non autorisé à sa base de données Capcom ID le 19 octobre, constitue une violation de données personnelles. Conformément au Règlement Général sur la Protection des Données (RGPD), un tel incident soulève des obligations strictes pour le responsable de traitement. Celles-ci incluent la mise en œuvre de mesures de sécurité appropriées (Art. 32 RGPD) et, potentiellement, la notification de l'incident à l'autorité de contrôle compétente (Art. 33 RGPD) ainsi qu'aux personnes concernées (Art. 34 RGPD) si le risque est élevé.",
+    "impact": "Pour nos gestionnaires de contrats IT, cet incident souligne l'importance des clauses de sécurité et de gestion des violations de données dans les contrats SaaS et Cloud. Il est crucial d'exiger de nos fournisseurs des engagements clairs sur les mesures de sécurité techniques et organisationnelles, les processus de détection et de réponse aux incidents, et les délais de notification en cas de violation. Veillez à inclure des audits de sécurité réguliers et des pénalités contractuelles en cas de manquement, afin de minimiser notre exposition aux risques de non-conformité RGPD.",
+    "date": "2026-10-23"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/signal-a-corrige-une-vilaine-faille-critique-dans-sa-bibliotheque-dappels-ringrtc/",
+    "titre": "Vulnérabilité critique Signal RingRTC : impact sur la sécurité et les contrats IT",
+    "analyse": "Signal a corrigé une faille critique (CVE-2026-113380) dans sa bibliothèque open source RingRTC, utilisée pour les appels, empêchant la terminaison effective des communications. Bien que le correctif ait été appliqué dès le 4 septembre, la divulgation publique de cette vulnérabilité est intervenue plus tardivement, le 20 octobre 2026. Cette situation met en lumière les enjeux de gestion des vulnérabilités logicielles et de transparence des fournisseurs. Elle renforce les obligations de cybersécurité découlant de cadres réglementaires tels que la Directive NIS2 (Directive (UE) 2022/2555) pour les entités concernées, exigeant une gestion proactive des risques et une réponse adaptée aux incidents.",
+    "impact": "Les gestionnaires de contrats IT doivent veiller à l'intégration de clauses robustes relatives à la cybersécurité et à la gestion des vulnérabilités logicielles dans les contrats SaaS, Cloud ou de TMA. Il est crucial d'exiger des fournisseurs des SLA précis sur les délais de correction et de divulgation des failles, ainsi que des plans de réponse aux incidents clairs, notamment pour les composants open source. Une vigilance accrue s'impose lors des négociations pour s'assurer que les obligations du prestataire couvrent la détection, le correctif et la communication transparente des vulnérabilités, afin de minimiser les risques opérationnels et de conformité.",
+    "date": "2026-10-23"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/263625/un-premier-jailbreak-fait-sauter-les-verrous-de-la-switch-2/",
+    "titre": "Circumvention des mesures techniques de protection : un risque persistant pour les actifs numériques",
+    "analyse": "L'article met en lumière la réussite du contournement de mesures techniques de protection (MTP) sur une console de jeu. Juridiquement, un tel \"jailbreak\" ou la modification non autorisée de logiciels soulève des questions de violation du droit d'auteur, notamment la reproduction illicite et l'atteinte aux mesures techniques. En droit français, l'article L331-5 du Code de la Propriété Intellectuelle (CPI) protège les MTP efficaces conçues pour empêcher ou limiter les actes non autorisés. La législation française et européenne protège l'intégrité des logiciels et leur utilisation conforme aux licences, la violation de ces protections pouvant entraîner des sanctions.",
+    "impact": "Pour un gestionnaire de contrats IT, cet événement souligne la nécessité d'une vigilance accrue quant à la protection des logiciels et services numériques acquis ou développés. Il est crucial d'inclure dans les contrats (SaaS, Cloud, TMA) des clauses claires interdisant expressément toute tentative de contournement des mesures techniques de protection ou de modification non autorisée des logiciels. Une attention particulière doit être portée aux politiques d'utilisation acceptable (AUP) pour garantir la conformité et anticiper les risques de non-respect des licences et de potentielles failles de sécurité induites par de telles manipulations.",
+    "date": "2026-10-23"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/brief-article/liphone-dagnes-pannier-runacher-vise-par-un-logiciel-espion/",
     "titre": "Cybersécurité : Incident d'espionnage sur iPhone et vigilance contractuelle accrue",
     "analyse": "L'attaque par logiciel espion sur le terminal mobile d'une personnalité publique souligne la vulnérabilité aux cybermenaces avancées. Cet incident, assimilable à une violation de données personnelles, rappelle les obligations de sécurité des traitements imposées par le Règlement Général sur la Protection des Données (RGPD - Règlement (UE) 2016/679), notamment son article 32 sur la sécurité du traitement. Il met également en lumière l'importance des mécanismes de détection et de notification des incidents, conformément aux articles 33 et 34 du RGPD, même pour des terminaux personnels.",
@@ -52,6 +79,15 @@
     "analyse": "Le 21 octobre 2026 a été marqué par la divulgation de failles critiques (PHP, Node.js, GitLab, clés de certification) permettant l'exécution de code à distance et la falsification de certificats. Ces vulnérabilités techniques majeures soulignent l'impératif de robustesse des systèmes d'information, en ligne avec les exigences de sécurité posées notamment par le Règlement Général sur la Protection des Données (RGPD, Règlement (UE) 2016/679) pour les données personnelles. Elles s'inscrivent également dans le champ d'application de la Directive NIS2 (Directive (UE) 2022/2555), qui impose des mesures de gestion des risques et de notification des incidents de cybersécurité aux entités concernées. La détection de telles failles peut entraîner des obligations légales de remédiation et de notification pour les fournisseurs de services IT.",
     "impact": "Les gestionnaires de contrats IT doivent s'assurer que les clauses de sécurité (SaaS, Cloud, TMA) intègrent des engagements clairs sur la gestion proactive des vulnérabilités, l'application rapide des correctifs (patch management) et la mise en œuvre de plans de reprise d'activité robustes. Une vigilance particulière est requise lors des négociations avec les fournisseurs pour les engagements de niveau de service (SLA) concernant la réactivité aux incidents de sécurité et la remédiation effective des failles découvertes. Il est essentiel d'anticiper les risques contractuels liés à la non-conformité du fournisseur avec les exigences légales de sécurité et d'inclure des clauses de responsabilité adéquates en cas de faille avérée.",
     "date": "2026-10-22"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1345/",
+    "titre": "Alerte CERT-FR : Vulnérabilités critiques dans les solutions de sécurité StormShield",
+    "analyse": "Cette alerte du CERT-FR concernant les vulnérabilités StormShield souligne l'importance des obligations de sécurité des prestataires. Une atteinte à la confidentialité des données pourrait déclencher une violation de données personnelles, imposant une notification à la CNIL et aux personnes concernées selon les articles 33 et 34 du Règlement Général sur la Protection des Données (RGPD). Pour les entités couvertes, la Directive NIS2 (Directive (UE) 2022/2555) impose également des mesures de gestion des risques de cybersécurité et des obligations de notification en cas d'incident significatif.",
+    "impact": "Les gestionnaires de contrats IT doivent s'assurer que leurs fournisseurs (SaaS, Cloud, TMA) utilisant les produits StormShield ont appliqué les correctifs de sécurité urgemment. Il est crucial de vérifier les clauses contractuelles relatives à la gestion des vulnérabilités, aux mises à jour de sécurité et à la responsabilité du prestataire en cas d'incident. Anticipez la nécessité de revoir les modalités de notification d'incidents de sécurité pour qu'elles soient conformes aux exigences du RGPD et de la Directive NIS2, notamment les délais de reporting.",
+    "date": "2026-10-21"
   },
   {
     "categorie": "Droit de l'IT & Numérique",
@@ -87,6 +123,24 @@
     "titre": "CNIL : Cybersécurité, IA et conformité RGPD, enjeux pour vos contrats IT",
     "analyse": "L'annonce d'une Journée RGPD par la CNIL le 1er décembre 2026, axée sur la cybersécurité, l'IA et la protection des données, souligne l'actualité et la complexité de ces domaines. Cet événement reflète l'attention soutenue des autorités sur l'application du Règlement Général sur la Protection des Données (RGPD) et les défis posés par les technologies émergentes. Il met en lumière les enjeux concrets de conformité auxquels sont confrontés les professionnels concernant le traitement des données personnelles. La mention de l'IA intègre également les obligations découlant du Règlement (UE) 2024/1689 (AI Act), déjà en vigueur, concernant les systèmes d'intelligence artificielle.",
     "impact": "Pour les gestionnaires de contrats IT (SaaS, Cloud, TMA), cet événement renforce l'importance de clauses contractuelles robustes en matière de protection des données (DPA) et de cybersécurité, notamment pour les services impliquant le traitement de données personnelles ou l'utilisation de systèmes d'IA. Il est essentiel de veiller à ce que les fournisseurs s'engagent à respecter le RGPD et le Règlement (UE) 2024/1689 (AI Act), et d'auditer leur conformité. Un point de vigilance crucial concerne les clauses de responsabilité et d'indemnisation en cas de non-conformité du fournisseur, afin d'anticiper les risques de sanctions pour notre groupe.",
+    "date": "2026-10-20"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1343/",
+    "titre": "Vulnérabilités critiques Laravel : impacts sur la sécurité des systèmes et la conformité contractuelle",
+    "analyse": "L'article du CERT-FR du 20 octobre 2026 alerte sur des vulnérabilités critiques dans Laravel, permettant des dénis de service et des atteintes à l'intégrité des données. Ces failles imposent aux fournisseurs de services informatiques utilisant Laravel une vigilance accrue en matière de cybersécurité. Elles rappellent l'obligation générale de garantir la sécurité et la confidentialité des systèmes et données traitées. Ceci est d'autant plus crucial au regard du Règlement (UE) 2016/679 (RGPD) qui exige des mesures techniques et organisationnelles appropriées pour assurer un niveau de sécurité adapté au risque, notamment pour la protection de l'intégrité et la disponibilité des données personnelles.",
+    "impact": "Pour le gestionnaire de contrats IT, il est impératif de vérifier que les fournisseurs utilisant Laravel (SaaS, Cloud, TMA) ont mis en œuvre les correctifs nécessaires sans délai, en conformité avec leurs obligations contractuelles et les niveaux de service (SLA) concernant la disponibilité. Il convient d'intégrer ou de renforcer les clauses imposant la mise à jour rapide des systèmes face aux vulnérabilités connues et de prévoir des pénalités ou des droits de résiliation en cas de défaillance entraînant une violation de l'intégrité ou la disponibilité des données. Une attention particulière doit être portée à la répartition des responsabilités en cas d'incident de sécurité découlant de telles vulnérabilités.",
+    "date": "2026-10-20"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1344/",
+    "titre": "Vulnérabilités Mattermost Server : implications contractuelles cybersécurité",
+    "analyse": "Le CERT-FR a identifié de multiples vulnérabilités critiques dans Mattermost Server, permettant à un attaquant de compromettre la sécurité des systèmes. Bien que la nature exacte du problème de sécurité ne soit pas précisée par l'éditeur, cette situation souligne un risque significatif pour l'intégrité et la disponibilité des données. Cet événement rappelle les obligations des fournisseurs de services en matière de sécurité, notamment celles issues du Règlement Général sur la Protection des Données (RGPD), articles 25 et 32, exigeant des mesures techniques et organisationnelles appropriées. La transposition de la Directive NIS2 (Directive (UE) 2022/2555) renforce également l'exigence de gestion des risques liés à la chaîne d'approvisionnement pour les entités concernées.",
+    "impact": "Pour un gestionnaire de contrats IT, ces vulnérabilités imposent une vigilance accrue sur les clauses de sécurité des contrats SaaS ou de TMA impliquant Mattermost Server. Il est crucial de s'assurer que les obligations du fournisseur en matière de correctifs, de gestion des vulnérabilités et de notification d'incidents sont clairement définies et alignées avec les exigences réglementaires (ex. : articles 32 et 33 du RGPD). Lors des négociations, il convient d'insister sur des engagements fermes concernant les délais de résolution des failles, la limitation de responsabilité en cas de brèche et la mise en place de plans de continuité/reprise d'activité.",
     "date": "2026-10-20"
   },
   {
