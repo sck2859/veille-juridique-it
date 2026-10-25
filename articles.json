@@ -56,6 +56,24 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/le-jeu-video-francais-dans-le-rouge-arkane-et-dont-nod-en-peril/",
+    "titre": "Fragilité économique des éditeurs logiciels français : vigilance contractuelle",
+    "analyse": "L'article rapporte une crise économique majeure au sein de l'industrie française du jeu vidéo, affectant des acteurs comme Arkane et Don’t Nod. La menace de cessation d'activité pour Arkane et ses 217 salariés souligne la précarité actuelle du secteur. Bien que l'article n'évoque pas de dispositions légales spécifiques, ces difficultés peuvent rapidement engendrer des procédures collectives (sauvegarde, redressement ou liquidation judiciaire) encadrées par le Code de commerce, impactant la pérennité des engagements contractuels et des services fournis.",
+    "impact": "Cette actualité rappelle l'impératif de mener une due diligence financière rigoureuse sur les fournisseurs, en particulier pour les éditeurs de logiciels. Il convient de renforcer les clauses de réversibilité, de continuité de service et de prévoir des mécanismes d'escrow pour les codes sources des applications critiques. Anticipez la défaillance d'un fournisseur en intégrant des garanties de support post-rupture ou des plans de transition vers des solutions alternatives dès la négociation.",
+    "date": "2026-10-23"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/262984/limage-la-plus-horrible-de-ce-17-octobre-emanait-dun-site-dinfo-genere-par-ia/",
+    "titre": "Contenus générés par IA : un site d'information diffuse des fausses nouvelles virales",
+    "analyse": "Cet incident illustre les risques de désinformation et de propagation de fausses nouvelles par des contenus générés par intelligence artificielle. Le Règlement (UE) 2024/1689 (AI Act), déjà en vigueur, impose aux fournisseurs de systèmes d'IA des obligations strictes. Notamment, l'article 52 exige la divulgation qu'un contenu a été généré ou manipulé par une IA, ce qui n'a manifestement pas été le cas ici. L'absence de transparence peut engager la responsabilité du fournisseur ou du déployeur du système d'IA, face aux conséquences juridiques et réputationnelles.",
+    "impact": "Lors de la négociation de contrats pour des solutions d'IA (SaaS, Cloud) ou des services intégrant de l'IA générative, exigez des clauses de conformité au Règlement (UE) 2024/1689, en particulier concernant la transparence des contenus générés. Il est crucial d'inclure des garanties sur la loyauté et la véracité des informations produites, ainsi qu'une répartition claire des responsabilités en cas de diffusion de contenus erronés ou trompeurs. Veillez à la traçabilité des sources et à la capacité du fournisseur à identifier et marquer les productions IA.",
+    "date": "2026-10-23"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/brief-article/liphone-dagnes-pannier-runacher-vise-par-un-logiciel-espion/",
     "titre": "Cybersécurité : Incident d'espionnage sur iPhone et vigilance contractuelle accrue",
     "analyse": "L'attaque par logiciel espion sur le terminal mobile d'une personnalité publique souligne la vulnérabilité aux cybermenaces avancées. Cet incident, assimilable à une violation de données personnelles, rappelle les obligations de sécurité des traitements imposées par le Règlement Général sur la Protection des Données (RGPD - Règlement (UE) 2016/679), notamment son article 32 sur la sécurité du traitement. Il met également en lumière l'importance des mécanismes de détection et de notification des incidents, conformément aux articles 33 et 34 du RGPD, même pour des terminaux personnels.",
@@ -177,6 +195,33 @@
     "titre": "Prospection téléphonique : les nouvelles exigences RGPD concernant le consentement",
     "analyse": "La CNIL précise les exigences du ‘nouveau régime’ relatif à la prospection téléphonique, axé sur le recueil du consentement. Cette réglementation s'inscrit dans le cadre du Règlement Général sur la Protection des Données (RGPD, Règlement UE 2016/679), qui impose un consentement libre, spécifique, éclairé et univoque (Articles 6 et 7 du RGPD). Elle est également complétée par les règles encadrant les communications électroniques, notamment la Directive e-Privacy.",
     "impact": "Les gestionnaires de contrats IT doivent s'assurer que leurs fournisseurs, notamment ceux proposant des solutions CRM, de marketing automation ou des services de prospection, respectent ce régime. Il est crucial d'intégrer des clauses contractuelles exigeant la preuve d'un consentement valide pour toute utilisation de données à des fins de prospection téléphonique. Une vigilance particulière est requise lors de la négociation des Data Processing Addendums (DPA) et des clauses de conformité RGPD afin de minimiser les risques de non-conformité et les sanctions potentielles de la CNIL.",
+    "date": "2026-10-19"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1338/",
+    "titre": "Alerte CERT-FR : Vulnérabilité critique Mattermost Server et risques contractuels IT",
+    "analyse": "Cette alerte du CERT-FR signale une vulnérabilité critique dans Mattermost Server, exposant les systèmes à des risques de sécurité non spécifiés. D'un point de vue juridique, une telle faille peut engager la responsabilité des parties prenantes, notamment au regard des obligations de sécurité imposées par le Règlement (UE) 2016/679 (RGPD) en matière de protection des données personnelles. Pour les entités critiques, la Directive (UE) 2022/2555 (NIS 2) renforce également les exigences en matière de gestion des risques de cybersécurité et de notification d'incidents.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier si Mattermost Server est déployé en interne ou utilisé par des fournisseurs (SaaS, Cloud, TMA, consulting). Il convient de s'assurer que les contrats en vigueur prévoient des clauses robustes concernant les obligations de sécurité, la gestion des vulnérabilités, les délais de correction et la responsabilité en cas d'incident. Lors de nouvelles négociations, renforcer les exigences de conformité aux standards de cybersécurité (NIS 2, RGPD) et les clauses d'audit de sécurité des systèmes du fournisseur est essentiel pour mitiger ce type de risque contractuel.",
+    "date": "2026-10-19"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1339/",
+    "titre": "Vulnérabilités critiques Stormshield : Risques pour l'intégrité des données et la sécurité des systèmes IT",
+    "analyse": "La découverte de vulnérabilités majeures dans un équipement de sécurité réseau, tel que Stormshield Network Security, soulève des enjeux juridiques cruciaux en matière de cybersécurité. Conformément à l'Article 32 du Règlement Général sur la Protection des Données (RGPD, Règlement (UE) 2016/679), notre groupe est tenu de mettre en œuvre des mesures techniques et organisationnelles appropriées pour garantir un niveau de sécurité adapté au risque, notamment en assurant l'intégrité des données. Ces vulnérabilités, pouvant entraîner des atteintes à l'intégrité des données et des contournements de la politique de sécurité, constituent un risque direct de non-conformité. De plus, pour les entités visées, la Directive NIS2 (Directive (UE) 2022/2555) impose des mesures de gestion des risques de cybersécurité robustes, incluant la sécurité des systèmes et du réseau.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier que les contrats de maintenance ou de service liés à de tels équipements incluent des clauses claires sur la gestion des vulnérabilités. Il est essentiel d'exiger des fournisseurs des engagements contractuels précis concernant les délais de correction des failles (SLA) et la notification proactive des alertes de sécurité. Les négociations doivent aussi porter sur la responsabilité du fournisseur en cas de défaillance due à des vulnérabilités non corrigées et leurs impacts sur l'intégrité des données, avec potentiellement des clauses de garantie de sécurité renforcées.",
+    "date": "2026-10-19"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1340/",
+    "titre": "Vulnérabilités critiques Roundcube Webmail : Obligations de sécurité et responsabilités contractuelles",
+    "analyse": "L'alerte du CERT-FR concernant les vulnérabilités de Roundcube Webmail, notamment l'exécution de code à distance (RCE) et les failles SSRF/XSS, met en évidence des risques élevés pour la sécurité des systèmes d'information. Ces failles peuvent compromettre l'intégrité et la confidentialité des données, engageant la responsabilité des entités utilisatrices. La Directive NIS2 (Directive (UE) 2022/2555) et le Règlement Général sur la Protection des Données (Règlement (UE) 2016/679) imposent aux organisations et à leurs prestataires des obligations strictes de sécurité des systèmes et de protection des données personnelles, incluant l'implémentation de mesures techniques et organisationnelles appropriées.",
+    "impact": "Les gestionnaires de contrats IT doivent vérifier si Roundcube est utilisé par leurs prestataires (SaaS, TMA) ou intégré dans des solutions critiques pour le groupe. Il est impératif d'exiger des clauses contractuelles solides sur les niveaux de service (SLA) en matière de cybersécurité, incluant des délais de patch et des procédures de notification de vulnérabilités ou d'incidents, en conformité avec NIS2 et le RGPD. Intégrer des audits de sécurité réguliers et des pénalités en cas de défaillance du prestataire dans l'application des correctifs est crucial pour mitiger le risque contractuel.",
     "date": "2026-10-19"
   },
   {
@@ -934,6 +979,15 @@
     "analyse": "L'article de l'INPI met en lumière l'importance d'intégrer la Propriété Industrielle (PI) dès les premières étapes du processus d'innovation pour sécuriser les créations. Le Code de la propriété intellectuelle (CPI) fournit le cadre légal pour protéger ces innovations par divers titres (brevets, marques, dessins et modèles). Une gestion stratégique de la PI est essentielle pour valoriser les investissements en R&D et maintenir un avantage concurrentiel. L'INPI encourage la sensibilisation continue sur ces sujets.",
     "impact": "Les gestionnaires de contrats IT doivent veiller à la clarté des clauses de propriété intellectuelle dans les contrats de services (développement logiciel, conseil, TMA) pour s'assurer de la titularité ou des licences d'exploitation des livrables. Il est crucial d'anticiper la protection des innovations co-développées avec des prestataires et de négocier des garanties solides contre d'éventuels risques de contrefaçon. Une due diligence PI est recommandée avant chaque engagement significatif lié à l'innovation.",
     "date": "2026-04-30"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Legalis | L’actualité du droit des nouvelles technologies",
+    "link": "https://www.legalis.net/actualite/agression-sexuelle-sur-mineur-anonymisation-mais-pas-de-suppression/",
+    "titre": "Maintien d'informations judiciaires anciennes sur Wikipédia : le droit à l'oubli encadré",
+    "analyse": "Par un jugement du 8 avril 2026, le Tribunal Judiciaire de Paris a refusé la demande d'un ex-chef de chœur de supprimer de Wikipédia la mention de sa condamnation de 2007 pour agression sexuelle. Le tribunal a jugé que si l'anonymisation pouvait être envisagée, la suppression totale n'était pas justifiée. Cette décision souligne l'équilibre délicat entre le droit à l'oubli et le maintien d'informations d'intérêt public, même anciennes, sur des plateformes numériques. L'affaire met en lumière la persistance de certaines informations factuelles dans le domaine public digital.",
+    "impact": "Pour les gestionnaires de contrats IT, cette décision rappelle l'importance d'encadrer contractuellement les obligations des prestataires (SaaS, Cloud, hébergeurs) en matière de gestion du contenu. Il est essentiel de prévoir des clauses détaillant la procédure à suivre en cas de demande de suppression ou d'anonymisation d'informations, qu'elle émane d'un utilisateur ou d'une injonction judiciaire. Une vigilance s'impose sur les risques de réputation et les processus de modération ou de déréférencement, notamment pour les plateformes traitant des données potentiellement sensibles ou publiques.",
+    "date": "2026-04-21"
   },
   {
     "categorie": "Droit de l'IT & Numérique",
