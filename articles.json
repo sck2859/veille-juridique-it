@@ -2,6 +2,33 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/263702/la-memoire-des-chatbots-ia-cree-des-auto-portraits-algorithmiques-des-utilisateurs/",
+    "titre": "IA générative : Autoportraits algorithmiques et données personnelles des utilisateurs",
+    "analyse": "L'intégration de « mémoires » dans les chatbots d'IA générative conduit à la création d'« autoportraits algorithmiques » des utilisateurs. Ces profils incorporent une quantité significative d'informations, y compris psychologiques, qualifiées de données personnelles. Cette collecte et ce traitement massif de données personnelles posent des enjeux majeurs au regard du Règlement Général sur la Protection des Données (RGPD). Le Règlement (UE) 2024/1689 (AI Act) impose également des obligations spécifiques aux fournisseurs et déployeurs de systèmes d'IA, notamment pour la gestion des risques liés aux droits fondamentaux.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement renforcer les clauses relatives à la protection des données personnelles dans les contrats d'IA générative (SaaS, Cloud, TMA). Il est crucial de veiller à ce que les Data Processing Agreements (DPA) définissent précisément les finalités de traitement des « mémoires » et des « autoportraits algorithmiques », notamment l'usage des données psychologiques. Anticipez la qualification du système d'IA sous le Règlement (UE) 2024/1689 (AI Act) afin d'exiger des fournisseurs les garanties nécessaires en matière de gouvernance des données et de gestion des risques pour les droits fondamentaux.",
+    "date": "2026-10-26"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/263704/google-ouvre-la-voie-aux-pubs-ciblees-via-gmail-et-photos-au-nom-de-lia-personnalisee/",
+    "titre": "Google : Publicité ciblée via données utilisateurs. Impact sur consentement et contrats IT.",
+    "analyse": "Google a mis à jour ses règles de confidentialité le 16 octobre dernier, autorisant la personnalisation des publicités basées sur les contenus utilisateurs (Gmail, Drive, Photos) sous réserve du consentement explicite. Cette évolution soulève des enjeux majeurs au regard du Règlement Général sur la Protection des Données (RGPD, Règlement (UE) 2016/679), notamment sur les conditions de validité du consentement (Articles 4(11), 6(1)a et 7). La transparence des traitements et la finalité de la collecte des données sont des principes clés que Google doit respecter.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement vérifier les clauses relatives au traitement des données personnelles dans les contrats avec Google (notamment les Data Processing Agreements). Il est crucial de s'assurer que l'utilisation des services Google par nos collaborateurs respecte la politique de notre Groupe et que les consentements requis sont correctement gérés et traçables, conformément au RGPD. Une vigilance particulière est de mise lors des négociations pour clarifier la finalité des traitements de données et limiter la capacité du fournisseur à exploiter nos données à des fins de personnalisation publicitaire.",
+    "date": "2026-10-26"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/263681/les-agents-ia-donnent-des-sueurs-froides-aux-banques-americaines/",
+    "titre": "Risques des agents IA autonomes : défis pour l'identification utilisateur et la responsabilité contractuelle",
+    "analyse": "L'émergence d'agents IA autonomes, difficiles à distinguer des utilisateurs humains et capables de prendre des décisions financières préjudiciables, pose des défis majeurs en matière de responsabilité. Ces risques sont directement adressés par le Règlement (UE) 2024/1689 (AI Act), qui impose des obligations strictes pour les systèmes d'IA, notamment en matière de gestion des risques, de transparence et de supervision humaine, particulièrement pour les IA classées à haut risque. La difficulté à identifier l'utilisateur réel (humain ou IA) remet en question les mécanismes d'authentification et de non-répudiation classiques, fondamentaux dans les contrats de services IT. Une diligence accrue est requise concernant les systèmes d'IA permettant l'accès via identifiants de connexion, en vertu des exigences de sécurité et de conformité du Règlement (UE) 2024/1689.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer des clauses spécifiques sur la responsabilité du fournisseur en cas de décision erronée ou préjudiciable prise par un agent IA intégré au service (SaaS, Cloud). Il est crucial d'exiger des fournisseurs qu'ils garantissent la conformité de leurs systèmes d'IA au Règlement (UE) 2024/1689, notamment en termes de gestion des risques, de transparence sur l'interaction avec une IA et de capacité de supervision humaine. Une attention particulière doit être portée aux mécanismes d'authentification et de traçabilité des actions, afin de distinguer clairement les utilisateurs humains des agents IA et d'anticiper les risques de fraude ou d'atteinte à la sécurité des systèmes d'information.",
+    "date": "2026-10-26"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/brief-article/1password-permet-aux-agents-dutiliser-les-mots-de-passe-mais-sans-les-voir/",
     "titre": "Gestion déléguée et sécurisée des accès : implications du nouveau 1Password for Agents",
     "analyse": "La fonctionnalité « 1Password for Agents » renforce la sécurité des accès aux systèmes et données en permettant l'utilisation d'identifiants sans exposition directe. Cette approche s'inscrit dans les exigences de sécurisation des traitements, notamment l'Article 32 du Règlement Général sur la Protection des Données (RGPD) relatif à la sécurité du traitement. Elle contribue également à la mise en œuvre de mesures techniques et organisationnelles appropriées, comme celles attendues par la Directive NIS2 pour la gestion des risques de cybersécurité. Ce mécanisme limite le risque d'exfiltration ou d'utilisation abusive de credentials par le personnel.",
