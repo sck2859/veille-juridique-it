@@ -2,6 +2,42 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/apres-deliveroo-doordash-veut-avaler-instacart-pour-17-milliards-de-dollars/",
+    "titre": "Acquisition Instacart par DoorDash : Enjeux pour la gestion des contrats IT et IP",
+    "analyse": "Cette opération de fusion-acquisition entre DoorDash et Instacart illustre la consolidation rapide du marché des plateformes numériques de livraison. Une telle acquisition, valorisée à 17 milliards de dollars, implique une due diligence approfondie des actifs matériels et immatériels, incluant les contrats IT et les droits de propriété intellectuelle. Le transfert de portefeuilles clients et de données personnelles est un point d'attention majeur, nécessitant une analyse sous l'angle du Règlement Général sur la Protection des Données (RGPD).",
+    "impact": "Les gestionnaires de contrats IT doivent anticiper les clauses de 'changement de contrôle' ou de 'cession de contrat' dans les accords existants avec des fournisseurs ou clients, potentiellement déclenchées par une opération similaire. Une vigilance accrue s'impose sur les clauses relatives à la portabilité des données et à la réversibilité, notamment pour les services SaaS et Cloud. En phase de négociation, il est essentiel d'intégrer des stipulations précises sur la gestion des données post-acquisition et le sort des licences logicielles en cas de restructuration.",
+    "date": "2026-10-29"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/260208/mistral-lance-une-preversion-de-son-llm-frontiere-mistrale-large-surnomme-le-chonk/",
+    "titre": "Mistral Large 4 et poids ouverts : Enjeux contractuels pour les LLM en entreprise",
+    "analyse": "La mise à disposition de Mistral Large 4 et la publication de ses \"poids ouverts\" représentent une avancée significative pour les modèles d'IA à usage général (LLM). Cet événement soulève des questions juridiques essentielles, notamment concernant la propriété intellectuelle des modèles, des données d'entraînement et des résultats générés. En tant que modèle d'IA, il est soumis au Règlement (UE) 2024/1689 (AI Act), imposant des obligations de transparence, d'évaluation et de gestion des risques pour les fournisseurs et les utilisateurs. La nature \"ouverte\" des poids nécessite une analyse attentive des licences pour définir les droits et restrictions d'usage et de modification.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement intégrer des clauses spécifiques sur la propriété intellectuelle, la responsabilité des fournisseurs d'IA, et la conformité au Règlement (UE) 2024/1689 (AI Act) dans les accords relatifs aux LLM. Il est crucial d'examiner les licences associées aux \"poids ouverts\" pour maîtriser les droits d'utilisation, de modification et de redistribution, ainsi que les exigences de transparence. Une vigilance particulière est de mise sur la traçabilité des données et la robustesse des systèmes d'IA pour prévenir les risques contractuels et réglementaires liés à l'adoption de ces technologies.",
+    "date": "2026-10-29"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/264621/addiction-aux-reseaux-sociaux-meta-a-voulu-monter-les-chercheurs-contre-lun-dentre-eux/",
+    "titre": "Conduite de Meta: Addiction aux plateformes, discrédit de chercheurs et éthique des fournisseurs IT",
+    "analyse": "Ce procès illustre la portée grandissante de la responsabilité des plateformes numériques, notamment concernant les mécanismes d'addiction ciblant les adolescents. La tentative de Meta de discréditer un psychologue critique soulève des questions sur la transparence et l'éthique des fournisseurs de services numériques. L'accord de 18 milliards de dollars met en évidence les risques financiers et de réputation liés à la conception de services et à la protection des utilisateurs. Ces enjeux sont de plus en plus encadrés par le droit européen, comme le Digital Services Act (DSA), qui impose des obligations renforcées aux très grandes plateformes en ligne en matière de modération des contenus et de protection des utilisateurs.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer cette vigilance dans la sélection et l'évaluation continue de leurs fournisseurs, en particulier pour les services ayant un impact direct sur les utilisateurs finaux. Il est crucial d'examiner la réputation et l'historique éthique des prestataires, et de s'assurer que les clauses de responsabilité contractuelle couvrent suffisamment les risques liés à la conformité réglementaire et à la protection des utilisateurs. Une attention particulière doit être portée aux engagements des fournisseurs en matière de conformité aux réglementations (ex: DSA), de transparence et de pratiques loyales, même si ces dernières ne sont pas toujours directement intégrées comme des clauses spécifiques dans les contrats B2B habituels.",
+    "date": "2026-10-29"
+  },
+  {
+    "categorie": "Droit Européen & Compliance (RGPD / AI Act)",
+    "source": "RSS - Actualités CNIL",
+    "link": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
+    "titre": "Amende CNIL : 7M€ pour non-respect des règles cookies sur applications mobiles",
+    "analyse": "Le 22 octobre 2026, la CNIL a prononcé une amende de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT. Cette sanction intervient pour non-respect des règles applicables en matière de traceurs (cookies) sur leurs applications mobiles. Cette décision rappelle l'application stricte des dispositions de la directive e-Privacy, transposée nationalement, et du Règlement Général sur la Protection des Données (RGPD - Règlement (UE) 2016/679) concernant le recueil du consentement utilisateur pour les traceurs.",
+    "impact": "Les gestionnaires de contrats IT doivent redoubler de vigilance lors de la négociation et du suivi de contrats impliquant des applications mobiles ou des services tiers utilisant des traceurs (SaaS, analytics). Il est impératif d'intégrer des clauses précises sur la conformité aux règles e-Privacy et RGPD (Règlement (UE) 2016/679) concernant le consentement aux cookies, y compris des obligations du fournisseur sur la mise à disposition des outils techniques de recueil de consentement et la documentation associée. Un point de vigilance particulier doit être porté sur la répartition des responsabilités en cas de manquement et les clauses d'indemnisation pour éviter des sanctions similaires.",
+    "date": "2026-10-29"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/264508/apple-ajoute-du-json-dans-xcode-et-keynote-pour-les-agents-ia-et-les-developpeurs/",
     "titre": "Apple intègre JSON : enjeux pour agents IA, interopérabilité et contrats IT",
     "analyse": "Apple intègre des formats JSON dans Xcode et Keynote, facilitant ainsi l'interaction avec les agents IA et le travail des développeurs. L'adoption de formats standardisés comme JSON est cruciale pour l'interopérabilité et la portabilité des données. Ces aspects sont essentiels au regard du Règlement (UE) 2016/679 (RGPD) concernant la protection des données personnelles, ainsi que pour les futures exigences du Data Act (Règlement (UE) 2023/2854) en matière de partage de données. L'utilisation de JSON pour les agents IA peut également soutenir la traçabilité et la transparence requises par le Règlement (UE) 2024/1689 (AI Act).",
@@ -150,6 +186,33 @@
     "titre": "Contenus générés par IA : un site d'information diffuse des fausses nouvelles virales",
     "analyse": "Cet incident illustre les risques de désinformation et de propagation de fausses nouvelles par des contenus générés par intelligence artificielle. Le Règlement (UE) 2024/1689 (AI Act), déjà en vigueur, impose aux fournisseurs de systèmes d'IA des obligations strictes. Notamment, l'article 52 exige la divulgation qu'un contenu a été généré ou manipulé par une IA, ce qui n'a manifestement pas été le cas ici. L'absence de transparence peut engager la responsabilité du fournisseur ou du déployeur du système d'IA, face aux conséquences juridiques et réputationnelles.",
     "impact": "Lors de la négociation de contrats pour des solutions d'IA (SaaS, Cloud) ou des services intégrant de l'IA générative, exigez des clauses de conformité au Règlement (UE) 2024/1689, en particulier concernant la transparence des contenus générés. Il est crucial d'inclure des garanties sur la loyauté et la véracité des informations produites, ainsi qu'une répartition claire des responsabilités en cas de diffusion de contenus erronés ou trompeurs. Veillez à la traçabilité des sources et à la capacité du fournisseur à identifier et marquer les productions IA.",
+    "date": "2026-10-23"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1369/",
+    "titre": "Vulnérabilités critiques HPE Aruba Networking : Risques d'exécution de code à distance et déni de service",
+    "analyse": "L'alerte du CERT-FR concernant les vulnérabilités multiples dans les produits HPE Aruba Networking met en lumière des risques élevés d'exécution de code arbitraire, d'élévation de privilèges et de déni de service à distance. Ces failles techniques imposent une vigilance accrue quant à la sécurité des systèmes d'information, conformément aux obligations de la Directive NIS2 (Directive (UE) 2022/2555) qui impose aux entités essentielles et importantes des mesures de cybersécurité robustes, incluant la sécurité de la chaîne d'approvisionnement. De plus, si ces vulnérabilités devaient compromettre des données personnelles, cela engagerait la responsabilité des responsables de traitement et sous-traitants au titre du Règlement Général sur la Protection des Données (RGPD, Règlement (UE) 2016/679), notamment en matière de sécurité des traitements (Article 32).",
+    "impact": "Pour un gestionnaire de contrats IT, il est impératif de vérifier les clauses de sécurité des contrats existants avec les fournisseurs utilisant des produits HPE Aruba Networking, notamment celles relatives aux mises à jour, aux délais de correction des failles et à la gestion des vulnérabilités. Lors de nouvelles négociations, exigez des garanties contractuelles claires sur la réactivité du fournisseur face aux alertes de sécurité et insérez des clauses d'audit de sécurité ou de communication proactive des failles découvertes. Anticipez les risques contractuels liés à une éventuelle indisponibilité de service ou une violation de données découlant de ces vulnérabilités, en prévoyant des pénalités ou des conditions de résiliation adaptées en cas de manquement à l'obligation de sécurité.",
+    "date": "2026-10-23"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1370/",
+    "titre": "Vulnérabilités critiques Tenable : Risque d'exécution de code à distance (23/10/2026)",
+    "analyse": "La découverte de multiples vulnérabilités critiques dans les produits Tenable, permettant une exécution de code arbitraire à distance, constitue une menace majeure pour l'intégrité et la sécurité des systèmes d'information. Pour les entités essentielles ou importantes, cet incident active les obligations de cybersécurité et de notification d'incidents renforcées par la Directive NIS 2 (Directive (UE) 2022/2555). En cas de traitement de données à caractère personnel, une telle faille pourrait engager la responsabilité du responsable de traitement au titre du Règlement (UE) 2016/679 (RGPD), exigeant des mesures techniques et organisationnelles appropriées. Ces vulnérabilités imposent une remédiation rapide et une vigilance accrue pour limiter les risques opérationnels et de conformité.",
+    "impact": "Les gestionnaires de contrats IT doivent identifier si les produits Tenable sont utilisés par leurs prestataires (SaaS, Cloud, TMA) ou en interne, et exiger des preuves de la mise à jour des systèmes et de l'application des correctifs. Il est impératif d'intégrer ou de renforcer les clauses contractuelles relatives à la sécurité des systèmes, à la gestion des vulnérabilités, aux délais de remédiation et aux obligations de notification d'incidents. Une attention particulière doit être portée aux garanties de sécurité, aux responsabilités en cas de manquement et aux plans de continuité/reprise d'activité liés à l'utilisation de ces produits.",
+    "date": "2026-10-23"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1371/",
+    "titre": "Vulnérabilités Microsoft Edge : gestion des risques contractuels en cybersécurité",
+    "analyse": "Le CERT-FR a identifié de multiples vulnérabilités dans Microsoft Edge, permettant à un attaquant de provoquer des problèmes de sécurité non spécifiés. Cet article, bien que technique, souligne la criticité des mesures de cybersécurité exigées par des réglementations comme la Directive NIS 2 (Directive (UE) 2022/2555), applicable aux entités essentielles et importantes. Il rappelle également les obligations de sécurité des traitements de données personnelles imposées par l'Article 32 du Règlement (UE) 2016/679 (RGPD), même pour des outils du poste de travail.",
+    "impact": "Pour les gestionnaires de contrats IT, il est impératif d'intégrer des clauses précises sur la gestion des vulnérabilités logicielles, notamment pour les fournisseurs SaaS, Cloud ou TMA. Vérifiez que les contrats imposent aux prestataires des obligations de patching rapide, de notification proactive des failles et de mise à jour régulière des environnements, y compris les navigateurs web. Soyez vigilant lors des négociations pour garantir que la responsabilité des fournisseurs est clairement définie en cas d'incident lié à des vulnérabilités non corrigées.",
     "date": "2026-10-23"
   },
   {
