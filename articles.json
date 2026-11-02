@@ -2,6 +2,33 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/les-serveurs-de-netatmo-en-panne-pour-la-deuxieme-fois-en-quelques-jours/",
+    "titre": "Pannes de serveurs Netatmo : rappel des enjeux de continuité de service IT",
+    "analyse": "Cet incident récurrent de panne de serveurs chez un fournisseur d'objets connectés souligne l'importance des engagements de disponibilité dans les contrats IT. En droit, l'inexécution ou la mauvaise exécution d'une obligation de service, notamment en cas de récidive, peut engager la responsabilité contractuelle du prestataire. Les clauses de niveau de service (SLA) sont conçues pour encadrer ces situations, fixant les objectifs de disponibilité et les mécanismes de compensation ou de résolution. Ces pannes impactent directement la continuité de service attendue par le client.",
+    "impact": "Les gestionnaires de contrats IT doivent impérativement évaluer la robustesse des clauses de Service Level Agreement (SLA) dans leurs contrats Cloud et SaaS. Il est crucial de s'assurer que les engagements de disponibilité (uptime) et les délais de rétablissement (MTTR) sont clairs, mesurables et assortis de pénalités adéquates en cas de manquements répétés. Une négociation proactive doit viser l'intégration de clauses robustes relatives aux plans de continuité d'activité (PCA) et de reprise après sinistre (PRA), ainsi que la possibilité de résiliation anticipée en cas de défaillances systémiques du fournisseur.",
+    "date": "2026-11-02"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/265207/marvell-veut-soffrir-lumentum-et-ses-puces-optiques-pour-115-milliards-de-dollars/",
+    "titre": "Acquisition de Lumentum par Marvell : un nouveau géant des technologies optiques pour datacenters",
+    "analyse": "Marvell a officialisé l'acquisition de Lumentum, spécialiste des liaisons optiques, pour 115 milliards de dollars via un échange d'actions. Cette opération de concentration vise à créer un acteur prépondérant de l'interconnexion pour datacenters et le réseau. Juridiquement, une transaction de cette envergure relève du droit des sociétés et est généralement soumise au contrôle des autorités de la concurrence, nationales ou supranationales (ex: Commission européenne pour les concentrations transfrontalières d'importance). Elle préfigure une restructuration potentielle du marché des fournisseurs de puces et services optiques.",
+    "impact": "Pour les gestionnaires de contrats IT, cette acquisition implique une vigilance accrue sur les clauses de changement de contrôle (\"change of control\") dans les contrats existants avec Marvell ou Lumentum. Il est essentiel d'anticiper les risques de rupture de service ou de modification des conditions contractuelles (SLA, roadmap produit) suite à l'intégration, et d'évaluer la concentration du marché des fournisseurs clés. Lors de futures négociations, cette consolidation sectorielle peut influencer la balance des pouvoirs, rendant cruciale l'analyse des alternatives et la prévision de clauses de réversibilité ou de portabilité des données, notamment pour les services critiques (SaaS, Cloud).",
+    "date": "2026-11-02"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/265227/le-createur-de-rocky-linux-a-cree-un-noyau-compatible-linux-en-11-jours-avec-lia/",
+    "titre": "Développement logiciel par IA : enjeux juridiques et contractuels du projet Ginux",
+    "analyse": "L'expérience de Gregory Kurtzer avec Ginux, un noyau Linux généré par IA, soulève des questions fondamentales en droit de la propriété intellectuelle concernant l'attribution et la titularité des droits d'auteur sur des œuvres créées par l'intelligence artificielle. Traditionnellement, seuls les êtres humains peuvent être reconnus comme auteurs, ce qui pose un défi aux cadres juridiques existants. Bien que le Règlement (UE) 2024/1689 (AI Act) régule principalement la mise sur le marché et l'utilisation des systèmes d'IA, il invite indirectement à la réflexion sur la gouvernance de la création assistée par IA. La compatibilité avec les licences open source, comme la GPL typique des noyaux Linux, pourrait aussi être complexe à garantir sans auteur humain identifiable.",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer des clauses précises sur la titularité des droits de propriété intellectuelle pour les développements assistés par IA, notamment en exigeant une déclaration du fournisseur sur l'origine et la méthode de création du code. Il est essentiel de clarifier la responsabilité en cas de défauts ou de contrefaçon liée à du code généré par IA et de s'assurer de la conformité avec les licences open source utilisées. Une vigilance particulière est requise lors de la négociation de contrats de développement logiciel ou d'intégration de solutions exploitant des IA génératives, afin d'anticiper les risques juridiques liés à l'imputabilité et à l'exploitation des créations.",
+    "date": "2026-11-02"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/264981/binance-63-milliards-de-dollars-derobes-dans-un-casse-crypto-record/",
     "titre": "Cyberattaque majeure chez Binance : Impact sur la sécurité et la continuité des services IT",
     "analyse": "Cet incident majeur chez Binance met en lumière les risques inhérents aux plateformes numériques et l'importance cruciale de la cybersécurité. Il rappelle l'obligation de moyens renforcée pesant sur les prestataires de services IT en matière de protection des actifs et de la continuité des services. La Directive NIS2 (UE 2022/2555) impose d'ailleurs des mesures de gestion des risques de cybersécurité et des obligations de notification d'incidents. En cas de défaillance, la responsabilité contractuelle du prestataire peut être engagée, notamment pour manquement à son obligation de sécurité.",
@@ -90,6 +117,24 @@
     "date": "2026-10-29"
   },
   {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1409/",
+    "titre": "Alerte CERT-FR : Vulnérabilité Majeure dans Mattermost Server",
+    "analyse": "Le CERT-FR signale une vulnérabilité critique dans Mattermost Server, permettant le contournement des politiques de sécurité. Cette faille expose les organisations utilisant ce logiciel à des risques d'accès non autorisé et de compromission des données. Une telle vulnérabilité, si elle est exploitée, pourrait entraîner une violation de données personnelles et engager la responsabilité des responsables de traitement sous le Règlement (UE) 2016/679 (RGPD), notamment l'Article 32 relatif à la sécurité du traitement. Elle soulève également des questions quant au respect des exigences de cybersécurité définies par la Directive (UE) 2022/2555 (NIS2), en particulier pour les entités essentielles et importantes.",
+    "impact": "Pour les gestionnaires de contrats IT, il est crucial de vérifier si Mattermost Server est utilisé par les services internalisés ou par des prestataires (SaaS, TMA). Insérez ou renforcez les clauses exigeant des fournisseurs la mise en œuvre rapide des correctifs de sécurité et des procédures de notification d'incidents. Lors de négociations, la vigilance doit porter sur les garanties de sécurité logicielle, les plans de continuité d'activité et les responsabilités en cas de faille avérée, en lien avec le respect des obligations du RGPD et de NIS2.",
+    "date": "2026-10-29"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1410/",
+    "titre": "Vulnérabilité NetApp : Risque d'élévation de privilèges et implications contractuelles en cybersécurité",
+    "analyse": "L'actualité rapporte une vulnérabilité critique affectant les produits NetApp, permettant une élévation de privilèges pour un attaquant. Ce type de faille de sécurité engage la responsabilité des fournisseurs d'IT et de leurs sous-traitants quant à la sécurité des systèmes d'information qu'ils opèrent ou fournissent. Sur le plan réglementaire, une telle exposition est directement liée aux obligations de cybersécurité renforcées, notamment celles issues de la Directive NIS 2 (Directive (UE) 2022/2555) pour les entités essentielles ou importantes, ainsi qu'aux exigences de sécurité des traitements de données personnelles du RGPD (Règlement (UE) 2016/679).",
+    "impact": "Pour les gestionnaires de contrats IT, il est impératif de vérifier les clauses de sécurité et de mise à jour des contrats impliquant des produits NetApp ou des services les utilisant (SaaS, Cloud, TMA). Une attention particulière doit être portée aux garanties de cybersécurité, aux délais de remédiation en cas de vulnérabilité, et aux modalités de notification des incidents de sécurité (conformément au RGPD et à la NIS 2). Lors des prochaines négociations, il convient de renforcer les exigences de Patch Management et d'inclure des pénalités dissuasives en cas de non-respect des engagements de sécurité, ainsi que des audits réguliers.",
+    "date": "2026-10-29"
+  },
+  {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
     "link": "https://next.ink/264508/apple-ajoute-du-json-dans-xcode-et-keynote-pour-les-agents-ia-et-les-developpeurs/",
@@ -114,6 +159,15 @@
     "titre": "Fiabilité des outputs d'IA et propriété intellectuelle : enjeux pour les contrats IT",
     "analyse": "L'actualité met en lumière les défis d'OpenAI concernant la validation et la publication des 'découvertes' scientifiques générées par ses IA, soulignant des questions fondamentales de fiabilité et d'exactitude des outputs. Ce contexte renvoie aux exigences du Règlement (UE) 2024/1689 (AI Act) sur la robustesse, la précision et la qualité des systèmes d'IA, particulièrement pour les usages où les informations erronées peuvent avoir un impact significatif. La difficulté d'OpenAI à qualifier ces outputs soulève également des interrogations sur la titularité des droits de propriété intellectuelle et la responsabilité associée, faute d'intervention humaine significative et qualifiée.",
     "impact": "Les gestionnaires de contrats IT doivent redoubler de vigilance sur les clauses relatives à la fiabilité, à l'exactitude et à la validation des outputs générés par les IA proposées par les fournisseurs. Il est crucial d'inclure des garanties claires sur la performance du système et la conformité de ses résultats aux exigences métier, ainsi que des clauses d'indemnisation en cas de préjudice causé par des informations erronées ou non validées. Une attention particulière doit être portée à la titularité et à la gestion des droits de propriété intellectuelle sur les créations ou 'découvertes' issues de l'IA, afin de prévenir tout litige.",
+    "date": "2026-10-28"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1404/",
+    "titre": "Vulnérabilités critiques Mitel OpenScape Endpoint Management : Implications Cybersécurité et Contractuelles",
+    "analyse": "La découverte de multiples vulnérabilités dans Mitel OpenScape Endpoint Management souligne l'obligation des éditeurs de logiciels de garantir la sécurité de leurs produits. Ces failles techniques, permettant élévation de privilèges et contournement des politiques de sécurité, exposent les systèmes et données de l'utilisateur. Conformément aux principes généraux de la responsabilité contractuelle et aux exigences de la Directive NIS2 (UE 2022/2555) pour la gestion des risques de cybersécurité, les fournisseurs doivent prendre toutes les mesures pour corriger ces vulnérabilités. Il est impératif d'évaluer l'impact potentiel sur les actifs et processus métier.",
+    "impact": "Pour un gestionnaire de contrats IT, cette alerte impose une vérification immédiate des clauses de sécurité et de maintenance des contrats Mitel OpenScape. Il est crucial de s'assurer que le fournisseur s'engage à corriger ces failles rapidement via des patches ou mises à jour, et de prévoir des pénalités en cas de défaillance. En négociation, renforcez les exigences en matière de gestion des vulnérabilités, d'audit de sécurité régulier et de niveaux de service pour la résolution des incidents de cybersécurité, afin de prévenir les risques de responsabilité et d'interruption opérationnelle.",
     "date": "2026-10-28"
   },
   {
