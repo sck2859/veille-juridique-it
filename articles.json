@@ -2,6 +2,42 @@
   {
     "categorie": "Droit de l'IT & Numérique",
     "source": "Next - Flux Complet",
+    "link": "https://next.ink/brief-article/la-banque-en-ligne-fortuneo-victime-dune-cyberattaque/",
+    "titre": "Cyberattaque chez Fortuneo : Rappels sur la gestion des incidents de sécurité et leurs impacts contractuels",
+    "analyse": "Une cyberattaque ayant entraîné des \"opérations frauduleuses\" chez Fortuneo (Crédit Mutuel Arkéa) rappelle l'importance des obligations légales en matière de cybersécurité. Cet incident, même \"maîtrisé\", peut potentiellement déclencher des obligations de notification d'une violation de données personnelles, en vertu du Règlement Général sur la Protection des Données (RGPD), notamment ses articles 33 (notification à l'autorité de contrôle) et 34 (notification aux personnes concernées). De plus, la directive NIS2, applicable aux entités essentielles ou importantes comme les institutions financières, renforce ces exigences de gestion et de notification des incidents de sécurité. La diligence raisonnable des prestataires et la résilience des systèmes sont des principes clés en matière de protection des données et des services.",
+    "impact": "Cet événement souligne la nécessité de clauses robustes en matière de sécurité et de gestion des incidents dans tous nos contrats IT (SaaS, Cloud, TMA, consulting). Les gestionnaires doivent vérifier les engagements précis des fournisseurs sur la détection, la gestion et la notification des cyberattaques, en s'assurant qu'ils respectent nos propres obligations légales (RGPD, NIS2) et contractuelles. Il est crucial d'inclure des droits d'audit, des niveaux de service (SLA) sur la gestion des incidents, et de définir clairement les responsabilités et les mécanismes d'indemnisation pour limiter notre exposition au risque contractuel et réputationnel en cas de manquement du fournisseur.",
+    "date": "2026-11-04"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/265628/le-nytimes-attaque-brave-pour-ses-accords-avec-les-entreprises-dia-et-son-option-anti-paywall/",
+    "titre": "Litige NYT vs Brave : accès aux contenus pour l'IA générative et contournement de paywalls",
+    "analyse": "Le New York Times a déposé plainte contre Brave, accusant le navigateur de contourner ses paywalls et de vendre l'accès à ses contenus à des sociétés d'IA générative comme Anthropic ou Mistral. Cette action soulève des questions fondamentales sur la violation du droit d'auteur et l'utilisation non autorisée de contenus protégés pour l'entraînement d'IA. La plainte vise également les fonctionnalités de Brave permettant de bloquer les paywalls, remettant en cause la protection des revenus des éditeurs de presse. Ce litige illustre les tensions croissantes entre les créateurs de contenu et les acteurs exploitant ces contenus pour de nouvelles technologies.",
+    "impact": "Les gestionnaires de contrats IT doivent être particulièrement vigilants aux clauses régissant l'utilisation des données et contenus fournis à leurs prestataires, notamment pour l'entraînement de modèles d'IA. Il est essentiel de s'assurer que les fournisseurs respectent les droits de propriété intellectuelle des tiers, en vérifiant la licéité de leurs sources de données et les fonctionnalités de leurs outils (ex: contournement de mesures techniques de protection). Anticipez ce risque en incluant des garanties solides contre toute violation de propriété intellectuelle par le prestataire et des clauses d'indemnisation claires.",
+    "date": "2026-11-04"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
+    "link": "https://next.ink/265616/une-faille-critique-dans-le-noyau-linux-permet-de-faire-planter-un-serveur-via-tcp/",
+    "titre": "Vulnérabilité critique Linux : Impact sur la disponibilité des services et la gestion des correctifs",
+    "analyse": "La découverte d'une faille critique (CVSS 9.8) dans le noyau Linux engage directement les obligations de sécurité des responsables de traitement et sous-traitants. Conformément à l'article 32 du Règlement (UE) 2016/679 (RGPD), des mesures techniques et organisationnelles appropriées doivent être mises en œuvre pour assurer la sécurité des systèmes traitant des données personnelles. Pour les entités concernées par la Directive NIS2, cette vulnérabilité représente un risque significatif au regard des exigences de gestion des risques de cybersécurité (article 21 de la Directive NIS2). L'absence de correctifs disponibles pour certaines distributions accentue ce risque et nécessite une évaluation proactive par les prestataires.",
+    "impact": "Les gestionnaires de contrats doivent vérifier les clauses relatives à la disponibilité des services (SLA) et aux obligations de sécurité de leurs fournisseurs, notamment pour les services basés sur Linux (SaaS, Cloud, TMA). Il est crucial d'exiger des fournisseurs une politique claire de déploiement des correctifs et de communication sur les délais afin de limiter l'exposition aux risques et d'assurer la conformité réglementaire (RGPD, NIS2). Une attention particulière doit être portée aux clauses de responsabilité en cas d'indisponibilité ou de violation de données résultant de cette faille avant l'application des correctifs.",
+    "date": "2026-11-04"
+  },
+  {
+    "categorie": "Droit Européen & Compliance (RGPD / AI Act)",
+    "source": "RSS - Actualités CNIL",
+    "link": "https://www.cnil.fr/fr/cepd-privacy-for-kids",
+    "titre": "CEPD : Nouvelle plateforme pour la protection des données des enfants et l'éducation numérique",
+    "analyse": "Le Comité européen de la protection des données (CEPD), avec des autorités comme la CNIL, a lancé la plateforme 'Privacy for Kids'. Cette initiative vise à éduquer les enfants sur leur vie privée numérique. Elle souligne les exigences renforcées du Règlement Général sur la Protection des Données (RGPD) concernant le traitement des données des mineurs, notamment l'article 8 sur le consentement.",
+    "impact": "Pour les gestionnaires de contrats IT, ce lancement rappelle la vigilance accrue requise si un service SaaS, Cloud ou de consulting implique le traitement de données de mineurs. Il est impératif de s'assurer que les clauses de nos contrats fournisseurs, notamment les DPA, intègrent les exigences spécifiques du RGPD concernant le consentement parental ou la protection des données des enfants (ex: Article 8 RGPD). Anticipez les risques de non-conformité et vérifiez la capacité du fournisseur à respecter ces obligations.",
+    "date": "2026-11-04"
+  },
+  {
+    "categorie": "Droit de l'IT & Numérique",
+    "source": "Next - Flux Complet",
     "link": "https://next.ink/265378/les-resultats-de-lia-generative-demotivent-jeunes-mathematiciens/",
     "titre": "IA Générative et Propriété Intellectuelle : Enjeux pour les Contrats IT",
     "analyse": "L'article pointe les capacités de l'IA générative à produire des \"découvertes\" scientifiques, interrogeant la notion de paternité et d'originalité. En droit de la propriété intellectuelle (ex: Code de la Propriété Intellectuelle), l'auteur ou l'inventeur est généralement une personne physique. Cette capacité de l'IA soulève des défis pour l'attribution des droits sur les œuvres ou inventions générées, un point que le Règlement (UE) 2024/1689 (AI Act) aborde sous l'angle de la transparence sans statuer sur la titularité des droits de PI. La question de la valeur juridique et de la protection des résultats produits par l'IA devient donc centrale.",
@@ -105,6 +141,33 @@
     "titre": "Taxe au gigaoctet : vigilance sur les coûts des services numériques Cloud et SaaS",
     "analyse": "Le Parti socialiste a obtenu un vote favorable à l'Assemblée nationale pour sa proposition de \"taxe au gigaoctet\", dans le cadre des discussions sur la loi de finances 2027. Cette mesure vise à faire contribuer les \"géants du numérique\" à l'infrastructure française, potentiellement basée sur la consommation de données. Bien que le processus législatif soit à un stade précoce et que l'avenir de cette taxe soit incertain, son avancement signale une tendance fiscale. La source ne précise pas d'articles de loi spécifiques.",
     "impact": "Cette initiative constitue un point de vigilance pour les gestionnaires de contrats IT, notamment ceux concernant les services Cloud, SaaS et d'hébergement. Il est important de suivre l'évolution de cette proposition pour anticiper les impacts sur les modèles de coûts des fournisseurs. Lors de futures négociations, il sera pertinent de considérer l'inclusion ou le renforcement de clauses de 'changement de législation' ou de révision tarifaire face à l'éventuel report de cette taxe sur les prix des services.",
+    "date": "2026-10-30"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1423/",
+    "titre": "Vulnérabilité CPython : impact sur les contrats IT et la conformité cybersécurité",
+    "analyse": "Une vulnérabilité critique a été signalée par le CERT-FR dans CPython, composant fondamental de nombreuses applications IT. Cette brèche peut permettre à un attaquant de compromettre la sécurité des systèmes l'utilisant. Juridiquement, cela engage la responsabilité des prestataires de services IT (SaaS, Cloud, TMA) en matière de sécurité des systèmes et de gestion des mises à jour. Cela renforce également les obligations de l'entreprise en matière de cybersécurité issues notamment de la Directive (UE) 2022/2555 (NIS 2) et, en cas de fuite de données, du Règlement (UE) 2016/679 (RGPD).",
+    "impact": "Les gestionnaires de contrats IT doivent intégrer des clauses exigeantes sur la gestion proactive des vulnérabilités, incluant des délais stricts de correction (SLA) et l'obligation de notification rapide par les fournisseurs. Lors des négociations, il est crucial d'insister sur les engagements des prestataires à maintenir leurs plateformes à jour, à tester leur sécurité et à fournir des garanties de conformité. Anticipez la répartition des responsabilités en cas d'incident de sécurité lié à cette vulnérabilité, en veillant à la clarté des clauses de responsabilité et d'indemnisation.",
+    "date": "2026-10-30"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1424/",
+    "titre": "Vulnérabilité critique par injection SQL dans Ruby on Rails : Impact contractuel",
+    "analyse": "La découverte par le CERT-FR d'une vulnérabilité par injection SQL (SQLi) dans Ruby on Rails trilogy souligne un risque technique majeur. Ce type de faille permet à un attaquant d'accéder, de modifier ou de détruire des données, menaçant la confidentialité, l'intégrité et la disponibilité des systèmes d'information. Juridiquement, cela engage la responsabilité du prestataire ou de l'éditeur en vertu de son obligation de sécurité, notamment au regard de l'article 32 du Règlement (UE) 2016/679 (RGPD) qui impose des mesures techniques et organisationnelles appropriées pour protéger les données personnelles.",
+    "impact": "Les gestionnaires de contrats IT doivent s'assurer que les contrats SaaS, Cloud ou de TMA incluent des clauses claires sur la gestion des vulnérabilités, notamment l'obligation de patcher rapidement et de fournir des preuves de conformité. Il est impératif de revoir les clauses de responsabilité et d'indemnisation pour couvrir les dommages liés à des failles de sécurité de ce type. La vigilance s'impose également sur les exigences de sécurité techniques (ex: respect OWASP Top 10) et les plans de remédiation des prestataires.",
+    "date": "2026-10-30"
+  },
+  {
+    "categorie": "Cybersécurité",
+    "source": "CERT-FR",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1425/",
+    "titre": "Vulnérabilité Tenable Nessus : Enjeux pour la confidentialité des données",
+    "analyse": "Cette vulnérabilité, susceptible de compromettre la confidentialité des données, engage la responsabilité des parties au contrat selon leur rôle de responsable de traitement ou sous-traitant au sens du Règlement (UE) 2016/679 (RGPD). Elle impose une vigilance accrue sur les mesures techniques et organisationnelles de sécurité prévues à l'Article 32 du RGPD. En cas de fuite de données, les obligations de notification prévues aux Articles 33 et 34 du RGPD devront être respectées.",
+    "impact": "Pour les gestionnaires de contrats IT, il est crucial de vérifier les clauses de sécurité des contrats (SaaS, Cloud, TMA) concernant la confidentialité des données et les obligations en cas de vulnérabilité ou de violation de données. Une attention particulière doit être portée aux garanties des fournisseurs sur l'implémentation de mesures de sécurité robustes et à leurs processus de gestion des incidents de sécurité. Il convient également de s'assurer que les clauses de responsabilité et d'audit reflètent correctement ces risques, notamment pour les outils de sécurité et d'analyse comme Tenable Nessus.",
     "date": "2026-10-30"
   },
   {
